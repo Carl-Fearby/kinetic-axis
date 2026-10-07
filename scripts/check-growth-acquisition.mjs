@@ -1,0 +1,26 @@
+import fs from 'node:fs';
+const read=file=>fs.readFileSync(file,'utf8');
+const errors=[];const check=(ok,msg)=>{if(!ok)errors.push(msg)};
+const runtime=read('src/components/SiteRuntime.tsx');
+const estimator=read('src/components/ProjectEstimator.tsx');
+const api=read('contact-api/server.mjs');
+const footer=read('src/components/SiteFooter.tsx');
+const deploy=read('deploy/server-deploy.sh');
+const attribution=read('src/lib/attribution-client.ts');
+const adminHeader=read('src/components/AdminHeader.tsx');
+check(fs.existsSync('app/project-estimator/page.tsx'),'Project estimator route missing.');
+check(fs.existsSync('app/contact/thank-you/page.tsx'),'Thank-you route missing.');
+check(fs.existsSync('app/admin/growth/page.tsx'),'Growth dashboard route missing.');
+for(const event of ['ka_estimator_start','ka_estimator_calculate','ka_estimator_contact'])check(estimator.includes(event),`Estimator event ${event} missing.`);
+check(runtime.includes("window.location.assign('/contact/thank-you')"),'Successful enquiries must navigate to the dedicated thank-you route.');
+check(runtime.includes('getAttributionPayload()'),'Contact submission must include acquisition attribution.');
+check(attribution.includes('firstSource')&&attribution.includes('lastSource')&&attribution.includes('utm_campaign'),'First/last touch attribution fields missing.');
+check(!attribution.includes('localStorage')&&!attribution.includes('sessionStorage'),'Acquisition attribution must not create a persistent browser tracking identifier.');
+check(api.includes('Customer acknowledgement failed')&&api.includes('Thanks — we’ve received your Kinetic Axis enquiry'),'Customer acknowledgement email is missing.');
+check(api.includes('LEADS_LOG_PATH')&&api.includes('leadId'),'Non-PII lead attribution log is missing.');
+check(api.includes("'/api/growth-summary'"),'Growth dashboard API is missing.');
+check(deploy.includes('/etc/kineticaxis/growth.htpasswd')&&deploy.includes('/api/growth-summary'),'Deploy must protect the growth dashboard with server-side username/password authentication.');
+check(adminHeader.includes('/admin/growth')&&adminHeader.includes('/admin/leads'),'Shared admin navigation must expose Growth and Leads.');
+check(footer.includes("'/project-estimator'"),'Project estimator must be discoverable in the footer.');
+if(errors.length){console.error('GROWTH / ACQUISITION CHECK FAILED');for(const e of errors)console.error('- '+e);process.exit(1)}
+console.log('PASS: acquisition phase includes attribution, estimator, thank-you flow, acknowledgement email, protected growth dashboard and deployment support.');

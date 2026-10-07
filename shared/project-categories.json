@@ -1,0 +1,84 @@
+[
+  {
+    "value": "Website / web design",
+    "aliases": [
+      "Website",
+      "Web design",
+      "Web development"
+    ]
+  },
+  {
+    "value": "Web application / portal / dashboard",
+    "aliases": [
+      "Web application",
+      "Web application development",
+      "Customer portal development",
+      "Admin dashboard development",
+      "Booking system development"
+    ]
+  },
+  {
+    "value": "Bespoke software / internal systems",
+    "aliases": [
+      "Bespoke software",
+      "Bespoke software development",
+      "Business software development",
+      "Internal platform",
+      "Internal business systems",
+      "Platforms and back-office systems",
+      "Workflow automation software"
+    ]
+  },
+  {
+    "value": "Mobile application",
+    "aliases": [
+      "Mobile application",
+      "White-label app development",
+      "Restaurant app development"
+    ]
+  },
+  {
+    "value": "Digital product / SaaS",
+    "aliases": [
+      "Digital product development",
+      "SaaS product development",
+      "Hospitality software development"
+    ]
+  },
+  {
+    "value": "Ecommerce / marketplace / loyalty",
+    "aliases": [
+      "Marketplace development",
+      "Loyalty app development",
+      "Ecommerce and marketplace development",
+      "Membership and loyalty platforms"
+    ]
+  },
+  {
+    "value": "API / systems integration / payments",
+    "aliases": [
+      "API / systems integration",
+      "API and systems integration",
+      "Payment integration development"
+    ]
+  },
+  {
+    "value": "UI/UX / design systems / branding",
+    "aliases": [
+      "UI / UX / branding"
+    ]
+  },
+  {
+    "value": "Improve or modernise an existing product",
+    "aliases": [
+      "Existing product improvement",
+      "Legacy system modernisation"
+    ]
+  },
+  {
+    "value": "Something else",
+    "aliases": [
+      "Something else"
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "slug": "custom-web-app-cost-uk",
+    "href": "/insights/custom-web-app-cost-uk",
+    "title": "How Much Does a Custom Web App Cost in the UK?",
+    "description": "A practical guide to custom web application cost in the UK, including the workflows, roles, integrations, data and product decisions that shape a realistic budget.",
+    "topic": "Web applications",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-web-applications-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/web-app-development",
+        "title": "Web application development"
+      },
+      {
+        "href": "/customer-portal-development",
+        "title": "Customer portal development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      },
+      {
+        "href": "/projects/veyra",
+        "title": "Veyra Studio"
+      }
+    ]
+  },
+  {
+    "slug": "bespoke-software-development-cost",
+    "href": "/insights/bespoke-software-development-cost",
+    "title": "How Much Does Bespoke Software Development Cost?",
+    "description": "A practical guide to bespoke software development cost, including workflow complexity, users, data, integrations, migration and how to scope a useful first release.",
+    "topic": "Bespoke software",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/bespoke-software-development",
+        "title": "Bespoke software development"
+      },
+      {
+        "href": "/business-software-development",
+        "title": "Business software development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      },
+      {
+        "href": "/projects/opus",
+        "title": "OPUS React"
+      }
+    ]
+  },
+  {
+    "slug": "web-app-vs-mobile-app",
+    "href": "/insights/web-app-vs-mobile-app",
+    "title": "Web App vs Mobile App: Which Should You Build?",
+    "description": "Compare web apps and mobile apps by user behaviour, device capability, distribution, offline needs, updates and product goals before choosing a platform.",
+    "topic": "Product strategy",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-web-applications-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/web-app-development",
+        "title": "Web application development"
+      },
+      {
+        "href": "/mobile-app-development",
+        "title": "Mobile app development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      },
+      {
+        "href": "/projects/veyra",
+        "title": "Veyra Studio"
+      }
+    ]
+  },
+  {
+    "slug": "off-the-shelf-vs-bespoke-software",
+    "href": "/insights/off-the-shelf-vs-bespoke-software",
+    "title": "Off-the-Shelf vs Bespoke Software: How to Choose",
+    "description": "A practical comparison of off-the-shelf and bespoke software, including workflow fit, cost, integration, ownership, change and long-term operational trade-offs.",
+    "topic": "Bespoke software",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/bespoke-software-development",
+        "title": "Bespoke software development"
+      },
+      {
+        "href": "/internal-business-systems",
+        "title": "Internal business systems"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "booking-system-development-guide",
+    "href": "/insights/booking-system-development-guide",
+    "title": "Booking System Development Guide",
+    "description": "A practical guide to booking system development: availability, capacity, amendments, notifications, payments, staff workflows and third-party integrations.",
+    "topic": "Booking systems",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-hospitality-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/booking-system-development",
+        "title": "Booking system development"
+      },
+      {
+        "href": "/hospitality-software-development",
+        "title": "Hospitality software development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "white-label-mobile-apps",
+    "href": "/insights/white-label-mobile-apps",
+    "title": "White-Label Mobile Apps Explained",
+    "description": "How white-label mobile apps work: shared codebases, branding, tenant configuration and app-store distribution across multiple customer apps.",
+    "topic": "Mobile products",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-mobile-products-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/white-label-app-development",
+        "title": "White-label app development"
+      },
+      {
+        "href": "/mobile-app-development",
+        "title": "Mobile app development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "replacing-spreadsheets-with-custom-software",
+    "href": "/insights/replacing-spreadsheets-with-custom-software",
+    "title": "Replacing Spreadsheets with Custom Software",
+    "description": "When to replace spreadsheets with custom software, including workflow mapping, data migration, permissions, automation and operational visibility.",
+    "topic": "Business systems",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/workflow-automation-software",
+        "title": "Workflow automation software"
+      },
+      {
+        "href": "/internal-business-systems",
+        "title": "Internal business systems"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "api-integration-guide",
+    "href": "/insights/api-integration-guide",
+    "title": "API Integration Guide for Digital Products",
+    "description": "A practical API integration guide covering ownership, authentication, webhooks, failure handling, rate limits, data mapping and operational support.",
+    "topic": "Integrations",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-api-integration-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/api-systems-integration",
+        "title": "API & systems integration"
+      },
+      {
+        "href": "/payment-integration-development",
+        "title": "Payment integration development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      },
+      {
+        "href": "/projects/ebuygum",
+        "title": "eBuyGum"
+      }
+    ]
+  },
+  {
+    "slug": "mobile-app-development-cost-uk",
+    "href": "/insights/mobile-app-development-cost-uk",
+    "title": "Mobile App Development Cost UK",
+    "description": "A practical guide to UK mobile app development cost, covering product scope, platforms, backend services, integrations, accounts and releases.",
+    "topic": "Mobile products",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-mobile-products-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/mobile-app-development",
+        "title": "Mobile app development"
+      },
+      {
+        "href": "/white-label-app-development",
+        "title": "White-label app development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "design-system-development-guide",
+    "href": "/insights/design-system-development-guide",
+    "title": "Design System Development Guide",
+    "description": "How to build a useful design system around real product patterns, reusable components, accessibility, documentation and team adoption.",
+    "topic": "Design systems",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-design-systems-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/design-system-development",
+        "title": "Design system development"
+      },
+      {
+        "href": "/ui-ux-design-systems",
+        "title": "UI/UX & design systems"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/opus",
+        "title": "OPUS React"
+      }
+    ]
+  },
+  {
+    "slug": "react-component-library-guide",
+    "href": "/insights/react-component-library-guide",
+    "title": "React Component Library Guide",
+    "description": "A practical guide to planning a React component library around repeated product patterns, component APIs, accessibility, documentation and ownership.",
+    "topic": "Design systems",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-design-systems-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/react-component-library-development",
+        "title": "React component library development"
+      },
+      {
+        "href": "/enterprise-ui-development",
+        "title": "Enterprise UI development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/opus",
+        "title": "OPUS React"
+      }
+    ]
+  },
+  {
+    "slug": "customer-portal-development-guide",
+    "href": "/insights/customer-portal-development-guide",
+    "title": "Customer Portal Development Guide",
+    "description": "A practical guide to planning customer portals around self-service, account permissions, operational data, integrations and measurable service outcomes.",
+    "topic": "Web applications",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-web-applications-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/customer-portal-development",
+        "title": "Customer portal development"
+      },
+      {
+        "href": "/web-app-development",
+        "title": "Web application development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "legacy-system-modernisation-guide",
+    "href": "/insights/legacy-system-modernisation-guide",
+    "title": "Legacy System Modernisation Guide",
+    "description": "A practical legacy software modernisation guide covering risk, data ownership, migration boundaries, coexistence and staged replacement.",
+    "topic": "Modernisation",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/legacy-system-modernisation",
+        "title": "Legacy system modernisation"
+      },
+      {
+        "href": "/bespoke-software-development",
+        "title": "Bespoke software development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-build-a-saas-mvp",
+    "href": "/insights/how-to-build-a-saas-mvp",
+    "title": "How to Build a SaaS MVP",
+    "description": "A practical guide to SaaS MVP scope, core product loops, multi-tenancy, accounts, billing, operations and architecture for change.",
+    "topic": "SaaS products",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-saas-products-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/saas-product-development",
+        "title": "SaaS product development"
+      },
+      {
+        "href": "/digital-product-development",
+        "title": "Digital product development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/veyra",
+        "title": "Veyra Studio"
+      }
+    ]
+  },
+  {
+    "slug": "when-to-build-an-internal-business-system",
+    "href": "/insights/when-to-build-an-internal-business-system",
+    "title": "When to Build an Internal Business System",
+    "description": "A practical guide to deciding when spreadsheets, general-purpose tools or integrations are no longer enough and bespoke internal software is justified.",
+    "topic": "Business systems",
+    "updated": "2026-10-02",
+    "published": "2026-10-01",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/internal-business-systems",
+        "title": "Internal business systems"
+      },
+      {
+        "href": "/business-software-development",
+        "title": "Business software development"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
+  }
+]

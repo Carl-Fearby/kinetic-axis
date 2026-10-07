@@ -1,0 +1,57 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"SAAS PRODUCT DEVELOPMENT",
+  title:"Turn a service idea into",
+  accent:"a product people can rely on.",
+  lead:"SaaS product design and development for teams building subscription software, multi-tenant platforms or digital services that need a clear path from first release to ongoing product evolution.",
+  artClass:"mkt-hero-art--v08",
+  artLabel:"SAAS / PRODUCT",
+  artHeading:"Product thinking from first user to scalable platform.",
+  artFooter:"MVP · Accounts · Tenancy · Billing-ready · Operations",
+  introKicker:"PRODUCT, NOT JUST FEATURES",
+  introTitle:"A SaaS platform has two products to design: the customer experience and the operation behind it.",
+  introCopy:["The visible application is only part of a software-as-a-service product. Accounts, permissions, tenancy, onboarding, support, administration, integrations and product operations all shape whether the service is practical to run.", "We help define the first useful release, design the user experience and engineer the foundations behind it. The aim is to avoid overbuilding too early while making sensible decisions about the things that become expensive to change later."],
+  capabilityKicker:"SAAS FOUNDATIONS",
+  capabilityTitle:"A product that can be used, operated and evolved.",
+  capabilityIntro:"Early architecture should support the business model without pretending the first release already needs enterprise scale.",
+  cards:[
+    {title:"MVP definition",text:"Prioritise the smallest coherent product that proves customer value rather than shipping a disconnected list of features."},
+    {title:"Accounts & tenancy",text:"Design identity, organisations, permissions and data boundaries that match how customers will actually use the service."},
+    {title:"Product operations",text:"Create the admin, support and configuration tools needed to run the product after launch."},
+    {title:"Integrations & evolution",text:"Build clear interfaces around external services and create a codebase that can continue changing as the product learns."},
+  ],
+  useKicker:"PRODUCT STAGES",
+  useTitle:"Different SaaS stages need different engineering decisions.",
+  useIntro:"The right level of architecture depends on what the product has already proved and what the next commercial milestone requires.",
+  useCases:[
+    {title:"New SaaS MVP",text:"A team needs to move from concept or prototype to a product real customers can use and provide evidence about."},
+    {title:"Internal tool becoming a product",text:"Software built for one organisation has value for others and needs tenancy, onboarding and stronger product boundaries."},
+    {title:"Existing SaaS needs modernising",text:"The product works commercially but UX, architecture or operational tooling is slowing down the roadmap."},
+    {title:"White-label platform",text:"A shared SaaS core needs to serve multiple brands or organisations with controlled configuration and data separation."},
+  ],
+  process:[
+    {title:"Define the product bet",text:"Clarify audience, problem, commercial model and the behaviour the first release needs to prove."},
+    {title:"Design the service model",text:"Shape accounts, roles, tenancy, core data and operational tooling alongside the customer journeys."},
+    {title:"Build the useful core",text:"Prioritise complete end-to-end workflows over a large number of partially finished features."},
+    {title:"Learn and extend",text:"Use real product usage and customer feedback to guide what earns complexity in later releases."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+    {href:'/projects/opus',image:'/assets/project-opus.jpg',alt:'OPUS React design system project',eyebrow:'BUSINESS UI SYSTEM',title:'OPUS React',text:'Reusable interface patterns for forms, data-heavy screens and business applications.'},
+  ],
+  related:[
+    {href:"/digital-product-development",title:"Digital product development",text:"Take a new digital service from product definition through design and engineering."},
+    {href:"/white-label-app-development",title:"White-label app development",text:"Extend a shared product foundation into distinct branded experiences."},
+    {href:"/customer-portal-development",title:"Customer portal development",text:"Build secure account and self-service experiences around the SaaS product."},
+  ],
+  faqs:[
+    {q:"Can you help define an MVP as well as build it?",a:"Yes. We can work from an early concept, help prioritise the first coherent customer journey and identify which technical foundations are genuinely needed for that release."},
+    {q:"Do you build multi-tenant SaaS platforms?",a:"Yes. Tenant data boundaries, organisation accounts, permissions and configuration can be designed into the platform when the product model requires them."},
+    {q:"Can you work on an existing SaaS product?",a:"Yes. We can improve product UX, add operational tooling, modernise parts of the architecture or help restructure areas that are slowing the roadmap."},
+    {q:"Do we need billing in the first release?",a:"Not always. Billing should be introduced when it supports the commercial validation you need. Some MVPs can validate value with a simpler commercial process before subscription automation becomes necessary."},
+  ],
+  contactService:"SaaS product development",
+  ctaTitle:"Building a SaaS product and need a coherent first release?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

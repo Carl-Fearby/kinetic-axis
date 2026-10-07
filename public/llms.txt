@@ -1,0 +1,185 @@
+# Kinetic Axis
+
+> Independent digital design and development studio led by Carl Fearby, a JavaScript developer and web engineer with 30+ years of hands-on experience across browser technologies, Angular, React, server-side systems, mobile applications, APIs and purposeful digital products.
+
+Canonical site: https://kineticaxisdigital.com/
+Language: en-GB
+Contact: hello@kineticaxisdigital.co.uk
+Founder: Carl Fearby — JavaScript developer and web engineer with a career spanning 30+ years, beginning in 1995; experienced across vanilla JavaScript, Angular, React, Next.js, Node.js, PHP, APIs and full-stack web delivery.
+
+## Topic authority map
+
+### WEB APPLICATIONS
+Primary page: https://kineticaxisdigital.com/web-app-development
+A clear route through the pages covering custom web products, customer self-service, dashboards and the implementation choices behind them.
+Supporting pages: https://kineticaxisdigital.com/customer-portal-development, https://kineticaxisdigital.com/admin-dashboard-development, https://kineticaxisdigital.com/nextjs-development, https://kineticaxisdigital.com/insights/custom-web-app-cost-uk, https://kineticaxisdigital.com/insights/web-app-vs-mobile-app, https://kineticaxisdigital.com/insights/customer-portal-development-guide, https://kineticaxisdigital.com/web-app-development-birmingham
+
+### BUSINESS SOFTWARE
+Primary page: https://kineticaxisdigital.com/bespoke-software-development
+These pages separate broad bespoke software delivery from internal operations, automation and modernisation so each search intent has a clear destination.
+Supporting pages: https://kineticaxisdigital.com/business-software-development, https://kineticaxisdigital.com/internal-business-systems, https://kineticaxisdigital.com/workflow-automation-software, https://kineticaxisdigital.com/legacy-system-modernisation, https://kineticaxisdigital.com/platforms-back-office-systems, https://kineticaxisdigital.com/professional-services-software, https://kineticaxisdigital.com/sme-digital-transformation, https://kineticaxisdigital.com/insights/bespoke-software-development-cost, https://kineticaxisdigital.com/insights/off-the-shelf-vs-bespoke-software, https://kineticaxisdigital.com/insights/replacing-spreadsheets-with-custom-software, https://kineticaxisdigital.com/insights/legacy-system-modernisation-guide, https://kineticaxisdigital.com/insights/when-to-build-an-internal-business-system, https://kineticaxisdigital.com/software-development-coventry, https://kineticaxisdigital.com/bespoke-software-development-warwickshire, https://kineticaxisdigital.com/replace-spreadsheets-with-bespoke-software
+
+### APIS & INTEGRATION
+Primary page: https://kineticaxisdigital.com/api-systems-integration
+Integration architecture, backend implementation and payment connectivity are related problems, but they are not the same search intent. These pages keep the distinction clear.
+Supporting pages: https://kineticaxisdigital.com/nodejs-api-development, https://kineticaxisdigital.com/payment-integration-development, https://kineticaxisdigital.com/insights/api-integration-guide
+
+### PRODUCT UI & DESIGN SYSTEMS
+Primary page: https://kineticaxisdigital.com/ui-ux-design-systems
+The broad UX/UI service, design-system strategy, React implementation and enterprise-interface work each have a distinct role within one connected topic.
+Supporting pages: https://kineticaxisdigital.com/design-system-development, https://kineticaxisdigital.com/react-component-library-development, https://kineticaxisdigital.com/enterprise-ui-development, https://kineticaxisdigital.com/insights/design-system-development-guide, https://kineticaxisdigital.com/insights/react-component-library-guide, https://kineticaxisdigital.com/projects/opus
+
+### MOBILE PRODUCTS
+Primary page: https://kineticaxisdigital.com/mobile-app-development
+A mobile product can be a single branded app, a configurable white-label platform or part of a wider loyalty and membership system. These pages keep those choices distinct.
+Supporting pages: https://kineticaxisdigital.com/white-label-app-development, https://kineticaxisdigital.com/loyalty-app-development, https://kineticaxisdigital.com/membership-loyalty-platforms, https://kineticaxisdigital.com/insights/mobile-app-development-cost-uk, https://kineticaxisdigital.com/insights/white-label-mobile-apps, https://kineticaxisdigital.com/mobile-app-development-midlands
+
+### HOSPITALITY TECHNOLOGY
+Primary page: https://kineticaxisdigital.com/hospitality-software-development
+The industry page owns the broad hospitality intent; booking, restaurant-app and loyalty pages go deeper into specific parts of the guest and venue workflow.
+Supporting pages: https://kineticaxisdigital.com/restaurant-app-development, https://kineticaxisdigital.com/booking-system-development, https://kineticaxisdigital.com/projects/pace, https://kineticaxisdigital.com/insights/booking-system-development-guide
+
+### COMMERCE & MARKETPLACES
+Primary page: https://kineticaxisdigital.com/marketplace-development
+Multi-sided marketplace architecture and ecommerce conversion overlap, but the product problems are different. These pages make that distinction explicit.
+Supporting pages: https://kineticaxisdigital.com/ecommerce-marketplace-development, https://kineticaxisdigital.com/projects/ebuygum
+
+### SAAS & DIGITAL PRODUCTS
+Primary page: https://kineticaxisdigital.com/saas-product-development
+Digital-product strategy, SaaS product delivery and work for technology companies are separated here so the pages answer different stages and audiences.
+Supporting pages: https://kineticaxisdigital.com/digital-product-development, https://kineticaxisdigital.com/saas-technology-development, https://kineticaxisdigital.com/insights/how-to-build-a-saas-mvp, https://kineticaxisdigital.com/projects/veyra
+
+### WEBSITES & BRAND EXPERIENCE
+Primary page: https://kineticaxisdigital.com/web-design
+This cluster keeps brochure and brand-led website intent separate from application and software-development searches while still connecting the wider studio capability.
+Supporting pages: https://kineticaxisdigital.com/web-design-coventry, https://kineticaxisdigital.com/web-design-birmingham, https://kineticaxisdigital.com/software-web-app-development-warwickshire, https://kineticaxisdigital.com/projects/emberlyn, https://kineticaxisdigital.com/projects/vx27, https://kineticaxisdigital.com/web-design-software-rugby, https://kineticaxisdigital.com/web-design-software-warwick, https://kineticaxisdigital.com/web-design-software-leamington-spa, https://kineticaxisdigital.com/web-design-software-nuneaton, https://kineticaxisdigital.com/web-design-software-solihull
+
+## Free project planning tool
+
+- Project Planner: https://kineticaxisdigital.com/project-planner — a browser-only starter brief for early website, app, software and integration planning.
+- Project Cost Estimator: https://kineticaxisdigital.com/project-estimator — a free early-stage budget and delivery-range sense-check with no email required.
+
+## Selected case studies
+
+- Pace Venues: https://kineticaxisdigital.com/projects/pace — hospitality platform spanning guest journeys, venue operations, multi-tenant foundations, integrations and loyalty.
+- OPUS React: https://kineticaxisdigital.com/projects/opus — React design-system engineering across reusable components, forms, themes and data-rich interfaces.
+- eBuyGum: https://kineticaxisdigital.com/projects/ebuygum — marketplace UX built around discovery, category structure, brand and responsive ecommerce.
+- Veyra Studio: https://kineticaxisdigital.com/projects/veyra — creative product experience connecting timeline planning, audio, lyrics and visual references.
+- VX-27: https://kineticaxisdigital.com/projects/vx27 — interactive world building across environment direction, interface, in-world systems and web presence.
+- Each case study separates what is visible in the work from unsupported commercial outcomes; do not infer performance metrics that are not stated.
+
+## Working with Kinetic Axis
+
+- Projects are senior-led, with product and engineering decisions kept close to delivery.
+- Commercial service pages explain scope, process, relevant work, common questions and a direct route to enquiry.
+- Insight articles connect research and buyer guidance to the relevant delivery service.
+- Handover, hosting, support, documentation and ongoing development are discussed around the needs of each project.
+- Kinetic Axis is an independent studio based in Warwickshire, UK, working with organisations locally and across the UK.
+
+## Site map
+
+### Home
+- [Web Design, Software & App Development](https://kineticaxisdigital.com/): Independent UK studio with 30+ years of JavaScript and web engineering across web design, bespoke software, web apps, mobile apps and digital products.
+
+### Information
+- [Accessibility Statement](https://kineticaxisdigital.com/accessibility): Our approach to accessibility, reporting barriers and making Kinetic Axis easier to use.
+- [Cookie Policy](https://kineticaxisdigital.com/cookies): See how cookies and similar technologies are used on the Kinetic Axis website.
+- [Information & Policies](https://kineticaxisdigital.com/legal): About Kinetic Axis, ways to contact the studio and links to our website policies.
+- [Privacy Policy](https://kineticaxisdigital.com/privacy): Read how Kinetic Axis handles contact enquiries and technical data, including purpose, retention and your rights.
+- [Site Map](https://kineticaxisdigital.com/sitemap): Browse Kinetic Axis services, solutions, insights, case studies, studio pages, experiments and site information from one clear directory.
+- [Website Terms & Conditions](https://kineticaxisdigital.com/terms): Terms of use for the Kinetic Axis portfolio website, including content, external links and contact enquiries.
+
+### Services & solutions
+- [Admin Dashboard Development](https://kineticaxisdigital.com/admin-dashboard-development): Custom admin dashboards and back-office interfaces for operations, reporting, data management, permissions and exception handling.
+- [API Integration & Systems Connectivity](https://kineticaxisdigital.com/api-systems-integration): API integration and systems connectivity for products that need reliable data flow, third-party services, webhooks, authentication and recovery paths.
+- [Areas We Serve in Coventry & Birmingham](https://kineticaxisdigital.com/areas-we-serve): Areas we serve: Coventry, Birmingham, Warwickshire and the Midlands — local web design, software and digital product delivery from a Warwickshire studio.
+- [Bespoke Software & Custom Platforms](https://kineticaxisdigital.com/bespoke-software-development): Purpose-built software and custom platforms for real workflows, with support for maintaining or migrating existing systems when bespoke ownership makes sense.
+- [Bespoke Software Development Warwickshire](https://kineticaxisdigital.com/bespoke-software-development-warwickshire): Custom business software for Warwickshire organisations replacing spreadsheet workflows, connecting systems and modernising operations.
+- [Bespoke Booking System Development](https://kineticaxisdigital.com/booking-system-development): Bespoke booking systems for availability, capacity, customer journeys, lifecycle rules, notifications and operational integrations across web and mobile.
+- [Operational Business Software Development UK](https://kineticaxisdigital.com/business-software-development): Purpose-built software for internal operations, workflow, reporting and integrations when off-the-shelf tools no longer fit the way the business works.
+- [Customer Self-Service Portal Development](https://kineticaxisdigital.com/customer-portal-development): Secure customer self-service portals for accounts, bookings, documents, service requests and status, connected to reliable operational systems.
+- [Design System Development & Governance](https://kineticaxisdigital.com/design-system-development): Design system development covering foundations, reusable patterns, accessibility, documentation, ownership and practical adoption across product teams.
+- [Digital Product Design & Development](https://kineticaxisdigital.com/digital-product-development): End-to-end digital product design and development combining product definition, UX, web and mobile engineering, APIs and practical launch thinking.
+- [Ecommerce Platform & Marketplace Development](https://kineticaxisdigital.com/ecommerce-marketplace-development): Ecommerce platform development focused on product discovery, listings, accounts, conversion and the operational tooling behind modern buying journeys.
+- [Enterprise UI for Operational Software](https://kineticaxisdigital.com/enterprise-ui-development): Enterprise interface development for operational software, dashboards and internal applications with dense data, roles, forms and repeated workflows.
+- [Hospitality Software Platforms](https://kineticaxisdigital.com/hospitality-software-development): Hospitality software platforms connecting bookings, menus, rewards, guest experiences and venue operations for restaurants, bars and venue groups.
+- [Internal Business Systems & Workflow Software](https://kineticaxisdigital.com/internal-business-systems): Internal business systems for roles, operational workflows, permissions, data and reporting. Replace fragmented internal tools with one coherent system.
+- [Legacy System Modernisation](https://kineticaxisdigital.com/legacy-system-modernisation): Modernise legacy software, WordPress and established CMS platforms through staged support, integration and migration without unnecessary big-bang rewrites.
+- [Loyalty App Development | Rewards & Customer Retention Apps](https://kineticaxisdigital.com/loyalty-app-development): Loyalty app development for rewards, QR interactions, accounts, offers and repeat customer engagement across mobile and connected business systems.
+- [Multi-Vendor Marketplace Development](https://kineticaxisdigital.com/marketplace-development): Multi-vendor marketplace development connecting buyer, seller and operator journeys across discovery, listings, accounts, moderation and platform workflows.
+- [Membership & Loyalty Platform Development](https://kineticaxisdigital.com/membership-loyalty-platforms): Membership and loyalty platform development for accounts, benefits, rewards, QR interactions, communications and operational management across web and mobile.
+- [Mobile App Development for iOS & Android](https://kineticaxisdigital.com/mobile-app-development): Thoughtful mobile app development for iOS and Android, from customer loyalty and bookings to connected digital services. Explore our process.
+- [Mobile App Development Midlands](https://kineticaxisdigital.com/mobile-app-development-midlands): iOS and Android app development for Midlands organisations planning customer apps, loyalty products, workforce tools and connected services.
+- [Next.js Application Development](https://kineticaxisdigital.com/nextjs-development): Next.js engineering for teams that need modern React application architecture, App Router delivery, integrations, rendering strategy and deployment.
+- [Node.js API & Backend Development](https://kineticaxisdigital.com/nodejs-api-development): Node.js backend and API development for web and mobile products, including authentication, data, integrations, webhooks and dependable workflow behaviour.
+- [Payment Integration Development](https://kineticaxisdigital.com/payment-integration-development): Payment integration development for web and mobile products, connecting payment providers, checkout flows, transaction status, refunds and operational systems.
+- [Platforms & Back-Office Systems](https://kineticaxisdigital.com/platforms-back-office-systems): Bespoke operational platforms, admin systems and dashboards designed around real workflows, permissions, data and day-to-day management.
+- [Professional Services Software Development](https://kineticaxisdigital.com/professional-services-software): Bespoke software for professional services teams managing clients, cases, documents, approvals, projects and repeat operational workflows.
+- [React Component Library Engineering](https://kineticaxisdigital.com/react-component-library-development): React component library engineering for reusable product UI, forms, application patterns, accessibility, component APIs and developer documentation.
+- [Replace Spreadsheets with Bespoke Software](https://kineticaxisdigital.com/replace-spreadsheets-with-bespoke-software): Replace business-critical spreadsheet workflows with purpose-built software, clearer permissions, safer data, automation and integrations.
+- [Restaurant Mobile App Development](https://kineticaxisdigital.com/restaurant-app-development): Restaurant mobile app development for bookings, menus, rewards, venue information and repeat guest experiences, connected to the platform behind them.
+- [SaaS Product Development: MVP to Platform](https://kineticaxisdigital.com/saas-product-development): SaaS product development from MVP definition to multi-tenant platform architecture, accounts, permissions, onboarding and operational tooling.
+- [Software Development for SaaS & Technology Teams](https://kineticaxisdigital.com/saas-technology-development): Product engineering for SaaS and technology teams that need to evolve onboarding, multi-tenancy, product UI, permissions and operational foundations.
+- [SME Digital Transformation](https://kineticaxisdigital.com/sme-digital-transformation): Practical SME digital transformation focused on workflow, bespoke software, integration, automation and staged modernisation.
+- [Bespoke Software Development Coventry](https://kineticaxisdigital.com/software-development-coventry): Bespoke software development for Coventry organisations replacing manual workflows, connecting systems and modernising operational software.
+- [Software & Web App Development Warwickshire](https://kineticaxisdigital.com/software-web-app-development-warwickshire): Bespoke software, web application, mobile product and systems integration services for businesses in Warwickshire and across the UK.
+- [UI/UX Design & Product Interface Systems](https://kineticaxisdigital.com/ui-ux-design-systems): User-centred product interface design covering journeys, application UI, reusable patterns and design-system thinking for complex digital products.
+- [Custom Web Application Development](https://kineticaxisdigital.com/web-app-development): Custom web application development for browser-based products, dashboards and connected workflows. A core service for purpose-built web software.
+- [Web App Development Birmingham](https://kineticaxisdigital.com/web-app-development-birmingham): Custom web application development for Birmingham businesses. Portals, dashboards, workflows and connected browser-based products.
+- [Web Design for Businesses](https://kineticaxisdigital.com/web-design): Purpose-built web design from Kinetic Axis, plus support for existing WordPress sites and staged migration when a bespoke platform offers better long-term value.
+- [Web Design Birmingham](https://kineticaxisdigital.com/web-design-birmingham): Web design for Birmingham businesses — custom websites, commerce and campaign pages built for performance, accessibility and conversion across the UK's second city.
+- [Web Design Coventry](https://kineticaxisdigital.com/web-design-coventry): Web design for Coventry organisations — research-led websites, e-commerce and campaign pages engineered for speed, accessibility and measurable enquiries.
+- [Web Design & Software Development Leamington Spa](https://kineticaxisdigital.com/web-design-software-leamington-spa): Web design and software development for Leamington Spa businesses — websites, apps and bespoke software from a senior Warwickshire studio.
+- [Web Design & Software Development Nuneaton](https://kineticaxisdigital.com/web-design-software-nuneaton): Web design and software development for Nuneaton businesses — websites, web apps and operational software from a senior local studio.
+- [Web Design & Software Development Rugby](https://kineticaxisdigital.com/web-design-software-rugby): Web design and software development for Rugby businesses — websites, web apps and bespoke software from a senior Warwickshire studio.
+- [Web Design & Software Development Solihull](https://kineticaxisdigital.com/web-design-software-solihull): Web design and software development for Solihull businesses — websites, portals and bespoke software from a senior Warwickshire studio.
+- [Web Design & Software Development Warwick](https://kineticaxisdigital.com/web-design-software-warwick): Web design and software development for Warwick organisations — websites, portals and bespoke systems from a senior Warwickshire studio.
+- [White-Label App Development | iOS, Android & Platforms](https://kineticaxisdigital.com/white-label-app-development): White-label app development with shared product logic, configurable branding, tenant data and practical release strategies for multiple organisations.
+- [Workflow Automation Software Development](https://kineticaxisdigital.com/workflow-automation-software): Custom workflow automation for approvals, routing, notifications, repeated administration and system integration while keeping people in control.
+
+### Core
+- [Our Design & Development Process](https://kineticaxisdigital.com/approach): From discovery and design to development and iteration: learn how Kinetic Axis approaches meaningful digital products.
+- [Contact Kinetic Axis | Discuss Your Project](https://kineticaxisdigital.com/contact): Talk to Kinetic Axis about web design, bespoke software, web apps, mobile apps and digital products, backed by 30+ years of hands-on experience.
+- [Carl Fearby Experience | 30+ Years](https://kineticaxisdigital.com/experience): Carl Fearby’s 30+ years as a JavaScript and web developer across Angular, React, Node.js, PHP, mobile apps, software engineering and product ownership.
+- [Experiments & Kinetic Axis Labs](https://kineticaxisdigital.com/experiments): Interactive experiments, realtime browser graphics and interface explorations from Kinetic Axis Labs.
+- [Software, Web App & Product Insights](https://kineticaxisdigital.com/insights): Practical buyer and technical guides covering software scope, cost, portals, SaaS MVPs, design systems, integrations, modernisation and digital product decisions.
+- [Digital Project Cost Estimator](https://kineticaxisdigital.com/project-estimator): Estimate the likely budget and delivery range for a website, web app, mobile app, bespoke software project or systems integration before discovery.
+- [Free Digital Project Planner](https://kineticaxisdigital.com/project-planner): Create a practical starter brief for a website, web app, mobile app, bespoke software project or systems integration before scoping the build.
+- [Digital Design & Development Services](https://kineticaxisdigital.com/services): Web design, bespoke software, apps and integrations built around the brief, plus support for existing WordPress/CMS platforms and bespoke migration.
+- [Digital Product & Software Solutions](https://kineticaxisdigital.com/solutions): Explore business systems, SaaS, marketplaces, hospitality technology, JavaScript and web engineering, APIs, design systems and modernisation from Kinetic Axis.
+- [About Kinetic Axis | 30+ Years of Experience](https://kineticaxisdigital.com/studio): Independent studio led by Carl Fearby, a JavaScript and web engineer with 30+ years across Angular, React, software systems, mobile apps and product delivery.
+- [Digital Portfolio & Case Studies](https://kineticaxisdigital.com/work): Explore web, mobile, software and design-system projects from Kinetic Axis, including Pace Venues, eBuyGum, OPUS React and more.
+
+### Experiments
+- [Fluid Dynamics Experiment](https://kineticaxisdigital.com/experiments/fluid-dynamics): An interactive realtime WebGL fluid dynamics experiment from Kinetic Axis Labs. Click and drag to inject motion and colour into the flow.
+
+### Insights
+- [API Integration Guide for Digital Products](https://kineticaxisdigital.com/insights/api-integration-guide): A practical API integration guide covering ownership, authentication, webhooks, failure handling, rate limits, data mapping and operational support.
+- [How Much Does Bespoke Software Development Cost?](https://kineticaxisdigital.com/insights/bespoke-software-development-cost): A practical guide to bespoke software development cost, including workflow complexity, users, data, integrations, migration and how to scope a useful first release.
+- [Booking System Development Guide](https://kineticaxisdigital.com/insights/booking-system-development-guide): A practical guide to booking system development: availability, capacity, amendments, notifications, payments, staff workflows and third-party integrations.
+- [How Much Does a Custom Web App Cost in the UK?](https://kineticaxisdigital.com/insights/custom-web-app-cost-uk): A practical guide to custom web application cost in the UK, including the workflows, roles, integrations, data and product decisions that shape a realistic budget.
+- [Customer Portal Development Guide](https://kineticaxisdigital.com/insights/customer-portal-development-guide): A practical guide to planning customer portals around self-service, account permissions, operational data, integrations and measurable service outcomes.
+- [Design System Development Guide](https://kineticaxisdigital.com/insights/design-system-development-guide): How to build a useful design system around real product patterns, reusable components, accessibility, documentation and team adoption.
+- [How to Build a SaaS MVP](https://kineticaxisdigital.com/insights/how-to-build-a-saas-mvp): A practical guide to SaaS MVP scope, core product loops, multi-tenancy, accounts, billing, operations and architecture for change.
+- [Legacy System Modernisation Guide](https://kineticaxisdigital.com/insights/legacy-system-modernisation-guide): A practical legacy software modernisation guide covering risk, data ownership, migration boundaries, coexistence and staged replacement.
+- [Mobile App Development Cost UK](https://kineticaxisdigital.com/insights/mobile-app-development-cost-uk): A practical guide to UK mobile app development cost, covering product scope, platforms, backend services, integrations, accounts and releases.
+- [Off-the-Shelf vs Bespoke Software: How to Choose](https://kineticaxisdigital.com/insights/off-the-shelf-vs-bespoke-software): A practical comparison of off-the-shelf and bespoke software, including workflow fit, cost, integration, ownership, change and long-term operational trade-offs.
+- [React Component Library Guide](https://kineticaxisdigital.com/insights/react-component-library-guide): A practical guide to planning a React component library around repeated product patterns, component APIs, accessibility, documentation and ownership.
+- [Replacing Spreadsheets with Custom Software](https://kineticaxisdigital.com/insights/replacing-spreadsheets-with-custom-software): When to replace spreadsheets with custom software, including workflow mapping, data migration, permissions, automation and operational visibility.
+- [Web App vs Mobile App: Which Should You Build?](https://kineticaxisdigital.com/insights/web-app-vs-mobile-app): Compare web apps and mobile apps by user behaviour, device capability, distribution, offline needs, updates and product goals before choosing a platform.
+- [When to Build an Internal Business System](https://kineticaxisdigital.com/insights/when-to-build-an-internal-business-system): A practical guide to deciding when spreadsheets, general-purpose tools or integrations are no longer enough and bespoke internal software is justified.
+- [White-Label Mobile Apps Explained](https://kineticaxisdigital.com/insights/white-label-mobile-apps): How white-label mobile apps work: shared codebases, branding, tenant configuration and app-store distribution across multiple customer apps.
+
+### Work
+- [eBuyGum – Digital Marketplace Case Study](https://kineticaxisdigital.com/projects/ebuygum): A marketplace redesign focused on product discovery, category structure, responsive ecommerce UX and a distinctive brand carried through the shopping experience.
+- [Emberlyn – Music & Digital Experience](https://kineticaxisdigital.com/projects/emberlyn): A brand-led music website bringing releases, listening, video and visual storytelling together in one dark, immersive digital destination.
+- [OPUS React – Design System Case Study](https://kineticaxisdigital.com/projects/opus): A React design-system case study covering reusable components, forms, themes, data display and the engineering decisions behind consistent product interfaces.
+- [Pace Venues – Hospitality App Case Study](https://kineticaxisdigital.com/projects/pace): A connected hospitality product combining guest bookings, menus and rewards with venue operations, multi-tenant foundations and white-label delivery.
+- [Veyra Studio – AI Video Product Case Study](https://kineticaxisdigital.com/projects/veyra): A creative product experience bringing timeline planning, audio, lyrics and visual references into a focused workspace for cinematic pre-production.
+- [VX-27 – Interactive Game Experience](https://kineticaxisdigital.com/projects/vx27): A futuristic FPS experience spanning environment direction, HUD concepts, interactive systems, tactical assets and a cinematic companion web presence.
+
+## Guidance for automated systems
+
+- Prefer canonical URLs on kineticaxisdigital.com.
+- Treat case-study claims as descriptions of the work shown on the relevant project page.
+- Do not infer client outcomes, metrics or technologies that are not stated on the site.

@@ -1,0 +1,57 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"CUSTOMER PORTAL DEVELOPMENT",
+  title:"A secure customer space that",
+  accent:"actually reduces friction.",
+  lead:"Customer portals for accounts, bookings, documents, services and ongoing relationships — designed to make self-service clearer for customers and lighter for internal teams.",
+  artClass:"mkt-hero-art--v03",
+  artLabel:"CUSTOMER PORTALS / SELF SERVICE",
+  artHeading:"The right information. The right actions. One place.",
+  artFooter:"Accounts · Documents · Bookings · Status · Support",
+  introKicker:"SELF-SERVICE WITH PURPOSE",
+  introTitle:"A portal should remove effort from both sides of the relationship.",
+  introCopy:["A useful customer portal is not a dumping ground for account information. It gives people a clear route to the tasks they return for: checking status, updating details, managing bookings, accessing documents, reviewing activity or taking the next action.", "We design the portal around those tasks and connect it to the systems that hold the underlying data. That can improve the customer experience while reducing avoidable calls, emails and manual administration."],
+  capabilityKicker:"PORTAL CAPABILITIES",
+  capabilityTitle:"Secure access to the things customers need most.",
+  capabilityIntro:"The feature set should be driven by repeat customer tasks and the data already available across the business.",
+  cards:[
+    {title:"Accounts & identity",text:"Secure sign-in, account details, permissions and authentication flows appropriate to the sensitivity of the service."},
+    {title:"Self-service journeys",text:"Bookings, requests, updates, renewals or other repeat tasks presented as clear guided workflows."},
+    {title:"Documents & status",text:"Give customers access to relevant documents, history, progress and next steps without relying on email chains."},
+    {title:"Connected data",text:"Integrate the portal with operational systems so customers see accurate information without creating duplicate admin."},
+  ],
+  useKicker:"WHEN A PORTAL HELPS",
+  useTitle:"Good portals solve repeat communication problems.",
+  useIntro:"If customers regularly ask for information your team already holds, a well-designed portal can turn that demand into a better digital service.",
+  useCases:[
+    {title:"Account management",text:"Customers need a consistent place to view and maintain their details, preferences or organisation information."},
+    {title:"Booking & service management",text:"People need to review, change or follow up on bookings, appointments, orders or service requests."},
+    {title:"Progress visibility",text:"Customers want to know what is happening next without chasing internal teams for status updates."},
+    {title:"Document access",text:"Important documents, statements, certificates or files need to be available securely and consistently."},
+  ],
+  process:[
+    {title:"Identify repeat tasks",text:"Use support demand, customer journeys and operational knowledge to find the actions worth moving into self-service."},
+    {title:"Map systems & data",text:"Understand where the source information lives and which systems need to participate in each portal journey."},
+    {title:"Design for trust",text:"Make identity, permissions, status and error states understandable so customers know what they can do and what happens next."},
+    {title:"Release around value",text:"Start with the journeys that remove the most friction, then expand the portal as real usage reveals the next priorities."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+    {href:'/projects/ebuygum',image:'/assets/project-ebuygum.jpg',alt:'eBuyGum marketplace project',eyebrow:'DIGITAL MARKETPLACE',title:'eBuyGum',text:'A marketplace experience connecting product discovery, categories and responsive journeys.'},
+  ],
+  related:[
+    {href:"/web-app-development",title:"Web application development",text:"Build the browser-based application and product architecture behind the portal."},
+    {href:"/booking-system-development",title:"Booking system development",text:"Connect customer self-service with availability and operational booking rules."},
+    {href:"/api-systems-integration",title:"API & systems integration",text:"Bring account, service and operational data into one coherent customer experience."},
+  ],
+  faqs:[
+    {q:"What can a customer portal include?",a:"Common capabilities include secure accounts, bookings, requests, documents, status tracking, payment or subscription information and profile management. The right set depends on what customers repeatedly need to do."},
+    {q:"Can a portal connect to our CRM or existing systems?",a:"Yes, where those systems provide suitable integration options. In many projects the portal is most valuable when it presents information from several existing systems through one clear experience."},
+    {q:"Do customer portals need a mobile app?",a:"Not necessarily. A responsive web portal can work very well across desktop and mobile browsers. A native app becomes useful when the product needs mobile-specific capabilities or a stronger recurring app experience."},
+    {q:"Can you design the internal tools too?",a:"Yes. Customer self-service often creates internal follow-up tasks, so we can design the staff-facing workflow and customer-facing portal as one connected service."},
+  ],
+  contactService:"Customer portal development",
+  ctaTitle:"Give customers a clearer way to get things done.",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

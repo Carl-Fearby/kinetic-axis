@@ -1,0 +1,488 @@
+{
+  "web-applications": {
+    "eyebrow": "WEB APPLICATIONS",
+    "title": "Web applications, portals and browser-based products",
+    "intro": "A clear route through the pages covering custom web products, customer self-service, dashboards and the implementation choices behind them.",
+    "primary": "web-app-development",
+    "members": [
+      "web-app-development",
+      "customer-portal-development",
+      "admin-dashboard-development",
+      "nextjs-development",
+      "insights/custom-web-app-cost-uk",
+      "insights/web-app-vs-mobile-app",
+      "insights/customer-portal-development-guide",
+      "web-app-development-birmingham"
+    ],
+    "links": [
+      {
+        "key": "web-app-development",
+        "role": "CORE SERVICE",
+        "title": "Custom web application development",
+        "text": "Purpose-built browser applications, dashboards, portals and connected product experiences."
+      },
+      {
+        "key": "customer-portal-development",
+        "role": "FOCUSED SOLUTION",
+        "title": "Customer portal development",
+        "text": "Secure self-service around accounts, bookings, documents, status and repeat customer tasks."
+      },
+      {
+        "key": "nextjs-development",
+        "role": "ENGINEERING",
+        "title": "Next.js application development",
+        "text": "A technology-specific route for teams that need modern React architecture and delivery."
+      },
+      {
+        "key": "insights/custom-web-app-cost-uk",
+        "role": "BUYER GUIDE",
+        "title": "Custom web app cost in the UK",
+        "text": "Understand the product, workflow and integration decisions that shape a realistic budget."
+      },
+      {
+        "key": "insights/web-app-vs-mobile-app",
+        "role": "DECISION GUIDE",
+        "title": "Web app vs mobile app",
+        "text": "Choose the platform around behaviour, distribution and the job the product needs to do."
+      },
+      {
+        "key": "web-app-development-birmingham",
+        "role": "REGIONAL",
+        "title": "Web app development Birmingham",
+        "text": "A focused route for Birmingham organisations planning portals, dashboards and custom browser products."
+      }
+    ]
+  },
+  "business-software": {
+    "eyebrow": "BUSINESS SOFTWARE",
+    "title": "Bespoke software, internal systems and workflow change",
+    "intro": "These pages separate broad bespoke software delivery from internal operations, automation and modernisation so each search intent has a clear destination.",
+    "primary": "bespoke-software-development",
+    "members": [
+      "bespoke-software-development",
+      "business-software-development",
+      "internal-business-systems",
+      "workflow-automation-software",
+      "legacy-system-modernisation",
+      "platforms-back-office-systems",
+      "professional-services-software",
+      "sme-digital-transformation",
+      "insights/bespoke-software-development-cost",
+      "insights/off-the-shelf-vs-bespoke-software",
+      "insights/replacing-spreadsheets-with-custom-software",
+      "insights/legacy-system-modernisation-guide",
+      "insights/when-to-build-an-internal-business-system",
+      "software-development-coventry",
+      "bespoke-software-development-warwickshire",
+      "replace-spreadsheets-with-bespoke-software"
+    ],
+    "links": [
+      {
+        "key": "bespoke-software-development",
+        "role": "CORE SERVICE",
+        "title": "Bespoke software development",
+        "text": "Custom platforms and software shaped around organisation-specific workflows, data and integrations."
+      },
+      {
+        "key": "internal-business-systems",
+        "role": "INTERNAL OPERATIONS",
+        "title": "Internal business systems",
+        "text": "Software for teams, roles, operational data, approvals, reporting and repeat internal work."
+      },
+      {
+        "key": "workflow-automation-software",
+        "role": "AUTOMATION",
+        "title": "Workflow automation software",
+        "text": "Reduce repeated administration and make hand-offs, notifications and exceptions easier to manage."
+      },
+      {
+        "key": "legacy-system-modernisation",
+        "role": "MODERNISATION",
+        "title": "Legacy system modernisation",
+        "text": "A staged route from difficult-to-change software toward safer, maintainable product foundations."
+      },
+      {
+        "key": "insights/when-to-build-an-internal-business-system",
+        "role": "BUYER GUIDE",
+        "title": "When to build an internal business system",
+        "text": "Work out whether the problem needs configuration, integration or genuinely bespoke software."
+      },
+      {
+        "key": "software-development-coventry",
+        "role": "REGIONAL",
+        "title": "Software development Coventry",
+        "text": "Custom operational software for Coventry organisations replacing manual and disconnected workflows."
+      },
+      {
+        "key": "bespoke-software-development-warwickshire",
+        "role": "REGIONAL",
+        "title": "Bespoke software Warwickshire",
+        "text": "Purpose-built operational software for organisations in Warwickshire."
+      },
+      {
+        "key": "replace-spreadsheets-with-bespoke-software",
+        "role": "PROBLEM-LED",
+        "title": "Replace spreadsheet workflows",
+        "text": "A focused route for teams whose spreadsheets have become business-critical systems."
+      }
+    ]
+  },
+  "api-integration": {
+    "eyebrow": "APIS & INTEGRATION",
+    "title": "APIs, backend services and systems integration",
+    "intro": "Integration architecture, backend implementation and payment connectivity are related problems, but they are not the same search intent. These pages keep the distinction clear.",
+    "primary": "api-systems-integration",
+    "members": [
+      "api-systems-integration",
+      "nodejs-api-development",
+      "payment-integration-development",
+      "insights/api-integration-guide"
+    ],
+    "links": [
+      {
+        "key": "api-systems-integration",
+        "role": "CORE SERVICE",
+        "title": "API & systems integration",
+        "text": "Connect products and third-party services with clear ownership, authentication and failure handling."
+      },
+      {
+        "key": "nodejs-api-development",
+        "role": "BACKEND ENGINEERING",
+        "title": "Node.js API development",
+        "text": "Backend services and API implementation for web and mobile products."
+      },
+      {
+        "key": "payment-integration-development",
+        "role": "SPECIALIST INTEGRATION",
+        "title": "Payment integration development",
+        "text": "Checkout, transaction state, refunds and the operational workflows around payments."
+      },
+      {
+        "key": "insights/api-integration-guide",
+        "role": "BUYER GUIDE",
+        "title": "API integration guide",
+        "text": "Plan data mapping, webhooks, authentication, failures and operational recovery before implementation."
+      }
+    ]
+  },
+  "design-systems": {
+    "eyebrow": "PRODUCT UI & DESIGN SYSTEMS",
+    "title": "Interface design, design systems and reusable React UI",
+    "intro": "The broad UX/UI service, design-system strategy, React implementation and enterprise-interface work each have a distinct role within one connected topic.",
+    "primary": "ui-ux-design-systems",
+    "members": [
+      "ui-ux-design-systems",
+      "design-system-development",
+      "react-component-library-development",
+      "enterprise-ui-development",
+      "insights/design-system-development-guide",
+      "insights/react-component-library-guide",
+      "projects/opus"
+    ],
+    "links": [
+      {
+        "key": "ui-ux-design-systems",
+        "role": "CORE SERVICE",
+        "title": "UI/UX & product interface design",
+        "text": "User journeys, interface structure and reusable patterns for digital products."
+      },
+      {
+        "key": "design-system-development",
+        "role": "SYSTEM STRATEGY",
+        "title": "Design system development",
+        "text": "Foundations, reusable patterns, accessibility, documentation and ownership for product teams."
+      },
+      {
+        "key": "react-component-library-development",
+        "role": "IMPLEMENTATION",
+        "title": "React component library engineering",
+        "text": "Implementation-ready reusable UI with deliberate APIs, states and developer documentation."
+      },
+      {
+        "key": "projects/opus",
+        "role": "CASE STUDY",
+        "title": "OPUS React",
+        "text": "A working example of component-led product UI, forms, theming and data presentation."
+      },
+      {
+        "key": "insights/design-system-development-guide",
+        "role": "BUYER GUIDE",
+        "title": "How to build a design system",
+        "text": "Plan the foundations, ownership and adoption model before building the catalogue."
+      }
+    ]
+  },
+  "mobile-products": {
+    "eyebrow": "MOBILE PRODUCTS",
+    "title": "Mobile apps, white-label products and loyalty experiences",
+    "intro": "A mobile product can be a single branded app, a configurable white-label platform or part of a wider loyalty and membership system. These pages keep those choices distinct.",
+    "primary": "mobile-app-development",
+    "members": [
+      "mobile-app-development",
+      "white-label-app-development",
+      "loyalty-app-development",
+      "membership-loyalty-platforms",
+      "insights/mobile-app-development-cost-uk",
+      "insights/white-label-mobile-apps",
+      "mobile-app-development-midlands"
+    ],
+    "links": [
+      {
+        "key": "mobile-app-development",
+        "role": "CORE SERVICE",
+        "title": "Mobile app development",
+        "text": "iOS and Android product delivery connected to the services, data and workflows behind the app."
+      },
+      {
+        "key": "white-label-app-development",
+        "role": "PLATFORM MODEL",
+        "title": "White-label app development",
+        "text": "Shared product logic with controlled branding, configuration, tenancy and release strategy."
+      },
+      {
+        "key": "loyalty-app-development",
+        "role": "RETENTION PRODUCT",
+        "title": "Loyalty app development",
+        "text": "Rewards, QR interactions, accounts and repeat customer engagement across mobile experiences."
+      },
+      {
+        "key": "insights/mobile-app-development-cost-uk",
+        "role": "BUYER GUIDE",
+        "title": "Mobile app development cost in the UK",
+        "text": "Understand how journeys, platforms, backend services and integrations shape scope."
+      },
+      {
+        "key": "insights/white-label-mobile-apps",
+        "role": "DECISION GUIDE",
+        "title": "White-label mobile apps explained",
+        "text": "Understand shared codebases, tenant configuration, branding and app-store distribution."
+      },
+      {
+        "key": "mobile-app-development-midlands",
+        "role": "REGIONAL",
+        "title": "Mobile app development Midlands",
+        "text": "iOS and Android product delivery for organisations across the Midlands."
+      }
+    ]
+  },
+  "hospitality": {
+    "eyebrow": "HOSPITALITY TECHNOLOGY",
+    "title": "Hospitality software from booking to repeat visit",
+    "intro": "The industry page owns the broad hospitality intent; booking, restaurant-app and loyalty pages go deeper into specific parts of the guest and venue workflow.",
+    "primary": "hospitality-software-development",
+    "members": [
+      "hospitality-software-development",
+      "restaurant-app-development",
+      "booking-system-development",
+      "projects/pace",
+      "insights/booking-system-development-guide"
+    ],
+    "links": [
+      {
+        "key": "hospitality-software-development",
+        "role": "INDUSTRY",
+        "title": "Hospitality software development",
+        "text": "Connected guest and venue experiences across bookings, loyalty, content and operations."
+      },
+      {
+        "key": "restaurant-app-development",
+        "role": "GUEST PRODUCT",
+        "title": "Restaurant app development",
+        "text": "Branded mobile experiences for bookings, menus, rewards and repeat guest relationships."
+      },
+      {
+        "key": "booking-system-development",
+        "role": "BOOKING WORKFLOW",
+        "title": "Booking system development",
+        "text": "Availability, capacity, lifecycle, notifications and operational booking rules."
+      },
+      {
+        "key": "projects/pace",
+        "role": "CASE STUDY",
+        "title": "Pace Venues",
+        "text": "A connected hospitality platform spanning guest mobile journeys and venue operations."
+      },
+      {
+        "key": "insights/booking-system-development-guide",
+        "role": "BUYER GUIDE",
+        "title": "How to plan a bespoke booking system",
+        "text": "Model availability, lifecycle, payments and integrations before implementation."
+      }
+    ]
+  },
+  "marketplaces": {
+    "eyebrow": "COMMERCE & MARKETPLACES",
+    "title": "Marketplace products, ecommerce journeys and product discovery",
+    "intro": "Multi-sided marketplace architecture and ecommerce conversion overlap, but the product problems are different. These pages make that distinction explicit.",
+    "primary": "marketplace-development",
+    "members": [
+      "marketplace-development",
+      "ecommerce-marketplace-development",
+      "projects/ebuygum"
+    ],
+    "links": [
+      {
+        "key": "marketplace-development",
+        "role": "PLATFORM",
+        "title": "Multi-vendor marketplace development",
+        "text": "Buyer, seller and operator journeys designed as one connected product."
+      },
+      {
+        "key": "ecommerce-marketplace-development",
+        "role": "COMMERCE",
+        "title": "Ecommerce platform development",
+        "text": "Discovery, listings, accounts and conversion for products where buying is the central journey."
+      },
+      {
+        "key": "projects/ebuygum",
+        "role": "CASE STUDY",
+        "title": "eBuyGum",
+        "text": "A marketplace experience built around discovery, category browsing and a distinctive identity."
+      },
+      {
+        "key": "web-app-development",
+        "role": "RELATED SERVICE",
+        "title": "Web application development",
+        "text": "The broader engineering capability behind interactive browser-based products."
+      }
+    ]
+  },
+  "saas-products": {
+    "eyebrow": "SAAS & DIGITAL PRODUCTS",
+    "title": "SaaS products, MVPs and multi-tenant digital platforms",
+    "intro": "Digital-product strategy, SaaS product delivery and work for technology companies are separated here so the pages answer different stages and audiences.",
+    "primary": "saas-product-development",
+    "members": [
+      "digital-product-development",
+      "saas-product-development",
+      "saas-technology-development",
+      "insights/how-to-build-a-saas-mvp",
+      "projects/veyra"
+    ],
+    "links": [
+      {
+        "key": "saas-product-development",
+        "role": "CORE SOLUTION",
+        "title": "SaaS product development",
+        "text": "MVP definition, multi-tenant product architecture, accounts and operational tooling."
+      },
+      {
+        "key": "digital-product-development",
+        "role": "END-TO-END SERVICE",
+        "title": "Digital product development",
+        "text": "Product definition, UX, engineering, APIs and launch thinking across web and mobile."
+      },
+      {
+        "key": "saas-technology-development",
+        "role": "AUDIENCE",
+        "title": "Software for SaaS & technology teams",
+        "text": "Product engineering support for technology businesses evolving a digital platform."
+      },
+      {
+        "key": "insights/how-to-build-a-saas-mvp",
+        "role": "BUYER GUIDE",
+        "title": "How to build a SaaS MVP",
+        "text": "Prove the product loop before investing in every future platform capability."
+      },
+      {
+        "key": "projects/veyra",
+        "role": "CASE STUDY",
+        "title": "Veyra Studio",
+        "text": "A creative digital product presenting sophisticated planning tools through a focused journey."
+      }
+    ]
+  },
+  "web-design": {
+    "eyebrow": "WEBSITES & BRAND EXPERIENCE",
+    "title": "Web design, digital presence and brand-led experiences",
+    "intro": "This cluster keeps brochure and brand-led website intent separate from application and software-development searches while still connecting the wider studio capability.",
+    "primary": "web-design",
+    "members": [
+      "web-design",
+      "web-design-coventry",
+      "web-design-birmingham",
+      "software-web-app-development-warwickshire",
+      "projects/emberlyn",
+      "projects/vx27",
+      "web-design-software-rugby",
+      "web-design-software-warwick",
+      "web-design-software-leamington-spa",
+      "web-design-software-nuneaton",
+      "web-design-software-solihull"
+    ],
+    "links": [
+      {
+        "key": "web-design",
+        "role": "CORE SERVICE",
+        "title": "Bespoke web design",
+        "text": "Distinctive responsive websites with purposeful content, journeys and technical foundations."
+      },
+      {
+        "key": "web-design-coventry",
+        "role": "LOCAL / COVENTRY",
+        "title": "Web design in Coventry",
+        "text": "Research-led websites for Coventry organisations, built for speed, accessibility and enquiries."
+      },
+      {
+        "key": "web-design-birmingham",
+        "role": "LOCAL / BIRMINGHAM",
+        "title": "Web design in Birmingham",
+        "text": "Custom websites for Birmingham businesses competing at second-city scale."
+      },
+      {
+        "key": "areas-we-serve",
+        "role": "LOCAL AREAS",
+        "title": "Areas we serve",
+        "text": "Coventry, Birmingham, Warwickshire and surrounding Midlands areas served from a local studio."
+      },
+      {
+        "key": "software-web-app-development-warwickshire",
+        "role": "REGIONAL",
+        "title": "Software & web development in Warwickshire",
+        "text": "A genuine regional overview for organisations planning serious digital products."
+      },
+      {
+        "key": "projects/emberlyn",
+        "role": "CASE STUDY",
+        "title": "Emberlyn",
+        "text": "A brand-led artist website where visual identity, music, video and navigation work together."
+      },
+      {
+        "key": "projects/vx27",
+        "role": "CASE STUDY",
+        "title": "VX-27",
+        "text": "A companion web experience carrying a distinctive sci-fi identity beyond the game itself."
+      },
+      {
+        "key": "web-design-software-rugby",
+        "role": "LOCAL / RUGBY",
+        "title": "Web design & software in Rugby",
+        "text": "Websites, web apps and bespoke software for Rugby organisations across the M45 corridor."
+      },
+      {
+        "key": "web-design-software-warwick",
+        "role": "LOCAL / WARWICK",
+        "title": "Web design & software in Warwick",
+        "text": "Websites, portals and systems for the county town's practices, venues and independents."
+      },
+      {
+        "key": "web-design-software-leamington-spa",
+        "role": "LOCAL / LEAMINGTON SPA",
+        "title": "Web design & software in Leamington Spa",
+        "text": "Design-literate websites and products for Silicon Spa studios and Leamington businesses."
+      },
+      {
+        "key": "web-design-software-nuneaton",
+        "role": "LOCAL / NUNEATON",
+        "title": "Web design & software in Nuneaton",
+        "text": "Websites, portals and operational software for Nuneaton manufacturers and suppliers."
+      },
+      {
+        "key": "web-design-software-solihull",
+        "role": "LOCAL / SOLIHULL",
+        "title": "Web design & software in Solihull",
+        "text": "Websites and systems for Solihull organisations between Birmingham and Warwickshire."
+      }
+    ]
+  }
+}

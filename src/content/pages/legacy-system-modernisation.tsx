@@ -1,0 +1,58 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"LEGACY SYSTEM MODERNISATION",
+  title:"Modernise what matters without",
+  accent:"throwing everything away.",
+  lead:"A pragmatic route from ageing internal software, fragile integrations or difficult-to-change applications toward a maintainable product that supports the business now and next.",
+  artClass:"mkt-hero-art--v10",
+  artLabel:"MODERNISATION / CONTROLLED CHANGE",
+  artHeading:"Understand. Decouple. Replace. Improve.",
+  artFooter:"Legacy UI · APIs · Data · Workflows · Migration",
+  introKicker:"CHANGE WITHOUT A BIG-BANG REWRITE",
+  introTitle:"The safest modernisation plan starts by understanding why the existing system still matters.",
+  introCopy:["Legacy software often survives because it contains years of business knowledge, exceptions and operational dependency. Replacing it blindly can remove the very things that made it useful.", "We identify the areas creating the most risk or friction, understand the surrounding data and integrations, then choose a staged route forward. That might mean a new interface over existing services, extracting an API, replacing one workflow at a time or building a new platform alongside the old one."],
+  capabilityKicker:"MODERNISATION OPTIONS",
+  capabilityTitle:"Different systems need different migration strategies.",
+  capabilityIntro:"The aim is not modern technology for its own sake. It is lower risk, easier change and a better product for the people who rely on it.",
+  cards:[
+    {title:"Interface renewal",text:"Replace difficult or inconsistent screens while preserving reliable underlying services where that is the lower-risk choice."},
+    {title:"API extraction",text:"Create clear service boundaries around legacy capabilities so newer products can integrate without depending on old interfaces."},
+    {title:"Workflow replacement",text:"Move high-friction processes into modern applications incrementally rather than attempting one enormous cut-over."},
+    {title:"Data & migration planning",text:"Understand ownership, quality, dependencies and migration rules before changing the systems that rely on critical business data."},
+  ],
+  useKicker:"WARNING SIGNS",
+  useTitle:"When the cost of standing still starts to exceed the cost of change.",
+  useIntro:"Legacy problems show up as operational friction long before a system completely fails.",
+  useCases:[
+    {title:"Changes feel dangerous",text:"Small feature requests require disproportionate testing because nobody is confident about the side effects."},
+    {title:"Knowledge is concentrated",text:"Only a small number of people understand how important workflows or integrations really operate."},
+    {title:"The interface slows teams down",text:"The system still works, but outdated journeys create training overhead, errors or unnecessary manual steps."},
+    {title:"Integration is difficult",text:"New products need data from the old system, but brittle connections make every integration expensive and risky."},
+  ],
+  process:[
+    {title:"Map dependencies",text:"Document users, workflows, data stores, integrations and the parts of the legacy product that remain valuable."},
+    {title:"Prioritise risk and value",text:"Choose the first boundary where modernisation reduces meaningful operational risk or creates immediate product value."},
+    {title:"Create an incremental route",text:"Use APIs, parallel workflows or staged migrations so change can be tested without betting the whole operation on one release."},
+    {title:"Retire deliberately",text:"Decommission legacy capabilities only when the replacement is proven, data is accounted for and dependent teams are ready."},
+  ],
+  projects:[
+    {href:'/projects/opus',image:'/assets/project-opus.jpg',alt:'OPUS React design system project',eyebrow:'BUSINESS UI SYSTEM',title:'OPUS React',text:'Reusable interface patterns for forms, data-heavy screens and business applications.'},
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/business-software-development",title:"Business software development",text:"Design the modern operational platform that replaces legacy workflows."},
+    {href:"/api-systems-integration",title:"API & systems integration",text:"Create dependable integration boundaries between old and new systems."},
+    {href:"/admin-dashboard-development",title:"Admin dashboard development",text:"Modernise operational interfaces around the tasks teams actually perform."},
+  ],
+  faqs:[
+    {q:"Do we have to rewrite the whole system?",a:"No. A staged approach is often safer. We can modernise a user interface, workflow or integration boundary first and preserve stable parts until there is a clear reason to replace them."},
+    {q:"Can you work with an undocumented legacy application?",a:"Yes, although discovery becomes more important. We use the running system, existing users, data structures and available code or documentation to reconstruct how the important workflows behave."},
+    {q:"How do you reduce migration risk?",a:"By defining boundaries, testing data and workflows early, keeping rollback options where practical and avoiding a single cut-over unless the system genuinely requires it."},
+    {q:"Can modernisation happen while the old system remains live?",a:"Often, yes. Parallel operation, APIs and staged workflow migration can allow new capabilities to be introduced while the existing system continues to support the business."},
+    {q:"Can you maintain WordPress or another CMS before we migrate?",a:"Yes. If the current platform is still supporting the business, we can maintain and improve it while planning the next step. A migration can then be staged around content, data, integrations, SEO-critical URLs and operational risk rather than forcing an unnecessary big-bang rebuild."},
+  ],
+  contactService:"Legacy system modernisation",
+  ctaTitle:"Need a safer route away from software that is hard to change?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

@@ -1,0 +1,57 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"BUSINESS SOFTWARE DEVELOPMENT",
+  title:"Software built around",
+  accent:"how your business works.",
+  lead:"Bespoke business software for teams that have outgrown spreadsheets, disconnected tools or rigid off-the-shelf platforms. We design systems around real workflows, roles and decisions.",
+  artClass:"mkt-hero-art--v02",
+  artLabel:"BUSINESS SYSTEMS / PURPOSE BUILT",
+  artHeading:"Your process. Your rules. One coherent system.",
+  artFooter:"Workflows · Data · Roles · Integrations · Reporting",
+  introKicker:"WHEN GENERIC SOFTWARE STOPS FITTING",
+  introTitle:"The software should adapt to the operation — not force the operation to adapt.",
+  introCopy:["Business software becomes valuable when it removes friction from work people already do every day. That might mean replacing spreadsheets, bringing several tools into one workflow, reducing repeated data entry or giving teams a clearer view of what needs attention.", "We map the process before choosing the architecture. The result can be an internal platform, operational dashboard, workflow system or customer-facing service, but the starting point is always the same: understand the work and make it easier to do well."],
+  capabilityKicker:"WHAT WE CAN BUILD",
+  capabilityTitle:"From operational tools to connected platforms.",
+  capabilityIntro:"The right product can be focused or broad. We shape the scope around the highest-value workflow first.",
+  cards:[
+    {title:"Operational platforms",text:"Manage day-to-day work, records, statuses and hand-offs in one place instead of across disconnected systems."},
+    {title:"Role-based workflows",text:"Give different teams, managers and customers the right actions and information without exposing everything to everyone."},
+    {title:"Reporting & dashboards",text:"Turn operational data into useful views that help people understand workload, performance and exceptions."},
+    {title:"Connected systems",text:"Integrate existing services, APIs and data sources so the new platform works with the tools the business still needs."},
+  ],
+  useKicker:"GOOD FIT",
+  useTitle:"Signs bespoke business software may be the right next step.",
+  useIntro:"The strongest projects usually begin with a repeated operational problem rather than a request for a particular technology.",
+  useCases:[
+    {title:"Spreadsheets run the process",text:"Important work depends on files, formulas and manual checks that are hard to control as the team grows."},
+    {title:"The same data is re-entered",text:"People copy information between systems because the tools do not share context or ownership."},
+    {title:"Off-the-shelf rules get in the way",text:"A generic platform covers most of the job, but the missing 20% creates expensive workarounds."},
+    {title:"Visibility is poor",text:"Teams can do the work, but managers struggle to see status, bottlenecks, risk or what needs action next."},
+  ],
+  process:[
+    {title:"Map the workflow",text:"Understand users, hand-offs, data, exceptions and the parts of the current process worth keeping."},
+    {title:"Prioritise the first release",text:"Separate essential operational value from features that can wait until real usage proves they are needed."},
+    {title:"Design the system",text:"Shape interfaces, permissions, data structures and integrations together so the workflow remains coherent."},
+    {title:"Build and evolve",text:"Release in useful increments, observe how the system is used and improve the parts that deliver the most value."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+    {href:'/projects/opus',image:'/assets/project-opus.jpg',alt:'OPUS React design system project',eyebrow:'BUSINESS UI SYSTEM',title:'OPUS React',text:'Reusable interface patterns for forms, data-heavy screens and business applications.'},
+  ],
+  related:[
+    {href:"/workflow-automation-software",title:"Workflow automation software",text:"Reduce repeated manual steps and make hand-offs easier to track."},
+    {href:"/admin-dashboard-development",title:"Admin dashboard development",text:"Give teams practical tools for managing operations and data."},
+    {href:"/legacy-system-modernisation",title:"Legacy system modernisation",text:"Replace or progressively modernise software that is holding the business back."},
+  ],
+  faqs:[
+    {q:"What is bespoke business software?",a:"It is software designed around a specific organisation, workflow or operating model rather than a generic product sold to many businesses. The scope can range from a focused internal tool to a wider operational platform."},
+    {q:"Do we need to replace every existing system?",a:"Usually not. A new product can integrate with systems that still do their job well. We look for the smallest change that creates a coherent workflow rather than replacing technology for the sake of it."},
+    {q:"Can you replace spreadsheets with a proper application?",a:"Yes. Spreadsheet-heavy processes are a common starting point. We first understand what the spreadsheet is really doing — including hidden rules and exceptions — before designing a safer, shared system."},
+    {q:"Can the software support different teams and permissions?",a:"Yes. Roles, permissions and auditability can be designed into the product so each user sees the information and actions appropriate to their responsibilities."},
+  ],
+  contactService:"Bespoke software development",
+  ctaTitle:"Ready to replace workarounds with a system that fits?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

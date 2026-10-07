@@ -1,0 +1,56 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"WHITE-LABEL APP DEVELOPMENT",
+  title:"One product foundation.",
+  accent:"Multiple branded experiences.",
+  lead:"White-label mobile and digital products designed for organisations that need shared functionality with distinct branding, configuration, content or tenant data.",
+  artClass:"mkt-hero-art--v04",
+  artLabel:"WHITE LABEL / MULTI BRAND",
+  artHeading:"Shared product logic. Distinct customer brands.",
+  artFooter:"iOS · Android · Branding · Tenancy · Configuration",
+  introKicker:"REUSE WITHOUT LOOKING GENERIC",
+  introTitle:"White-label architecture is a product strategy, not just a logo switch.",
+  introCopy:["The efficiency comes from sharing the expensive parts — product logic, APIs, core journeys and maintenance — while allowing each branded experience to feel appropriate to the organisation customers recognise.", "That requires clear decisions about what is shared, what can vary and how releases are managed. We design those boundaries into the product architecture so adding a brand does not become a manual fork of the whole application."],
+  capabilityKicker:"WHITE-LABEL FOUNDATIONS",
+  capabilityTitle:"Shared where it should be. Configurable where it matters.",
+  capabilityIntro:"The product needs a controlled way to vary brand, content and behaviour without creating a maintenance problem.",
+  cards:[
+    {title:"Brand configuration",text:"Logos, colour systems, app naming, imagery and other presentation choices managed without duplicating core product logic."},
+    {title:"Tenant configuration",text:"Venue, organisation or customer-specific settings, content and features kept distinct within a maintainable platform model."},
+    {title:"Shared product core",text:"Common journeys, APIs and business logic developed once so improvements can benefit the wider product family."},
+    {title:"Release strategy",text:"A practical approach to app-store builds, configuration, testing and updates across multiple branded experiences."},
+  ],
+  useKicker:"WHERE IT FITS",
+  useTitle:"White-label products work best when the core need repeats.",
+  useIntro:"The model is strongest when several organisations need fundamentally the same product, but customers still expect to see the brand they already trust.",
+  useCases:[
+    {title:"Hospitality groups",text:"Individual venues or brands can present their own guest experience while sharing booking, loyalty and operational foundations."},
+    {title:"Membership organisations",text:"Partners or local organisations can provide a branded app around a common set of membership services."},
+    {title:"Franchise networks",text:"Locations can vary content and identity without each franchise becoming a separate software product."},
+    {title:"B2B platforms",text:"A software provider can offer branded customer instances while maintaining one controlled product roadmap."},
+  ],
+  process:[
+    {title:"Define the shared core",text:"Separate genuinely common workflows from the things each brand or tenant needs to control."},
+    {title:"Design the configuration model",text:"Create explicit rules for brand assets, content, features, integrations and data boundaries."},
+    {title:"Build automation in early",text:"Reduce manual build and release steps so additional brands do not multiply operational effort."},
+    {title:"Govern product evolution",text:"Keep shared functionality moving forward without breaking tenant-specific needs or creating permanent forks."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/mobile-app-development",title:"Mobile app development",text:"Design and build the iOS and Android experience behind each branded app."},
+    {href:"/saas-product-development",title:"SaaS product development",text:"Create a shared product platform that can serve multiple organisations."},
+    {href:"/hospitality-software-development",title:"Hospitality software development",text:"Explore white-label possibilities for venues, groups and guest experiences."},
+  ],
+  faqs:[
+    {q:"What does white-label app development mean?",a:"It means building a shared product that can be presented under different customer or partner brands. The exact level of variation can include branding, content, features, integrations and tenant data."},
+    {q:"Can each brand have its own App Store listing?",a:"That can be part of the release strategy. The technical and commercial setup needs to account for app-store policies, build configuration and how each branded application is maintained over time."},
+    {q:"Does every customer need a separate codebase?",a:"Usually no. The goal is to share the core code and product logic while driving approved differences through configuration, build settings or tenant data."},
+    {q:"Can white-label apps share one back-office platform?",a:"Yes. A multi-tenant management platform can support separate organisations while central product controls and shared functionality remain manageable."},
+  ],
+  contactService:"White-label app development",
+  ctaTitle:"Planning one product that needs to serve several brands?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

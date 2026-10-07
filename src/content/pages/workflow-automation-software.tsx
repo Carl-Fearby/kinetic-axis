@@ -1,0 +1,57 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"WORKFLOW AUTOMATION SOFTWARE",
+  title:"Automate the repetition.",
+  accent:"Keep people in control.",
+  lead:"Workflow software that removes repeated admin, makes hand-offs visible and connects the systems involved in getting work from request to completion.",
+  artClass:"mkt-hero-art--v09",
+  artLabel:"WORKFLOW / AUTOMATION",
+  artHeading:"Trigger. Route. Validate. Escalate. Complete.",
+  artFooter:"Rules · Tasks · Approvals · Notifications · APIs",
+  introKicker:"AUTOMATE THE RIGHT WORK",
+  introTitle:"Good automation removes avoidable effort without hiding the process.",
+  introCopy:["The goal is not to automate every human decision. It is to identify repeatable steps, rules and hand-offs that consume time without adding judgement, then make those parts reliable and visible.", "A useful workflow product gives people context when their input is needed, moves routine data between systems automatically and keeps a clear record of what happened. That can reduce admin while making the process easier to manage."],
+  capabilityKicker:"AUTOMATION CAPABILITIES",
+  capabilityTitle:"From triggers to tracked outcomes.",
+  capabilityIntro:"Workflow software can sit inside a wider platform or connect existing systems that already perform specialised jobs.",
+  cards:[
+    {title:"Rules & routing",text:"Move work to the right person or next step based on status, ownership, thresholds or business rules."},
+    {title:"Approvals & exceptions",text:"Keep human review where judgement matters and make unusual cases visible instead of hiding them inside automation."},
+    {title:"Notifications & reminders",text:"Prompt people when action is required and reduce manual chasing around deadlines or missing information."},
+    {title:"System integration",text:"Use APIs and webhooks to move data between existing tools so automation does not create another isolated system."},
+  ],
+  useKicker:"AUTOMATION OPPORTUNITIES",
+  useTitle:"Look for repetition, waiting and re-keying.",
+  useIntro:"The biggest gains often come from ordinary processes that happen frequently and cross several people or systems.",
+  useCases:[
+    {title:"Repeated data entry",text:"The same customer, order or case information is copied between tools because systems are not connected."},
+    {title:"Manual approvals",text:"Requests wait in inboxes because ownership, status and escalation rules are difficult to see."},
+    {title:"Status chasing",text:"Teams spend time asking what has happened rather than having one reliable view of process state."},
+    {title:"Recurring admin",text:"Staff repeat predictable checks, reminders or document steps that can be handled consistently by software."},
+  ],
+  process:[
+    {title:"Observe the current process",text:"Map the real workflow, including informal workarounds and exceptions that process diagrams often miss."},
+    {title:"Separate rules from judgement",text:"Automate deterministic steps while keeping people involved where context or accountability matters."},
+    {title:"Connect existing systems",text:"Prefer integration over duplicate data where trusted systems already own part of the process."},
+    {title:"Measure the outcome",text:"Track cycle time, exceptions and manual intervention so later improvements are based on evidence."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+    {href:'/projects/opus',image:'/assets/project-opus.jpg',alt:'OPUS React design system project',eyebrow:'BUSINESS UI SYSTEM',title:'OPUS React',text:'Reusable interface patterns for forms, data-heavy screens and business applications.'},
+  ],
+  related:[
+    {href:"/business-software-development",title:"Business software development",text:"Build the operational platform around the wider process."},
+    {href:"/api-systems-integration",title:"API & systems integration",text:"Connect the systems that need to exchange data or trigger work."},
+    {href:"/admin-dashboard-development",title:"Admin dashboard development",text:"Give teams visibility over queues, exceptions and workflow state."},
+  ],
+  faqs:[
+    {q:"What kinds of workflows can be automated?",a:"Processes with repeatable triggers, rules, approvals, notifications or data movement are often good candidates. We look carefully at exceptions before deciding what should be automated."},
+    {q:"Do we need to replace our existing tools?",a:"Not necessarily. Automation can often connect the systems you already use through APIs and add a workflow layer around them."},
+    {q:"Can people still intervene in an automated process?",a:"Yes. Human review, override and exception handling are important design considerations, especially where a decision carries commercial or operational risk."},
+    {q:"How do we decide what to automate first?",a:"Start with high-frequency work that consumes measurable time, causes repeated errors or creates delays because ownership and status are unclear."},
+  ],
+  contactService:"Workflow automation software",
+  ctaTitle:"Which repeated process should your team stop doing by hand?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

@@ -1,0 +1,56 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"RESTAURANT APP DEVELOPMENT",
+  title:"Restaurant apps that stay useful",
+  accent:"after the download.",
+  lead:"Branded restaurant mobile apps connecting bookings, menus, rewards, venue information and repeat customer journeys — with the platform and back-office tools needed to keep them current.",
+  artClass:"mkt-hero-art--v04",
+  artLabel:"RESTAURANT APP / GUEST EXPERIENCE",
+  artHeading:"Book. Browse. Earn. Return.",
+  artFooter:"iOS · Android · Bookings · Menus · Rewards",
+  introKicker:"A REASON TO COME BACK",
+  introTitle:"A restaurant app needs recurring value, not just a smaller website.",
+  introCopy:["The strongest restaurant apps give guests a reason to keep them installed: managing bookings, checking current menus, accessing rewards, receiving useful venue information or returning to a familiar customer account.", "We design those journeys alongside the platform behind them. That means menu availability, booking information, rewards and venue content can be managed without every change becoming an app release."],
+  capabilityKicker:"APP CAPABILITIES",
+  capabilityTitle:"Customer journeys that connect before and after the visit.",
+  capabilityIntro:"Features should earn their place by making the guest relationship more useful or easier to manage.",
+  cards:[
+    {title:"Bookings",text:"Make reservations easy to create and revisit, with clear status, time and venue information."},
+    {title:"Menus & availability",text:"Present current dishes, sections and availability in a mobile experience designed for browsing."},
+    {title:"Rewards & loyalty",text:"Connect points, QR-based interactions or rewards to a recognisable customer account and repeat visits."},
+    {title:"Venue content",text:"Keep opening information, events and venue details useful and current through staff-facing management tools."},
+  ],
+  useKicker:"PRODUCT MODELS",
+  useTitle:"One venue, a group or a white-label platform.",
+  useIntro:"The same core guest journeys can support different commercial models when branding, data and configuration are designed deliberately.",
+  useCases:[
+    {title:"Independent restaurant",text:"A distinct branded app focused on the restaurant's own guest relationship rather than a marketplace intermediary."},
+    {title:"Restaurant group",text:"Shared accounts and product foundations with venue-specific information, menus and bookings."},
+    {title:"White-label venue apps",text:"Multiple branded apps built from a common product core with separate configuration and customer-facing identity."},
+    {title:"Loyalty-led experience",text:"A repeat-use app where rewards, offers and customer recognition sit alongside practical booking and menu journeys."},
+  ],
+  process:[
+    {title:"Define repeat value",text:"Identify the tasks and rewards that give guests a genuine reason to return to the app."},
+    {title:"Design the venue model",text:"Structure venues, menus, bookings, accounts and content so the experience remains manageable behind the scenes."},
+    {title:"Build mobile and platform together",text:"Treat the app, API and back-office tooling as one product rather than separate technical deliverables."},
+    {title:"Prepare for operations",text:"Plan releases, content updates, notifications and support so the app remains useful after launch."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/hospitality-software-development",title:"Hospitality software development",text:"Connect the mobile app to the broader guest and venue operation."},
+    {href:"/white-label-app-development",title:"White-label app development",text:"Reuse one product foundation across multiple restaurant or venue brands."},
+    {href:"/mobile-app-development",title:"Mobile app development",text:"Explore the wider mobile product design and engineering service."},
+  ],
+  faqs:[
+    {q:"What features can a restaurant app include?",a:"Common features include bookings, menu browsing, venue information, events, loyalty or rewards and customer accounts. The best feature set depends on why guests would return to the app."},
+    {q:"Can one app support several restaurant locations?",a:"Yes. Venue-specific menus, opening information, bookings and configuration can sit within one group app if that is the right customer experience."},
+    {q:"Can each restaurant have its own branded app?",a:"Yes, a white-label architecture can support distinct branded applications around a shared product foundation where the commercial model requires it."},
+    {q:"Do you build the management system behind the app?",a:"Yes. Guest-facing features such as menu availability, venue information and bookings usually need practical staff-facing tools to keep the data accurate."},
+  ],
+  contactService:"Restaurant app development",
+  ctaTitle:"Want a restaurant app guests have a reason to keep?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

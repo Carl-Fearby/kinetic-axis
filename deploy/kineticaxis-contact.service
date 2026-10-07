@@ -1,0 +1,19 @@
+[Unit]
+Description=Kinetic Axis Contact API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/kineticaxis-contact
+EnvironmentFile=/etc/kineticaxis/contact.env
+ExecStart=/usr/bin/node /opt/kineticaxis-contact/server.mjs
+Restart=on-failure
+RestartSec=5
+
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

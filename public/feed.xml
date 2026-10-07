@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Kinetic Axis Insights</title>
+  <link>https://kineticaxisdigital.com/insights</link>
+  <description>Practical guides for planning websites, software, apps and digital products.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Fri, 02 Oct 2026 12:00:00 GMT</lastBuildDate>
+  <atom:link href="https://kineticaxisdigital.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>API Integration Guide for Digital Products</title>
+    <link>https://kineticaxisdigital.com/insights/api-integration-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/api-integration-guide</guid>
+    <description>A practical API integration guide covering ownership, authentication, webhooks, failure handling, rate limits, data mapping and operational support.</description>
+    <category>Integrations</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Booking System Development Guide</title>
+    <link>https://kineticaxisdigital.com/insights/booking-system-development-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/booking-system-development-guide</guid>
+    <description>A practical guide to booking system development: availability, capacity, amendments, notifications, payments, staff workflows and third-party integrations.</description>
+    <category>Booking systems</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Customer Portal Development Guide</title>
+    <link>https://kineticaxisdigital.com/insights/customer-portal-development-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/customer-portal-development-guide</guid>
+    <description>A practical guide to planning customer portals around self-service, account permissions, operational data, integrations and measurable service outcomes.</description>
+    <category>Web applications</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Design System Development Guide</title>
+    <link>https://kineticaxisdigital.com/insights/design-system-development-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/design-system-development-guide</guid>
+    <description>How to build a useful design system around real product patterns, reusable components, accessibility, documentation and team adoption.</description>
+    <category>Design systems</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>How Much Does a Custom Web App Cost in the UK?</title>
+    <link>https://kineticaxisdigital.com/insights/custom-web-app-cost-uk</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/custom-web-app-cost-uk</guid>
+    <description>A practical guide to custom web application cost in the UK, including the workflows, roles, integrations, data and product decisions that shape a realistic budget.</description>
+    <category>Web applications</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>How Much Does Bespoke Software Development Cost?</title>
+    <link>https://kineticaxisdigital.com/insights/bespoke-software-development-cost</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/bespoke-software-development-cost</guid>
+    <description>A practical guide to bespoke software development cost, including workflow complexity, users, data, integrations, migration and how to scope a useful first release.</description>
+    <category>Bespoke software</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>How to Build a SaaS MVP</title>
+    <link>https://kineticaxisdigital.com/insights/how-to-build-a-saas-mvp</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/how-to-build-a-saas-mvp</guid>
+    <description>A practical guide to SaaS MVP scope, core product loops, multi-tenancy, accounts, billing, operations and architecture for change.</description>
+    <category>SaaS products</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Legacy System Modernisation Guide</title>
+    <link>https://kineticaxisdigital.com/insights/legacy-system-modernisation-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/legacy-system-modernisation-guide</guid>
+    <description>A practical legacy software modernisation guide covering risk, data ownership, migration boundaries, coexistence and staged replacement.</description>
+    <category>Modernisation</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Mobile App Development Cost UK</title>
+    <link>https://kineticaxisdigital.com/insights/mobile-app-development-cost-uk</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/mobile-app-development-cost-uk</guid>
+    <description>A practical guide to UK mobile app development cost, covering product scope, platforms, backend services, integrations, accounts and releases.</description>
+    <category>Mobile products</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Off-the-Shelf vs Bespoke Software: How to Choose</title>
+    <link>https://kineticaxisdigital.com/insights/off-the-shelf-vs-bespoke-software</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/off-the-shelf-vs-bespoke-software</guid>
+    <description>A practical comparison of off-the-shelf and bespoke software, including workflow fit, cost, integration, ownership, change and long-term operational trade-offs.</description>
+    <category>Bespoke software</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>React Component Library Guide</title>
+    <link>https://kineticaxisdigital.com/insights/react-component-library-guide</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/react-component-library-guide</guid>
+    <description>A practical guide to planning a React component library around repeated product patterns, component APIs, accessibility, documentation and ownership.</description>
+    <category>Design systems</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Replacing Spreadsheets with Custom Software</title>
+    <link>https://kineticaxisdigital.com/insights/replacing-spreadsheets-with-custom-software</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/replacing-spreadsheets-with-custom-software</guid>
+    <description>When to replace spreadsheets with custom software, including workflow mapping, data migration, permissions, automation and operational visibility.</description>
+    <category>Business systems</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Web App vs Mobile App: Which Should You Build?</title>
+    <link>https://kineticaxisdigital.com/insights/web-app-vs-mobile-app</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/web-app-vs-mobile-app</guid>
+    <description>Compare web apps and mobile apps by user behaviour, device capability, distribution, offline needs, updates and product goals before choosing a platform.</description>
+    <category>Product strategy</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>When to Build an Internal Business System</title>
+    <link>https://kineticaxisdigital.com/insights/when-to-build-an-internal-business-system</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/when-to-build-an-internal-business-system</guid>
+    <description>A practical guide to deciding when spreadsheets, general-purpose tools or integrations are no longer enough and bespoke internal software is justified.</description>
+    <category>Business systems</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>White-Label Mobile Apps Explained</title>
+    <link>https://kineticaxisdigital.com/insights/white-label-mobile-apps</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/white-label-mobile-apps</guid>
+    <description>How white-label mobile apps work: shared codebases, branding, tenant configuration and app-store distribution across multiple customer apps.</description>
+    <category>Mobile products</category>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

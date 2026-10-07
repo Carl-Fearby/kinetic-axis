@@ -1,0 +1,56 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"HOSPITALITY SOFTWARE DEVELOPMENT",
+  title:"Hospitality technology built around",
+  accent:"guests and operations.",
+  lead:"Digital products for restaurants, bars, venues and hospitality groups — connecting guest journeys such as bookings and loyalty with the operational tools teams use behind the scenes.",
+  artClass:"mkt-hero-art--v08",
+  artLabel:"HOSPITALITY / CONNECTED SERVICE",
+  artHeading:"Guest experience in front. Operational clarity behind.",
+  artFooter:"Bookings · Menus · Loyalty · Venues · Operations",
+  introKicker:"TWO SIDES OF THE SAME SERVICE",
+  introTitle:"Guest-facing technology works best when the operational workflow has been designed with it.",
+  introCopy:["A smooth hospitality experience can involve bookings, venue information, menus, rewards, notifications and staff actions before the guest ever arrives. If those pieces are designed separately, the customer interface can create more work behind the scenes.", "We approach hospitality products as connected systems. The guest journey stays simple, while venue teams get the controls, data and configuration needed to keep the experience accurate."],
+  capabilityKicker:"HOSPITALITY CAPABILITIES",
+  capabilityTitle:"Digital journeys across the guest relationship.",
+  capabilityIntro:"The platform can focus on one high-value journey or connect several parts of the venue experience over time.",
+  cards:[
+    {title:"Bookings & availability",text:"Customer reservation flows connected to venue hours, capacity and the operational booking model."},
+    {title:"Menus & venue content",text:"Digital menu, availability, venue information and event content managed from practical staff-facing tools."},
+    {title:"Rewards & loyalty",text:"Customer reward journeys, QR interactions and account experiences that support repeat engagement."},
+    {title:"Venue operations",text:"Back-office tools for managing bookings, configuration, content and the day-to-day information behind the guest experience."},
+  ],
+  useKicker:"WHERE WE CAN HELP",
+  useTitle:"From one venue workflow to a wider hospitality platform.",
+  useIntro:"Hospitality products often begin with one customer pain point and expand as the value of connected guest data and operations becomes clearer.",
+  useCases:[
+    {title:"Restaurant groups",text:"Shared product foundations with location-specific menus, availability, content and guest experiences."},
+    {title:"Independent venues",text:"Focused digital products that remove operational friction without forcing the venue into a huge generic platform."},
+    {title:"White-label hospitality products",text:"A common application offered under individual venue or brand identities with controlled configuration."},
+    {title:"Connected guest services",text:"Bookings, loyalty, notifications and venue information working as parts of one recognisable customer relationship."},
+  ],
+  process:[
+    {title:"Map the guest journey",text:"Understand what the customer is trying to do before, during and after a visit, and where digital support genuinely helps."},
+    {title:"Map venue operations",text:"Identify who maintains availability, content, bookings and customer information, including real-world exceptions."},
+    {title:"Connect the two sides",text:"Design APIs, back-office tools and customer interfaces as one service rather than independent projects."},
+    {title:"Design for multiple venues",text:"Where relevant, establish tenancy and configuration rules so additional locations do not require separate products."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/restaurant-app-development",title:"Restaurant app development",text:"Create a branded mobile experience for bookings, menus, rewards and venue information."},
+    {href:"/booking-system-development",title:"Booking system development",text:"Design reservation journeys around the venue's real capacity and operating rules."},
+    {href:"/white-label-app-development",title:"White-label app development",text:"Support multiple venues or brands from a shared product foundation."},
+  ],
+  faqs:[
+    {q:"What kinds of hospitality software do you build?",a:"Examples include booking journeys, guest mobile apps, loyalty experiences, digital menus, venue content tools and the back-office systems needed to manage them."},
+    {q:"Can the platform support multiple venues?",a:"Yes. A multi-tenant approach can keep venue data and configuration separate while sharing the core product and operational model."},
+    {q:"Can you integrate with an existing booking or hospitality system?",a:"Where a suitable API is available, yes. We can design a new digital experience around established systems rather than automatically replacing them."},
+    {q:"Can you build both the guest app and the staff back office?",a:"Yes. Designing both sides together is often valuable because operational controls determine whether the guest-facing information remains accurate."},
+  ],
+  contactService:"Hospitality software development",
+  ctaTitle:"Planning a better digital experience for guests and venue teams?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

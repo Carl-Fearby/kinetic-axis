@@ -1,0 +1,57 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"ADMIN DASHBOARD DEVELOPMENT",
+  title:"Dashboards that help teams",
+  accent:"understand and act.",
+  lead:"Custom admin dashboards and back-office interfaces for managing customers, content, operations, data and exceptions — without burying important work under generic UI.",
+  artClass:"mkt-hero-art--v09",
+  artLabel:"ADMIN / OPERATIONS",
+  artHeading:"See the state. Find the exception. Take action.",
+  artFooter:"Dashboards · Roles · Workflows · Reporting · Controls",
+  introKicker:"OPERATIONAL UI",
+  introTitle:"A dashboard is useful when it makes the next decision easier.",
+  introCopy:["Back-office products often carry more complexity than the customer-facing experience. Teams need dense information, reliable controls, permissions and quick ways to find the exceptions that matter.", "We design admin tools around tasks rather than around database tables. That means understanding what different users are trying to achieve, what information they need at that moment and how the interface can reduce repeated navigation and manual checking."],
+  capabilityKicker:"DASHBOARD CAPABILITIES",
+  capabilityTitle:"Practical interfaces for operational work.",
+  capabilityIntro:"Good admin software balances information density with clear hierarchy and safe actions.",
+  cards:[
+    {title:"Operational views",text:"Prioritised lists, queues and dashboards that make workload, status and exceptions visible."},
+    {title:"Data management",text:"Structured create, edit, review and approval workflows with validation around important business data."},
+    {title:"Roles & permissions",text:"Different interfaces and actions for teams, managers or administrators based on responsibility."},
+    {title:"Reporting & insight",text:"Useful summaries and drill-down views that connect headline metrics to the underlying operational detail."},
+  ],
+  useKicker:"COMMON PROBLEMS",
+  useTitle:"When the back office has become the bottleneck.",
+  useIntro:"The best dashboard projects usually start with teams spending too much time finding information or coordinating work.",
+  useCases:[
+    {title:"Too many separate tools",text:"Staff switch between systems to understand one customer, order, booking or operational case."},
+    {title:"Important exceptions are hidden",text:"Teams can see lots of data but cannot quickly identify what is overdue, blocked or unusual."},
+    {title:"Admin actions are risky",text:"Generic interfaces expose powerful changes without enough context, validation or role control."},
+    {title:"Reporting is disconnected",text:"Managers receive exports and spreadsheets instead of being able to move from a metric into the work behind it."},
+  ],
+  process:[
+    {title:"Observe the work",text:"Understand high-frequency tasks, edge cases, terminology and where users currently lose time."},
+    {title:"Design the information model",text:"Group screens around decisions and workflows rather than mirroring the underlying database structure."},
+    {title:"Prototype dense interfaces",text:"Test hierarchy, tables, forms, filters and actions with realistic data before implementation hardens the design."},
+    {title:"Build reusable patterns",text:"Use consistent components and interaction rules so the dashboard remains coherent as more operational features are added."},
+  ],
+  projects:[
+    {href:'/projects/opus',image:'/assets/project-opus.jpg',alt:'OPUS React design system project',eyebrow:'BUSINESS UI SYSTEM',title:'OPUS React',text:'Reusable interface patterns for forms, data-heavy screens and business applications.'},
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/platforms-back-office-systems",title:"Platforms & back-office systems",text:"Explore the wider service for operational platforms and internal tools."},
+    {href:"/business-software-development",title:"Business software development",text:"Create a broader system around workflows, roles and business data."},
+    {href:"/ui-ux-design-systems",title:"UI/UX & design systems",text:"Build reusable interface patterns for complex, data-heavy products."},
+  ],
+  faqs:[
+    {q:"What is the difference between a dashboard and a back-office system?",a:"A dashboard usually focuses on visibility and action around key information. A back-office system can include wider operational workflows, data management, permissions and process logic. Many real products combine both."},
+    {q:"Can you redesign an existing admin interface?",a:"Yes. We can improve hierarchy, workflows and reusable UI patterns without necessarily replacing the underlying platform."},
+    {q:"Can dashboards support different roles?",a:"Yes. Permissions and role-specific views are often essential so users see the information and actions relevant to their responsibilities."},
+    {q:"Do you build data visualisations as well as forms and tables?",a:"Yes. The interface can combine charts, summaries, filters, tables and detail views where each format helps the user understand or act on the data."},
+  ],
+  contactService:"Platforms and back-office systems",
+  ctaTitle:"Make the operational interface work as hard as the team using it.",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

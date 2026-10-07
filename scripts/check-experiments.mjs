@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+const read=file=>fs.readFileSync(file,'utf8');
+const errors=[];const check=(ok,msg)=>{if(!ok)errors.push(msg)};
+const experiments=read('src/lib/experiments.ts');
+const component=read('src/components/ExperimentLink.tsx');
+const analytics=read('src/lib/analytics-client.ts');
+const runtime=read('src/components/SiteRuntime.tsx');
+const api=read('contact-api/server.mjs');
+const summary=read('contact-api/growth-summary.mjs');
+const dashboard=read('src/components/GrowthDashboard.tsx');
+const privacy=read('src/content/pages/privacy.tsx');
+const cookies=read('src/content/pages/cookies.tsx');
+check(experiments.includes("home_planner_cta")&&experiments.includes('sessionStorage'),'Homepage experiment definition and session-scoped assignment are missing.');
+check(!experiments.includes('localStorage'),'Experiments must not use persistent localStorage identifiers.');
+check(component.includes('ka_experiment_impression')&&component.includes('ka_experiment_click'),'Experiment impression/click events are missing.');
+check(analytics.includes('getExperimentContext')&&analytics.includes('experiments'),'Analytics must attach active experiment context to conversion events.');
+check(runtime.includes('fields.experiments=getExperimentContext()'),'Enquiry payload must carry experiment context for attribution.');
+check(api.includes("'ka_experiment_impression','ka_experiment_click'")&&api.includes('experiments:cleanEventValue'),'API allowlist/storage must support experiment telemetry.');
+check(summary.includes('conversionRate')&&summary.includes('ka_experiment_impression')&&summary.includes('ka_contact_success'),'Growth summary must calculate experiment conversion performance.');
+check(dashboard.includes('Variant performance')&&dashboard.includes('summary.experiments'),'Growth dashboard must render experiment results.');
+check(privacy.includes('variation name may be stored for the current browser session'),'Privacy notice must describe session-scoped experiment assignment.');
+check(cookies.includes('held in session storage for the current browser tab'),'Cookie notice must describe session storage use.');
+if(errors.length){console.error('EXPERIMENT CHECK FAILED');for(const e of errors)console.error('- '+e);process.exit(1)}
+console.log('PASS: first-party experiment assignment, telemetry, enquiry attribution and dashboard reporting are wired end to end.');

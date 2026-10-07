@@ -1,0 +1,18 @@
+import {readFileSync,existsSync} from 'node:fs';
+import {resolve} from 'node:path';
+const root=resolve(new URL('..',import.meta.url).pathname);
+const read=path=>readFileSync(resolve(root,path),'utf8');
+const must=(ok,msg)=>{if(!ok){console.error(`✗ ${msg}`);process.exitCode=1}else console.log(`✓ ${msg}`)};
+for(const path of ['src/components/AdminHeader.tsx','src/components/GrowthDashboard.tsx','src/components/LeadDashboard.tsx'])must(existsSync(resolve(root,path)),`${path} exists`);
+const css=read('app/globals.css');
+const header=read('src/components/AdminHeader.tsx');
+const growth=read('src/components/GrowthDashboard.tsx');
+const leads=read('src/components/LeadDashboard.tsx');
+must(growth.includes('ka-admin')&&leads.includes('ka-admin'),'Growth and Leads both use the shared admin shell');
+must(growth.includes('AdminHeader')&&leads.includes('AdminHeader'),'Growth and Leads both use the shared admin header');
+must(header.includes('/admin/growth')&&header.includes('/admin/leads'),'shared admin header exposes both admin sections');
+must(css.includes('width:min(1280px,calc(100% - 48px))'),'shared admin shell uses one desktop content width');
+must(css.includes('font:15px/1.5 Arial,Helvetica,sans-serif'),'shared admin shell uses one typography stack');
+must(css.includes('.ka-admin__nav a.is-active'),'shared admin navigation has a consistent active state');
+if(process.exitCode)process.exit(process.exitCode);
+console.log('Admin continuity checks passed.');

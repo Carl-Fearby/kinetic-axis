@@ -1,0 +1,56 @@
+import { SeoLandingPage, type SeoLandingPageData } from '../../components/SeoLandingPage';
+const data: SeoLandingPageData = {
+  parent:{label:"Solutions",href:"/solutions"},
+  kicker:"BOOKING SYSTEM DEVELOPMENT",
+  title:"Booking software designed around",
+  accent:"the real operation.",
+  lead:"Bespoke booking systems for businesses where availability, customers, capacity, payments, notifications and staff workflows need to work together rather than live in separate tools.",
+  artClass:"mkt-hero-art--v08",
+  artLabel:"BOOKING / AVAILABILITY",
+  artHeading:"Availability in. Confirmed experience out.",
+  artFooter:"Slots · Capacity · Customers · Rules · Notifications",
+  introKicker:"MORE THAN A DATE PICKER",
+  introTitle:"A booking journey is only simple when the rules behind it are understood.",
+  introCopy:["Customers see a time, a date and a confirmation. Behind that interaction there may be capacity rules, venue hours, resource allocation, lead times, cancellations, staff actions, customer records and third-party systems.", "We design the public booking experience and the operational workflow together. That keeps the customer journey clear while giving the business the controls it needs to manage availability accurately."],
+  capabilityKicker:"BOOKING CAPABILITIES",
+  capabilityTitle:"The pieces that make a booking system dependable.",
+  capabilityIntro:"Not every project needs every capability, but the model should reflect how availability is actually created and consumed.",
+  cards:[
+    {title:"Availability & capacity",text:"Model opening hours, resources, tables, appointments, lead times, buffers and other constraints around what can be booked."},
+    {title:"Customer journeys",text:"Create clear booking, confirmation, amendment and cancellation flows across web or mobile experiences."},
+    {title:"Operations & admin",text:"Give staff tools for reviewing bookings, changing availability, managing exceptions and understanding what is coming next."},
+    {title:"Notifications & integrations",text:"Connect confirmations, reminders, calendars, payments or third-party booking services where they add real value."},
+  ],
+  useKicker:"COMMON USE CASES",
+  useTitle:"Where bespoke booking logic makes the difference.",
+  useIntro:"A custom system becomes useful when the booking itself affects operational capacity, customer experience or several connected systems.",
+  useCases:[
+    {title:"Hospitality",text:"Reservations need to respect venue hours, capacity, table logic and the guest journey before and after the booking."},
+    {title:"Appointments",text:"Services may depend on staff, locations, duration, preparation time or resources that cannot be double-booked."},
+    {title:"Events & experiences",text:"Capacity, ticket types, dates, add-ons and communications need to remain consistent across the customer journey."},
+    {title:"Multi-location operations",text:"Each location may have its own opening times, rules and availability while the wider business needs one coherent platform."},
+  ],
+  process:[
+    {title:"Model availability",text:"Define what is actually being booked, the rules that constrain it and how exceptions are handled."},
+    {title:"Design both journeys",text:"Create the customer flow and staff workflow together so one does not create unnecessary work for the other."},
+    {title:"Connect the ecosystem",text:"Add payments, messaging, calendars or third-party APIs where they support the booking lifecycle."},
+    {title:"Test edge cases",text:"Validate amendments, cancellations, capacity conflicts, timing rules and operational exceptions before scale magnifies them."},
+  ],
+  projects:[
+    {href:'/projects/pace',image:'/assets/project-pace.jpg',alt:'Pace Venues hospitality platform project',eyebrow:'HOSPITALITY PLATFORM',title:'Pace Venues',text:'Guest mobile app, bookings, rewards and operational tooling for venues.'},
+  ],
+  related:[
+    {href:"/hospitality-software-development",title:"Hospitality software development",text:"Connect bookings with venue operations, menus, loyalty and guest experiences."},
+    {href:"/customer-portal-development",title:"Customer portal development",text:"Give customers a secure place to manage bookings, details and account activity."},
+    {href:"/api-systems-integration",title:"API & systems integration",text:"Connect booking workflows with payments, messaging and established third-party platforms."},
+  ],
+  faqs:[
+    {q:"Can you build a booking system around our existing rules?",a:"Yes. We start by modelling the rules you already use — including capacity, lead times, opening hours and exceptions — then design the software around them."},
+    {q:"Can a new booking flow integrate with an existing provider?",a:"Potentially, yes. If the provider exposes a suitable API we can design a bespoke customer experience while keeping the established booking platform as part of the underlying workflow."},
+    {q:"Can customers change or cancel bookings themselves?",a:"Yes. Self-service amendment and cancellation flows can be included where the business rules allow them, with appropriate validation and notifications."},
+    {q:"Can one system support multiple venues or locations?",a:"Yes. Multi-location models can keep location-specific hours, availability and configuration separate while giving the organisation a consistent platform and reporting layer."},
+  ],
+  contactService:"Booking system development",
+  ctaTitle:"Need a booking flow that fits the way capacity really works?",
+};
+export default function PageContent(){return <SeoLandingPage data={data}/>;}

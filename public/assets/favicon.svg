@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Kinetic Axis K">
+  <title>Kinetic Axis</title>
+  <rect x="0" y="0" width="64" height="64" rx="12" fill="#101827"/>
+  <path d="M11.5 14.0H23.4V29.1L11.5 44.2Z" fill="#FFFFFF"/>
+  <path d="M11.5 52.3 41.6 11.7H52.5L21.5 52.3Z" fill="#2265F4"/>
+  <path d="m29.7 41.9 8.2-10.5 14.6 20.9H40.7Z" fill="#FFFFFF"/>
+</svg>
