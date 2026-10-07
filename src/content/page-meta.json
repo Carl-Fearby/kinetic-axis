@@ -121,7 +121,7 @@
         "@type": "WebPage",
         "name": "Contact Kinetic Axis | Discuss Your Project",
         "url": "https://kineticaxisdigital.com/contact",
-        "description": "Contact Kinetic Axis about web design, bespoke software or app development. Call 024 7792 0471, message us via WhatsApp, email or our enquiry form.",
+        "description": "Contact Kinetic Axis about web design, bespoke software or app development. Call 07940 147 138, message us via WhatsApp, email or our enquiry form.",
         "inLanguage": "en-GB"
       }
     ]
@@ -171,10 +171,10 @@
         "logo": "https://kineticaxisdigital.com/assets/wordmark.png",
         "email": "hello@kineticaxisdigital.co.uk",
         "description": "Independent digital design and development studio led by Carl Fearby, a JavaScript and web engineer with 30+ years of hands-on experience.",
-        "telephone": "+44 24 7792 0471",
+        "telephone": "+44 7940 147 138",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+44 24 7792 0471",
+          "telephone": "+44 7940 147 138",
           "contactType": "customer enquiries",
           "availableLanguage": "English"
         },

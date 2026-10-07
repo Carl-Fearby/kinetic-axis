@@ -64,8 +64,8 @@ function ContactStrip() {
   return <div className="ka-contact-strip">
     <div className="ka-contact-strip__inner">
       <span className="ka-contact-strip__strapline">Strategic web design, development and digital products for ambitious businesses.</span>
-      <a className="ka-contact-strip__phone" href="tel:+442477920471" aria-label="Call Kinetic Axis on 024 7792 0471">
-        <PhoneIcon/><span>024 7792 0471</span>
+      <a className="ka-contact-strip__phone" href="tel:+447940147138" aria-label="Call Kinetic Axis on 07940 147 138">
+        <PhoneIcon/><span>07940 147 138</span>
       </a>
     </div>
   </div>;
