@@ -313,7 +313,7 @@ html,body{overflow-x:clip}
 .mkt-mini-proof{font-size:13px;color:#526581;line-height:1.6;margin-top:16px}
 .mkt-highlight{display:block;color:#1660e8;font-weight:750}
 .mkt-work-intro{max-width:860px}
-.mkt-work-section .mkt-workcard__img{height:255px}
+.mkt-work-section .mkt-workcard__img{height:255px}.ka-case-filters{display:flex;flex-wrap:wrap;gap:9px;margin:8px 0 7px}.ka-case-filters button{display:inline-flex;align-items:center;gap:9px;min-height:42px;padding:8px 15px;border:1px solid #334965;border-radius:999px;background:#101d2d;color:#d7e2f1;font-size:13px;font-weight:700;cursor:pointer;transition:background .18s,border-color .18s,color .18s}.ka-case-filters button:hover{border-color:#6e9fe2;color:#fff}.ka-case-filters button.is-active{border-color:#418bff;background:#164887;color:#fff}.ka-case-filters button:focus-visible{outline:3px solid #8db8ff;outline-offset:3px}.ka-case-filters button span{display:grid;place-items:center;min-width:21px;height:21px;border-radius:50%;background:#ffffff20;font-size:11px}.ka-case-filters__count{margin:0 0 15px;color:#aebdd1;font-size:13px}.mkt-workcard[data-ka-case-card][hidden]{display:none}
 .mkt-article{font-size:16px;line-height:1.73;color:#53637b}
 .mkt-article h2{font-size:29px;margin-bottom:12px;color:#1b2b40}
 .mkt-service-list .mkt-card{min-height:255px}

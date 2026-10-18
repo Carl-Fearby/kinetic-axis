@@ -22,7 +22,7 @@ export default function NotFound() {
       <div className="ka-not-found__inner">
         <span>404 / WRONG AXIS</span>
         <h1>This route doesn&apos;t lead anywhere useful.</h1>
-        <p>The page may have moved, the address may be incomplete, or Apple may have walked across the keyboard again.</p>
+        <p>The page may have moved, the address may be incomplete, or Apple (the Studio Cat) may have walked across the keyboard again.</p>
         <div className="ka-not-found__actions">
           <Link href="/" className="mkt-btn">Back to the homepage</Link>
           <Link href="/services" className="mkt-btn mkt-btn--outline">Explore services</Link>

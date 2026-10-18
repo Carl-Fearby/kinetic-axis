@@ -3,7 +3,7 @@ import http from 'node:http';import fs from 'node:fs';import path from 'node:pat
 const root=path.resolve(import.meta.dirname,'../out');
 if(!fs.existsSync(root)){console.error('Run npm run build first.');process.exit(1)}
 const port=Number(process.env.PORT||4300);
-const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.webmanifest':'application/manifest+json','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.ico':'image/x-icon','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8','.woff2':'font/woff2'};
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.webmanifest':'application/manifest+json','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.ico':'image/x-icon','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8','.vtt':'text/vtt; charset=utf-8','.woff2':'font/woff2'};
 http.createServer((request,response)=>{
   let uri;
   try {uri=decodeURIComponent(new URL(request.url||'/',`http://localhost:${port}`).pathname)}
@@ -17,7 +17,13 @@ http.createServer((request,response)=>{
   const name=uri==='/'?'/index.html':uri;
   let file=path.resolve(root,'.'+name);
   if(!file.startsWith(root+path.sep)){response.writeHead(403).end('Forbidden');return}
-  if(!fs.existsSync(file)&&!path.extname(file))file+='.html';
+  // Next's export emits a directory beside each page (out/news/ holds RSC flight
+  // data while out/news.html is the page). When the bare path is a directory,
+  // the page lives in the sibling .html file, so prefer that before appending.
+  const stat=file=>{try{return fs.statSync(file)}catch{return null}};
+  const asFile=stat(file);
+  if(asFile && asFile.isDirectory() && stat(file+'.html')?.isFile())file+='.html';
+  else if(!asFile && !path.extname(file) && stat(file+'.html')?.isFile())file+='.html';
   if(fs.existsSync(file) && fs.statSync(file).isFile()){
     response.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});
     fs.createReadStream(file).pipe(response);return;

@@ -64,8 +64,8 @@ function ContactStrip() {
   return <div className="ka-contact-strip">
     <div className="ka-contact-strip__inner">
       <span className="ka-contact-strip__strapline">Strategic web design, development and digital products for ambitious businesses.</span>
-      <a className="ka-contact-strip__phone" href="tel:+447940147138" aria-label="Call Kinetic Axis on 07940 147 138">
-        <PhoneIcon/><span>07940 147 138</span>
+      <a className="ka-contact-strip__phone" href="tel:+447971639927" aria-label="Call Kinetic Axis on 07971 639927">
+        <PhoneIcon/><span>07971 639927</span>
       </a>
     </div>
   </div>;
@@ -127,12 +127,14 @@ export function SiteHeader({ pageKey, project = false }: {pageKey:string; projec
   const solutionsSelected = pageKey==='solutions' || solutionLinks.some(path => path.slice(1)===pageKey);
   const insightsSelected = pageKey==='insights' || pageKey.startsWith('insights/');
   const experimentsSelected = pageKey==='experiments' || pageKey.startsWith('experiments/');
+  const newsSelected = pageKey==='news' || pageKey.startsWith('news/');
   const fluidSelected = pageKey==='experiments/fluid-dynamics';
   const nav = <>
     <NavLink to="/work" active={pageKey==='work'} className={project ? 'ka-section-current' : undefined}>Our work</NavLink>
     <ServiceMenu selected={servicesSelected} current={pageKey==='services'} />
     <NavLink to="/solutions" active={pageKey==='solutions'} className={solutionsSelected && pageKey!=='solutions' ? 'ka-section-current' : undefined}>Solutions</NavLink>
     <NavLink to="/insights" active={pageKey==='insights'} className={insightsSelected && pageKey!=='insights' ? 'ka-section-current' : undefined}>Insights</NavLink>
+    <NavLink to="/news" active={newsSelected && pageKey!=='news'}>News</NavLink>
     <NavLink to="/approach" active={pageKey==='approach'}>Our approach</NavLink>
     <NavLink to="/studio" active={pageKey==='studio'} className={pageKey==='experience' ? 'ka-section-current' : undefined}>The studio</NavLink>
     <ExperimentMenu selected={experimentsSelected} current={pageKey==='experiments'} fluidSelected={fluidSelected} />

@@ -6,6 +6,8 @@ const workLinks = [
   ['/projects/ebuygum', 'eBuyGum'],
   ['/projects/opus', 'OPUS React'],
   ['/projects/vx27', 'VX-27'],
+  ['/projects/veyra', 'Veyra'],
+  ['/projects/emberlyn', 'Emberlyn'],
 ] as const;
 
 const serviceLinks = [
@@ -93,7 +95,7 @@ export function SiteFooter() {
 
           <div className="ka-footer-v1__contact">
             <a href="mailto:hello@kineticaxisdigital.co.uk"><span className="ka-footer-v1__contact-icon"><MailIcon /></span><span>hello@kineticaxisdigital.co.uk</span></a>
-            <a href="tel:+447940147138"><span className="ka-footer-v1__contact-icon"><PhoneIcon /></span><span>07940 147 138</span></a>
+            <a href="tel:+447971639927"><span className="ka-footer-v1__contact-icon"><PhoneIcon /></span><span>07971 639927</span></a>
           </div>
 
           <div className="ka-footer-v1__socials" aria-label="Social media">

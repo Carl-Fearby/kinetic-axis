@@ -5,6 +5,7 @@ import { ExperienceAuthority } from './ExperienceAuthority';
 import { ClientConfidence } from './ClientConfidence';
 import { ConversationCTA } from './ConversationCTA';
 import { mergeCommercialFaqs } from '../content/commercial-faqs';
+import { optimizedImage } from '../lib/optimized-images';
 
 type Item = {title:string; text:string};
 type FAQ = {q:string; a:string};
@@ -52,7 +53,11 @@ export function CapabilityServicePage({data}:{data:CapabilityPageData}){
 
     <section className="mkt-section mkt-section--dark"><div className="mkt-wrap"><div className="mkt-sectionhead"><div><div className="mkt-kicker">HOW WE APPROACH IT</div><h2>Clarity before complexity.</h2></div><p>We reduce risk by understanding the workflow first, then designing and engineering the right level of solution.</p></div><div className="mkt-process">{data.process.map((item,i)=><article className="mkt-phase" key={item.title}><span>0{i+1}</span><h3>{item.title}</h3><p>{item.text}</p></article>)}</div></div></section>
 
-    <section className="mkt-section"><div className="mkt-wrap"><div className="mkt-sectionhead"><div><div className="mkt-kicker">RELEVANT WORK</div><h2>Products that connect the pieces.</h2></div><p>Selected projects showing product design, operational tooling, reusable systems and connected experiences.</p></div><div className="mkt-grid">{data.projects.map(p=><Link href={p.href} className="mkt-workcard" key={p.href}><span className="mkt-workcard__img"><img alt={p.alt} height={277} loading="lazy" decoding="async" src={p.image} width={450}/></span><span className="mkt-workcard__body"><small>{p.eyebrow}</small><strong>{p.title}</strong><span>{p.text}</span></span></Link>)}</div></div></section>
+    <section className="mkt-section"><div className="mkt-wrap"><div className="mkt-sectionhead"><div><div className="mkt-kicker">RELEVANT WORK</div><h2>Products that connect the pieces.</h2></div><p>Selected projects showing product design, operational tooling, reusable systems and connected experiences.</p></div><div className="mkt-grid">{data.projects.map(p=>{
+            // mkt-grid columns: 3-up (≤33vw) below 800px, 2-up (≤50vw) below 560px, full width on phones.
+            const image = optimizedImage(p.image, '(max-width:560px) 90vw, (max-width:800px) 50vw, 32vw');
+            return <Link href={p.href} className="mkt-workcard" key={p.href}><span className="mkt-workcard__img"><img alt={p.alt} height={277} loading="lazy" decoding="async" src={image.src} srcSet={image.srcSet} sizes={image.sizes} width={450}/></span><span className="mkt-workcard__body"><small>{p.eyebrow}</small><strong>{p.title}</strong><span>{p.text}</span></span></Link>;
+          })}</div></div></section>
 
     {data.related?.length ? <section className="mkt-section"><div className="mkt-wrap"><div className="mkt-sectionhead"><div><div className="mkt-kicker">RELATED SOLUTIONS</div><h2>Explore the problem from another angle.</h2></div><p>Focused solution pages for common product and operational needs connected to this service.</p></div><div className="mkt-grid">{data.related.map(item=><Link href={item.href} className="mkt-card" key={item.href}><span className="mkt-num">EXPLORE</span><h3>{item.title}</h3><p>{item.text}</p><span className="mkt-textlink">View solution <Arrow/></span></Link>)}</div></div></section> : null}
 

@@ -46,7 +46,8 @@ const groupFor = key => {
   if (key.startsWith('projects/')) return 'Work';
   if (key.startsWith('insights/')) return 'Insights';
   if (key.startsWith('experiments/')) return 'Experiments';
-  if (['services','solutions','insights','work','approach','project-planner','project-estimator','studio','experience','contact','experiments'].includes(key)) return 'Core';
+  if (key.startsWith('news/')) return 'News';
+  if (['services','solutions','insights','work','approach','project-planner','project-estimator','studio','experience','contact','experiments','news'].includes(key)) return 'Core';
   if (['privacy','terms','cookies','legal','accessibility','sitemap'].includes(key)) return 'Information';
   return 'Services & solutions';
 };

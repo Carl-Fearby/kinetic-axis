@@ -509,6 +509,85 @@ export function SiteRuntime({ pageKey }: { pageKey: string }) {
         cleanup.push(()=>form.removeEventListener('submit',submit));
       }
     }
+    // Case-study filters keep discovery lightweight and fully usable without a framework-level state store.
+    const caseFilterGroup=document.querySelector<HTMLElement>('[data-ka-case-filters]');
+    if (caseFilterGroup) {
+      const caseCards=[...document.querySelectorAll<HTMLElement>('[data-ka-case-card]')];
+      const countLabel=document.querySelector<HTMLElement>('[data-ka-case-filter-count]');
+      const filterButtons=[...caseFilterGroup.querySelectorAll<HTMLButtonElement>('[data-ka-case-filter]')];
+      const applyCaseFilter=(button:HTMLButtonElement)=>{
+        const selected=button.dataset.kaCaseFilter?.split(/\s+/).filter(Boolean) || ['all'];
+        let visible=0;
+        for (const card of caseCards) {
+          const tags=card.dataset.kaCaseTags?.split(/\s+/) || [];
+          const show=selected.includes('all') || selected.some(tag=>tags.includes(tag));
+          card.hidden=!show;
+          if (show) {visible++;card.classList.add('ka-is-visible');}
+        }
+        for (const item of filterButtons) {
+          const active=item===button;
+          item.classList.toggle('is-active',active);
+          item.setAttribute('aria-pressed',String(active));
+        }
+        if (countLabel) countLabel.textContent=`Showing ${selected.includes('all')?'all':visible} ${visible===1?'case study':'case studies'}`;
+      };
+      for (const button of filterButtons) {
+        const onClick=()=>applyCaseFilter(button);
+        button.addEventListener('click',onClick);
+        cleanup.push(()=>button.removeEventListener('click',onClick));
+      }
+    }
+
+    // Homepage advert lightbox. The video keeps a data-src until the first
+    // open, so no media bytes are downloaded during normal page views.
+    const adDialog=document.getElementById('ka-advert-dialog');
+    const adTrigger=document.querySelector<HTMLButtonElement>('[data-ka-ad-open]');
+    const adVideo=adDialog?.querySelector<HTMLVideoElement>('video');
+    if (adDialog && adTrigger) {
+      let adReturnFocus:HTMLElement|null=null;
+      const adClose=()=>{
+        if (adDialog.hidden) return;
+        adDialog.hidden=true;
+        adVideo?.pause();
+        document.documentElement.classList.remove('ka-ad-open');
+        emit('ka_ad_close');
+        const target=adReturnFocus;adReturnFocus=null;
+        if (target && document.contains(target)) target.focus();
+      };
+      const adOpen=()=>{
+        adReturnFocus=document.activeElement instanceof HTMLElement ? document.activeElement : null;
+        if (adVideo) {
+          if (!adVideo.getAttribute('src') && adVideo.dataset.src) adVideo.setAttribute('src',adVideo.dataset.src);
+          // Every open starts the advert from the beginning and plays it.
+          try { adVideo.currentTime=0; } catch {}
+          const playback=adVideo.play();
+          if (playback && typeof playback.catch==='function') playback.catch(()=>{});
+        }
+        adDialog.hidden=false;
+        document.documentElement.classList.add('ka-ad-open');
+        emit('ka_ad_open');
+        adDialog.querySelector<HTMLElement>('.ka-video-lightbox__close')?.focus();
+      };
+      adTrigger.addEventListener('click',adOpen);
+      cleanup.push(()=>adTrigger.removeEventListener('click',adOpen));
+      adDialog.querySelectorAll<HTMLElement>('[data-ka-ad-close]').forEach(el=>{
+        el.addEventListener('click',adClose);
+        cleanup.push(()=>el.removeEventListener('click',adClose));
+      });
+      listen(document,'keydown',(event:KeyboardEvent)=>{
+        if (adDialog.hidden) return;
+        if (event.key==='Escape') { event.preventDefault(); adClose(); return; }
+        if (event.key==='Tab') {
+          const items=[...adDialog.querySelectorAll<HTMLElement>('button, video[controls], a[href]')];
+          if (!items.length) return;
+          const first=items[0] as HTMLElement, last=items[items.length-1] as HTMLElement;
+          const active=document.activeElement;
+          if (event.shiftKey && (active===first || !adDialog.contains(active))) { event.preventDefault(); last.focus(); }
+          else if (!event.shiftKey && (active===last || !adDialog.contains(active))) { event.preventDefault(); first.focus(); }
+        }
+      });
+    }
+
     document.querySelectorAll<HTMLElement>('#year').forEach(x=>x.textContent=String(new Date().getFullYear()));
     cleanup.push(initPageMotion());
     return ()=>cleanup.reverse().forEach(fn=>fn());

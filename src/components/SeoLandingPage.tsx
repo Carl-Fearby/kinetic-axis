@@ -5,6 +5,7 @@ import { ExperienceAuthority } from './ExperienceAuthority';
 import { ClientConfidence } from './ClientConfidence';
 import { ConversationCTA } from './ConversationCTA';
 import { mergeCommercialFaqs } from '../content/commercial-faqs';
+import { optimizedImage } from '../lib/optimized-images';
 
 type Card = {title:string; text:string};
 type FAQ = {q:string; a:string};
@@ -143,10 +144,14 @@ export function SeoLandingPage({data}:{data:SeoLandingPageData}){
           <div className="mkt-kicker">RELEVANT WORK</div><h2>Experience behind the recommendation.</h2>
         </div><p>Selected work showing the same kind of product, workflow or platform thinking in practice.</p></div>
         <div className="mkt-grid mkt-grid--two">
-          {data.projects.map(p=><Link href={p.href} className="mkt-workcard" key={p.href}>
-            <span className="mkt-workcard__img"><img alt={p.alt} height={277} loading="lazy" decoding="async" src={p.image} width={450}/></span>
+          {data.projects.map(p=>{
+            // mkt-grid--two columns: 2-up (≤50vw) below 560px, full width on phones.
+            const image = optimizedImage(p.image, '(max-width:560px) 90vw, 50vw');
+            return <Link href={p.href} className="mkt-workcard" key={p.href}>
+            <span className="mkt-workcard__img"><img alt={p.alt} height={277} loading="lazy" decoding="async" src={image.src} srcSet={image.srcSet} sizes={image.sizes} width={450}/></span>
             <span className="mkt-workcard__body"><small>{p.eyebrow}</small><strong>{p.title}</strong><span>{p.text}</span></span>
-          </Link>)}
+          </Link>;
+          })}
         </div>
       </div>
     </section> : null}

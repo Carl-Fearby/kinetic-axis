@@ -121,7 +121,7 @@
         "@type": "WebPage",
         "name": "Contact Kinetic Axis | Discuss Your Project",
         "url": "https://kineticaxisdigital.com/contact",
-        "description": "Contact Kinetic Axis about web design, bespoke software or app development. Call 07940 147 138, message us via WhatsApp, email or our enquiry form.",
+        "description": "Contact Kinetic Axis about web design, bespoke software or app development. Call 07971 639927, message us via WhatsApp, email or our enquiry form.",
         "inLanguage": "en-GB"
       }
     ]
@@ -171,10 +171,10 @@
         "logo": "https://kineticaxisdigital.com/assets/wordmark.png",
         "email": "hello@kineticaxisdigital.co.uk",
         "description": "Independent digital design and development studio led by Carl Fearby, a JavaScript and web engineer with 30+ years of hands-on experience.",
-        "telephone": "+44 7940 147 138",
+        "telephone": "+44 7971 639927",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+44 7940 147 138",
+          "telephone": "+44 7971 639927",
           "contactType": "customer enquiries",
           "availableLanguage": "English"
         },
@@ -5385,6 +5385,864 @@
             "item": "https://kineticaxisdigital.com/web-design-software-solihull"
           }
         ]
+      }
+    ]
+  },
+  "news": {
+    "key": "news",
+    "title": "Studio News and Updates | Kinetic Axis",
+    "description": "Studio news from Kinetic Axis: client partnerships, delivered growth plans, launches and engineering updates across the Warwickshire digital studio.",
+    "canonical": "https://kineticaxisdigital.com/news",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis studio news and updates",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Studio News and Updates | Kinetic Axis",
+        "url": "https://kineticaxisdigital.com/news",
+        "description": "Studio news from Kinetic Axis: client partnerships, delivered growth plans, launches and engineering updates across the Warwickshire digital studio.",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/cemex-uk-maintenance-partnership": {
+    "key": "news/cemex-uk-maintenance-partnership",
+    "title": "CEMEX UK Web Maintenance Partner | Kinetic Axis",
+    "description": "Ongoing web maintenance partnership with CEMEX UK: updates, performance and continuity work for a national construction materials brand.",
+    "canonical": "https://kineticaxisdigital.com/news/cemex-uk-maintenance-partnership",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — ongoing web maintenance for CEMEX UK",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Keeping national sites healthy",
+        "description": "Ongoing web maintenance partnership with CEMEX UK: updates, performance and continuity work for a national construction materials brand.",
+        "url": "https://kineticaxisdigital.com/news/cemex-uk-maintenance-partnership",
+        "datePublished": "2026-10-17",
+        "dateModified": "2026-10-17",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/seo-growth-plan-heart-of-england": {
+    "key": "news/seo-growth-plan-heart-of-england",
+    "title": "SEO and Growth Plan for Heart of England | Kinetic Axis",
+    "description": "A full SEO and growth plan delivered to the Heart of England web team, alongside a restaurant booking and ordering app proposal under evaluation.",
+    "canonical": "https://kineticaxisdigital.com/news/seo-growth-plan-heart-of-england",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — SEO and growth plan for Heart of England",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO and growth plan delivered for Heart of England",
+        "description": "A full SEO and growth plan delivered to the Heart of England web team, alongside a restaurant booking and ordering app proposal under evaluation.",
+        "url": "https://kineticaxisdigital.com/news/seo-growth-plan-heart-of-england",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-09-30",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/veyra-studio-creative-platform": {
+    "key": "news/veyra-studio-creative-platform",
+    "title": "From Concept to Creative Platform: the Veyra Story | Kinetic Axis",
+    "description": "The Veyra Studio case study: how an AI-assisted creative production platform moved from naming and branding to an interface-led web experience.",
+    "canonical": "https://kineticaxisdigital.com/news/veyra-studio-creative-platform",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — From concept to creative platform: the story behind Veyra Studio.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "From concept to creative platform: the story behind Veyra Studio",
+        "description": "The Veyra Studio case study: how an AI-assisted creative production platform moved from naming and branding to an interface-led web experience.",
+        "url": "https://kineticaxisdigital.com/news/veyra-studio-creative-platform",
+        "datePublished": "2026-10-15",
+        "dateModified": "2026-10-15",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/vx27-first-person-browser-experience": {
+    "key": "news/vx27-first-person-browser-experience",
+    "title": "A 3D First-Person Browser Experience: VX-27 | Kinetic Axis",
+    "description": "VX-27 development story: 3D environments, interactive mechanics, HUD systems and performance work for a browser-based first-person experience.",
+    "canonical": "https://kineticaxisdigital.com/news/vx27-first-person-browser-experience",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Beyond the website: building a 3D first-person experience in the browser.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Beyond the website: building a 3D first-person experience in the browser",
+        "description": "VX-27 development story: 3D environments, interactive mechanics, HUD systems and performance work for a browser-based first-person experience.",
+        "url": "https://kineticaxisdigital.com/news/vx27-first-person-browser-experience",
+        "datePublished": "2026-10-14",
+        "dateModified": "2026-10-14",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/opus-react-component-library": {
+    "key": "news/opus-react-component-library",
+    "title": "OPUS React: Building a Reusable Component Library | Kinetic Axis",
+    "description": "The OPUS React engineering story: component architecture, forms, tables, themes and TypeScript — a reusable system that keeps enterprise interfaces consistent.",
+    "canonical": "https://kineticaxisdigital.com/news/opus-react-component-library",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Why we built OPUS: creating a reusable React component library.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Why we built OPUS: creating a reusable React component library",
+        "description": "The OPUS React engineering story: component architecture, forms, tables, themes and TypeScript — a reusable system that keeps enterprise interfaces consistent.",
+        "url": "https://kineticaxisdigital.com/news/opus-react-component-library",
+        "datePublished": "2026-10-13",
+        "dateModified": "2026-10-13",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/ebuygum-modern-marketplace-design": {
+    "key": "news/ebuygum-modern-marketplace-design",
+    "title": "Designing eBuyGum: A Modern Marketplace | Kinetic Axis",
+    "description": "The eBuyGum development story: branding, category navigation, product discovery and responsive design for a modern online marketplace experience.",
+    "canonical": "https://kineticaxisdigital.com/news/ebuygum-modern-marketplace-design",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Designing eBuyGum: a modern marketplace built around simplicity.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Designing eBuyGum: a modern marketplace built around simplicity",
+        "description": "The eBuyGum development story: branding, category navigation, product discovery and responsive design for a modern online marketplace experience.",
+        "url": "https://kineticaxisdigital.com/news/ebuygum-modern-marketplace-design",
+        "datePublished": "2026-10-12",
+        "dateModified": "2026-10-12",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/pace-venues-hospitality-platform": {
+    "key": "news/pace-venues-hospitality-platform",
+    "title": "From Booking Diary to Hospitality Platform | Kinetic Axis",
+    "description": "Pace Venues engineering story: mobile apps, venue administration, booking diaries, menu management, Node.js APIs and PostgreSQL multi-tenant design.",
+    "canonical": "https://kineticaxisdigital.com/news/pace-venues-hospitality-platform",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — From booking diary to hospitality platform: engineering Pace Venues.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "From booking diary to hospitality platform: engineering Pace Venues",
+        "description": "Pace Venues engineering story: mobile apps, venue administration, booking diaries, menu management, Node.js APIs and PostgreSQL multi-tenant design.",
+        "url": "https://kineticaxisdigital.com/news/pace-venues-hospitality-platform",
+        "datePublished": "2026-10-11",
+        "dateModified": "2026-10-11",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/introducing-kinetic-axis-digital": {
+    "key": "news/introducing-kinetic-axis-digital",
+    "title": "Introducing Kinetic Axis: How the Studio Builds | Kinetic Axis",
+    "description": "Why Kinetic Axis was established: an engineering-led studio for bespoke websites, web and mobile apps, SaaS platforms and modernisation work.",
+    "canonical": "https://kineticaxisdigital.com/news/introducing-kinetic-axis-digital",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Introducing Kinetic Axis: building software that fits.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Introducing Kinetic Axis: how and why this studio builds",
+        "description": "When custom development beats off-the-shelf: licensing, extensibility, maintenance, security and ownership — plus when WordPress or SaaS wins.",
+        "url": "https://kineticaxisdigital.com/news/introducing-kinetic-axis-digital",
+        "datePublished": "2026-10-10",
+        "dateModified": "2026-10-10",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/fluid-dynamics-in-the-browser": {
+    "key": "news/fluid-dynamics-in-the-browser",
+    "title": "Exploring Fluid Dynamics in the Browser | Kinetic Axis",
+    "description": "Inside Kinetic Axis's browser-based fluid simulation experiment: real-time interaction, performance-conscious rendering and the commercial value of play.",
+    "canonical": "https://kineticaxisdigital.com/news/fluid-dynamics-in-the-browser",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Engineering interaction: exploring fluid dynamics in the browser.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Engineering interaction: exploring fluid dynamics in the browser",
+        "description": "Inside Kinetic Axis's browser-based fluid simulation experiment: real-time interaction, performance-conscious rendering and the commercial value of play.",
+        "url": "https://kineticaxisdigital.com/news/fluid-dynamics-in-the-browser",
+        "datePublished": "2026-10-15",
+        "dateModified": "2026-10-15",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/neodrop-nas-first-file-storage": {
+    "key": "news/neodrop-nas-first-file-storage",
+    "title": "NeoDrop: A NAS-First Approach to File Storage | Kinetic Axis",
+    "description": "NeoDrop concept work: NAS-backed file storage with a macOS menu-bar experience — what's implemented, what's prototyped and what the thinking demonstrates.",
+    "canonical": "https://kineticaxisdigital.com/news/neodrop-nas-first-file-storage",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — NeoDrop: exploring a NAS-first approach to file storage.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "NeoDrop: exploring a NAS-first approach to file storage",
+        "description": "NeoDrop concept work: NAS-backed file storage with a macOS menu-bar experience — what's implemented, what's prototyped and what the thinking demonstrates.",
+        "url": "https://kineticaxisdigital.com/news/neodrop-nas-first-file-storage",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/enterprise-seo-accessibility-liferay-roadmap": {
+    "key": "news/enterprise-seo-accessibility-liferay-roadmap",
+    "title": "Enterprise SEO and Accessibility Roadmaps | Kinetic Axis",
+    "description": "Turning enterprise SEO and WCAG accessibility findings into an engineering roadmap: remediation planning, effort estimates and prioritisation by impact.",
+    "canonical": "https://kineticaxisdigital.com/news/enterprise-seo-accessibility-liferay-roadmap",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Beyond the audit: turning SEO and accessibility findings into an engineering roadmap.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Beyond the audit: turning SEO and accessibility findings into an engineering roadmap",
+        "description": "Turning enterprise SEO and WCAG accessibility findings into an engineering roadmap: remediation planning, effort estimates and prioritisation by impact.",
+        "url": "https://kineticaxisdigital.com/news/enterprise-seo-accessibility-liferay-roadmap",
+        "datePublished": "2026-10-05",
+        "dateModified": "2026-10-05",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/connecting-technical-seo-digital-growth": {
+    "key": "news/connecting-technical-seo-digital-growth",
+    "title": "Connecting Technical SEO with Digital Growth | Kinetic Axis",
+    "description": "How businesses benefit from combining technical SEO analysis with a prioritised improvement roadmap — growth planning informed by engineering reality.",
+    "canonical": "https://kineticaxisdigital.com/news/connecting-technical-seo-digital-growth",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Connecting technical SEO with real digital growth.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Connecting technical SEO with real digital growth",
+        "description": "How businesses benefit from combining technical SEO analysis with a prioritised improvement roadmap — growth planning informed by engineering reality.",
+        "url": "https://kineticaxisdigital.com/news/connecting-technical-seo-digital-growth",
+        "datePublished": "2026-10-04",
+        "dateModified": "2026-10-04",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/ai-accelerated-software-development": {
+    "key": "news/ai-accelerated-software-development",
+    "title": "AI-Accelerated Development Without Lost Quality | Kinetic Axis",
+    "description": "Practical AI-assisted software development: scaffolding, testing, debugging and review workflows that accelerate experienced engineers — not replace them.",
+    "canonical": "https://kineticaxisdigital.com/news/ai-accelerated-software-development",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — How we use AI to accelerate software development without losing quality.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How we use AI to accelerate software development without losing quality",
+        "description": "Practical AI-assisted software development: scaffolding, testing, debugging and review workflows that accelerate experienced engineers — not replace them.",
+        "url": "https://kineticaxisdigital.com/news/ai-accelerated-software-development",
+        "datePublished": "2026-10-03",
+        "dateModified": "2026-10-03",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/bespoke-software-vs-off-the-shelf": {
+    "key": "news/bespoke-software-vs-off-the-shelf",
+    "title": "Signs You've Outgrown Off-the-Shelf Software | Kinetic Axis",
+    "description": "Duplicate data entry, spreadsheet middle-brains and workarounds: the five signals you've outgrown off-the-shelf software.",
+    "canonical": "https://kineticaxisdigital.com/news/bespoke-software-vs-off-the-shelf",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Five signs you've outgrown off-the-shelf software",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Five signs you've outgrown off-the-shelf software",
+        "description": "Duplicate data entry, spreadsheet middle-brains and workarounds: the five signals you've outgrown off-the-shelf software.",
+        "url": "https://kineticaxisdigital.com/news/bespoke-software-vs-off-the-shelf",
+        "datePublished": "2026-10-02",
+        "dateModified": "2026-10-02",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/accessibility-performance-seo-together": {
+    "key": "news/accessibility-performance-seo-together",
+    "title": "Accessibility, Performance and SEO Together | Kinetic Axis",
+    "description": "Why semantic HTML, WCAG, Core Web Vitals and responsive design are one engineering discipline — accessibility, performance and SEO built together, not bolted on.",
+    "canonical": "https://kineticaxisdigital.com/news/accessibility-performance-seo-together",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Accessibility, performance and SEO should be engineered together.",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Accessibility, performance and SEO should be engineered together",
+        "description": "Why semantic HTML, WCAG, Core Web Vitals and responsive design are one engineering discipline — accessibility, performance and SEO built together, not bolted on.",
+        "url": "https://kineticaxisdigital.com/news/accessibility-performance-seo-together",
+        "datePublished": "2026-10-01",
+        "dateModified": "2026-10-01",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/category/company": {
+    "key": "news/category/company",
+    "title": "Company News — News | Kinetic Axis",
+    "description": "Company News news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+    "canonical": "https://kineticaxisdigital.com/news/category/company",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Company News news",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Company News",
+        "description": "Company News news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+        "url": "https://kineticaxisdigital.com/news/category/company",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/category/engineering": {
+    "key": "news/category/engineering",
+    "title": "Engineering & Technology — News | Kinetic Axis",
+    "description": "Engineering & Technology news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+    "canonical": "https://kineticaxisdigital.com/news/category/engineering",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Engineering & Technology news",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Engineering & Technology",
+        "description": "Engineering & Technology news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+        "url": "https://kineticaxisdigital.com/news/category/engineering",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/category/ai": {
+    "key": "news/category/ai",
+    "title": "AI & Innovation — News | Kinetic Axis",
+    "description": "AI & Innovation news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+    "canonical": "https://kineticaxisdigital.com/news/category/ai",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — AI & Innovation news",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI & Innovation",
+        "description": "AI & Innovation news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+        "url": "https://kineticaxisdigital.com/news/category/ai",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/category/projects": {
+    "key": "news/category/projects",
+    "title": "Projects & Case Studies — News | Kinetic Axis",
+    "description": "Projects & Case Studies news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+    "canonical": "https://kineticaxisdigital.com/news/category/projects",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Projects & Case Studies news",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Projects & Case Studies",
+        "description": "Projects & Case Studies news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+        "url": "https://kineticaxisdigital.com/news/category/projects",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/category/strategy": {
+    "key": "news/category/strategy",
+    "title": "Digital Strategy — News | Kinetic Axis",
+    "description": "Digital Strategy news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+    "canonical": "https://kineticaxisdigital.com/news/category/strategy",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Digital Strategy news",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Digital Strategy",
+        "description": "Digital Strategy news from Kinetic Axis: delivered projects, engineering practice and consultancy thinking behind the studio's client work.",
+        "url": "https://kineticaxisdigital.com/news/category/strategy",
+        "inLanguage": "en-GB"
+      }
+    ]
+  },
+  "news/chatgpt-research-partner": {
+    "key": "news/chatgpt-research-partner",
+    "title": "ChatGPT for software research and planning",
+    "description": "How we use ChatGPT to pressure-test ideas, compare technical approaches and turn loose client briefs into buildable plans.",
+    "canonical": "https://kineticaxisdigital.com/news/chatgpt-research-partner",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — ChatGPT as a research partner: how we plan software before we build it",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "ChatGPT as a research partner: how we plan software before we build it",
+        "description": "How we use ChatGPT to pressure-test ideas, compare technical approaches and turn loose client briefs into buildable plans.",
+        "url": "https://kineticaxisdigital.com/news/chatgpt-research-partner",
+        "datePublished": "2025-04-14",
+        "dateModified": "2025-04-14",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/codex-development-loop": {
+    "key": "news/codex-development-loop",
+    "title": "Using OpenAI Codex in our development loop",
+    "description": "What we have learned delegating well-scoped tasks to OpenAI's Codex agent — and why the review step is where the real engineering happens.",
+    "canonical": "https://kineticaxisdigital.com/news/codex-development-loop",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Codex in the build loop: where an AI coding agent earns its place",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Codex in the build loop: where an AI coding agent earns its place",
+        "description": "What we have learned delegating well-scoped tasks to OpenAI's Codex agent — and why the review step is where the real engineering happens.",
+        "url": "https://kineticaxisdigital.com/news/codex-development-loop",
+        "datePublished": "2025-09-19",
+        "dateModified": "2025-09-19",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/opencode-open-agent-stack": {
+    "key": "news/opencode-open-agent-stack",
+    "title": "Why we build with OpenCode, an open-source agent",
+    "description": "Open-source terminal coding agents such as OpenCode put the AI workflow in your hands rather than a vendor's. Our experience so far.",
+    "canonical": "https://kineticaxisdigital.com/news/opencode-open-agent-stack",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Building on open agents: what OpenCode changes about tool ownership",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Building on open agents: what OpenCode changes about tool ownership",
+        "description": "Open-source terminal coding agents such as OpenCode put the AI workflow in your hands rather than a vendor's. Our experience so far.",
+        "url": "https://kineticaxisdigital.com/news/opencode-open-agent-stack",
+        "datePublished": "2026-02-24",
+        "dateModified": "2026-02-24",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/freebuff-free-coding-agents": {
+    "key": "news/freebuff-free-coding-agents",
+    "title": "Freebuff and the rise of free AI coding agents",
+    "description": "Freebuff funds a full CLI coding agent with ads instead of a subscription. We have been trying it, and it tells us something about where agent pricing is heading.",
+    "canonical": "https://kineticaxisdigital.com/news/freebuff-free-coding-agents",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Freebuff and the rise of the free coding agent",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Freebuff and the rise of the free coding agent",
+        "description": "Freebuff funds a full CLI coding agent with ads instead of a subscription. We have been trying it, and it tells us something about where agent pricing is heading.",
+        "url": "https://kineticaxisdigital.com/news/freebuff-free-coding-agents",
+        "datePublished": "2026-09-18",
+        "dateModified": "2026-09-18",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/ai-toolkit-honest-review": {
+    "key": "news/ai-toolkit-honest-review",
+    "title": "Our AI coding toolkit, 18 months in: honest scoreboard",
+    "description": "Copilot, Codex, ChatGPT, Cursor, OpenCode and Freebuff after 18 months of daily studio use — what each is actually like, and what it does to your bill.",
+    "canonical": "https://kineticaxisdigital.com/news/ai-toolkit-honest-review",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — Our AI coding toolkit, 18 months in: the honest scoreboard",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Our AI coding toolkit, 18 months in: the honest scoreboard",
+        "description": "Copilot, Codex, ChatGPT, Cursor, OpenCode and Freebuff after 18 months of daily studio use — what each is actually like, and what it does to your bill.",
+        "url": "https://kineticaxisdigital.com/news/ai-toolkit-honest-review",
+        "datePublished": "2026-10-16",
+        "dateModified": "2026-10-16",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
+      }
+    ]
+  },
+  "news/artcraft-vs-adobe-studio-move": {
+    "key": "news/artcraft-vs-adobe-studio-move",
+    "title": "ArtCraft vs Adobe: why we moved",
+    "description": "We moved our design work from Adobe's subscription to ArtCraft's free open-source suite. What works, what is rough, and who should still think twice.",
+    "canonical": "https://kineticaxisdigital.com/news/artcraft-vs-adobe-studio-move",
+    "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg",
+    "imageAlt": "Kinetic Axis — ArtCraft vs Adobe: why this studio moved",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "news-story-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "ArtCraft vs Adobe: why this studio moved",
+        "description": "We moved our design work from Adobe's subscription to ArtCraft's free open-source suite. What works, what is rough, and who should still think twice.",
+        "url": "https://kineticaxisdigital.com/news/artcraft-vs-adobe-studio-move",
+        "datePublished": "2026-10-17",
+        "dateModified": "2026-10-17",
+        "inLanguage": "en-GB",
+        "author": {
+          "@id": "https://kineticaxisdigital.com/#carl-fearby"
+        },
+        "publisher": {
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
       }
     ]
   }

@@ -1,0 +1,1939 @@
+{
+  "items": [
+    {
+      "date": "2026-10-17",
+      "slug": "cemex-uk-maintenance-partnership",
+      "category": "company",
+      "tags": [
+        "Clients",
+        "Maintenance",
+        "Performance"
+      ],
+      "title": "Keeping national sites healthy.",
+      "logo": "/assets/client-logos/cemex.png",
+      "logoAlt": "CEMEX brand mark",
+      "image": "/assets/studio-workflow.webp",
+      "imageAlt": "Studio workflow visual — ongoing platform support in practice.",
+      "snippet": "An ongoing maintenance partnership with CEMEX UK — continuity, updates and performance work for a national construction materials brand.",
+      "seoTitle": "CEMEX UK Web Maintenance Partner | Kinetic Axis",
+      "seoDescription": "Ongoing web maintenance partnership with CEMEX UK: updates, performance and continuity work for a national construction materials brand.",
+      "services": [
+        {
+          "label": "Ongoing website support",
+          "href": "/web-design"
+        },
+        {
+          "label": "Performance engineering",
+          "href": "/web-app-development"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Continuity as a service.",
+          "paragraphs": [
+            "Kinetic Axis has agreed an ongoing maintenance partnership with CEMEX UK, supporting the day-to-day health of the company's web presence: updates, performance and continuity work that rarely makes headlines but keeps a national brand dependable online."
+          ]
+        },
+        {
+          "heading": "The same care at any scale.",
+          "paragraphs": [
+            "It's the same kind of ongoing care the studio gives smaller clients, extended to an organisation where uptime isn't optional. Standing alongside an existing client list that already includes Virgin Media, O2, TCS and the Open University, the arrangement shows that the studio's approach holds up at any scale — and it's now a standing offer to businesses that need their sites looked after, not just built."
+          ]
+        },
+        {
+          "heading": "What a maintenance partnership actually covers.",
+          "paragraphs": [
+            "The shape of this kind of partnership is deliberately unspectacular: keep the estate current, keep it safe and keep it fast. Security patching on a sensible cadence, dependency updates that are tested rather than hoped for, monitoring that notices problems before visitors do, and a steady flow of small changes — copy, imagery, seasonal content — handled without a project kickoff for each one.",
+            "What organisations get in return is continuity. The people maintaining the site know its history, its shortcuts and its quirks, so changes stay consistent with what is already there instead of quietly papering over it."
+          ]
+        },
+        {
+          "heading": "Why the big ones still need it.",
+          "paragraphs": [
+            "There is a fair question in why a national business needs outside help for its own website, and the answer is focus. An internal team has its real job to do; the website is one of many systems it keeps alive. Web work of this kind is a discipline of small, constant decisions — and it deserves owners who make those decisions every day rather than between other priorities.",
+            "That is the logic of the arrangement: we hold the fort on the website while their teams hold their own. The site gets daily-grade attention; the client gets a partner who treats upkeep as the product rather than the interruption."
+          ]
+        },
+        {
+          "heading": "Why continuity beats a rebuild.",
+          "paragraphs": [
+            "A recurring temptation with an ageing site is to start over. The maintenance view argues the opposite: every year of accumulated knowledge about the site — which template carries what weight, why a module behaves the way it does, which historical decisions are load-bearing — is exactly what a rebuild throws away. Continuity compounds; starting over resets everything to zero.",
+            "So the preference, whenever the foundations allow it, is steady improvement on firm ground over periodic revolution. Changes arrive reviewed, reversible and documented, which keeps the estate increasingly predictable rather than increasingly alien to the team that will maintain it next."
+          ]
+        },
+        {
+          "heading": "The rhythm, in practice.",
+          "paragraphs": [
+            "A maintenance cadence has a satisfying shape when it beds in: content changes flowing through without ceremony, patching on a predictable window rather than a reactive panic, and a periodic review that steps back from the daily churn to ask whether the site is still pulling its weight in search and speed.",
+            "The quiet advantage of rhythm is momentum. Small improvements scheduled regularly accumulate into something a single grand redesign rarely matches, because every change lands on a site somebody has just been looking after."
+          ]
+        },
+        {
+          "heading": "How we do the same work elsewhere.",
+          "paragraphs": [
+            "This partnership is the enterprise expression of how we already treat every project: the same senior team that builds a product stays responsible for it in production. There is no handover to a different team with less context, because context is the most valuable asset in maintenance work.",
+            "If your organisation has a website that has drifted into nobody's-job territory, that drift is the real cost — not the subscription, not the redesign quote. A conversation about a maintenance arrangement is a conversation about ending it."
+          ]
+        },
+        {
+          "heading": "Care at the moment it matters.",
+          "paragraphs": [
+            "Maintenance earns its renaming at the moment something breaks. A partner who already knows the site answers with a fix and an explanation; a team who has never looked at it answers with a discovery period. Platform support queues and vendor tickets are not substitutes for somebody who already has the map.",
+            "That is the value in one sentence: when the site is under pressure — a traffic spike, a platform update, a security release — the team on call no longer needs a briefing, because it was briefing itself all along."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "slug": "ai-toolkit-honest-review",
+      "category": "ai",
+      "tags": [
+        "github-copilot",
+        "codex",
+        "chatgpt",
+        "cursor",
+        "opencode",
+        "freebuff",
+        "tooling"
+      ],
+      "title": "Our AI coding toolkit, 18 months in: the honest scoreboard",
+      "date": "2026-10-15",
+      "image": "/assets/approach-process-3d.webp",
+      "imageAlt": "Abstract 3D artwork representing the studio's AI toolkit comparison",
+      "snippet": "Copilot, Codex, ChatGPT, Cursor, OpenCode and Freebuff — eighteen months of daily use, no benchmark tables, just what each one is actually like to work with and what it does to your bill.",
+      "seoTitle": "Our AI coding toolkit, 18 months in: honest scoreboard",
+      "seoDescription": "Copilot, Codex, ChatGPT, Cursor, OpenCode and Freebuff after 18 months of daily studio use — what each is actually like, and what it does to your bill.",
+      "body": [
+        {
+          "heading": "Eighteen months, six tools, no scoreboard math",
+          "paragraphs": [
+            "We have written separately about how ChatGPT reshaped our research phase, how Codex changed our build loop, why we build on OpenCode and what the arrival of Freebuff means. This piece is the one we would hand a client's developer over coffee: every tool we have used day to day since early 2025, with the opinions we would actually say out loud.",
+            "No benchmark tables. The benchmarks move every month and we do not trust ours anyway. What does not move quickly is how a tool feels when you use it daily, and how it behaves when the invoice arrives."
+          ]
+        },
+        {
+          "heading": "GitHub Copilot: great, watch the meter",
+          "paragraphs": [
+            "Our verdict on GitHub Copilot is genuinely positive and comes with one loud asterisk: it is easy to run up a big bill. The tool is excellent — the inline suggestions still feel like magic on the third day of a project, and letting it loose on test files is one of the simplest productivity wins in the industry.",
+            "The bill part is structural, not a gotcha in disguise. Per-seat pricing plus consumption-based agent spending means the cost scales with how much you use it, and the branch between “this saved us an afternoon” and “why is this line item the size of a salary” is closer than you expect. We keep it, but we watch the meter the way you watch a taxi at night."
+          ]
+        },
+        {
+          "heading": "Codex: the same shape, more rope",
+          "paragraphs": [
+            "OpenAI's Codex is the same story at a higher gear. It is a genuinely capable coding agent — our earlier piece covers how it earned its place in the build loop — and the pattern that emerged is identical to Copilot: brilliant on well-scoped tasks, and the marketing budget is the meter again.",
+            "Agents that bill by use are wonderful when your tasks are disciplined and expensive when they are not, because the failure mode is not the tool getting worse — it is the tool diligently working longer than it needed to. Scoped briefs, explicit acceptance criteria, and a human stopping rule: that is the whole trick, and it costs nothing."
+          ]
+        },
+        {
+          "heading": "ChatGPT: from convincing to collaborating",
+          "paragraphs": [
+            "Our history with ChatGPT as a coding tool started ridiculous and got good — and it started out of pure necessity. The first time we leaned on it properly was the day we ran out of Codex usage, with work open and a meter sitting at zero. ChatGPT was harder to convince: you had to argue your way into it agreeing to write code at all, and when it finally did, the solution arrived as a zip file to download and paste in. Clunky delivery by today's standards, considerably harder than the tool we had just exhausted — but it did work, and we got it to do what we needed.",
+            "That era is over, and the tool we use now is closer to the research partner we described in the first of these stories. Planning, comparison shopping between architectures, drafting the ugly first version of a spec — that is where it earns its seat, and frankly where it has always earned it best. The zip jokes write themselves in retrospect, but there is something worth remembering in them: even in its clunkiest form, the value was real."
+          ]
+        },
+        {
+          "heading": "Cursor: a deserved shout",
+          "paragraphs": [
+            "Cursor deserves its own shout, because it is the editor-native flagship that the whole category gets measured against, and for people whose comfort zone is a code editor rather than a terminal it is the most natural way into agentic work. Plenty of developers we respect run their whole day inside it.",
+            "We are a terminal-first studio, so our experimentation there is lighter than the others on this list and our opinion is correspondingly modest. What we can say without hedging: Cursor proved there is a large audience for agents that live inside the editor, and the CLI tools we prefer are all chasing the standards it set. That is influence worth acknowledging."
+          ]
+        },
+        {
+          "heading": "OpenCode: the quiet favourite",
+          "paragraphs": [
+            "OpenCode is the one that seems to be really good. There is no koan there; that is the review. It is open-source, it runs in the terminal next to our build pipeline, the configuration lives as files in our repository, and after the honeymoon period with every other tool faded, this is the one whose weekly usage has kept growing quietly.",
+            "In our earlier piece we made the ownership argument: inspectable, portable, model-agnostic. Eighteen months of the model landscape reshuffling roughly every quarter has made that argument by itself. The harness stayed put while everything around it changed, and that turns out to be the property worth paying for — or in this case, not."
+          ]
+        },
+        {
+          "heading": "Freebuff: free, and not yet metered",
+          "paragraphs": [
+            "Freebuff rounds out the set, and the practical note from months of use is disarmingly simple: we have never once run out of daily usage on the free plan. For a category where the paid tools have trained everyone to watch credits like a fuel gauge, a coding agent whose ceiling you simply have not hit is a genuinely odd experience.",
+            "Everything we said in the dedicated piece stands: ad-funded rather than subscription, so read the privacy terms properly and keep it aligned with its risk tier. But as a permanent second opinion sat next to the paid tools, and as proof that agent pricing had further to fall, it has taken a firm seat in the kit."
+          ]
+        },
+        {
+          "heading": "The scoreboard, for real",
+          "paragraphs": [
+            "So after eighteen months, if you held us to one line each: Copilot — great, watch the meter. Codex — more rope, same meter. ChatGPT — the zip era is gone, and it is now our research desk. Cursor — the editor-native benchmark, well earned. OpenCode — quietly excellent and ours. Freebuff — free, and the lid has not come off the box yet.",
+            "The honest conclusion is the one we keep returning to: the tools rotate, the meters tick, and none of it changes the quality of your output. What changes output is specification, review and ownership — the process piece we will keep banging on about. Pick the tool that fits your stack and your budget this quarter; just make sure the process is yours."
+          ]
+        }
+      ],
+      "heroFit": "contain"
+    },
+    {
+      "date": "2026-10-15",
+      "slug": "veyra-studio-creative-platform",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Creative tools",
+        "Web applications"
+      ],
+      "title": "From concept to creative platform: the story behind Veyra Studio.",
+      "project": {
+        "label": "Project activity from",
+        "text": "18 April 2026",
+        "url": "https://veyrastudio.uk",
+        "urlLabel": "Visit Veyra Studio"
+      },
+      "logo": "/assets/brand-veyra.png",
+      "logoAlt": "Veyra Studio brand mark",
+      "image": "/assets/veyra-actual-site.jpg",
+      "imageAlt": "Actual Veyra Studio homepage screenshot — planning-first creative workspace.",
+      "snippet": "How an AI-assisted creative production platform went from naming and branding in April 2026 to an interface-led web experience for planning video work before the shoot.",
+      "seoTitle": "From Concept to Creative Platform: the Veyra Story | Kinetic Axis",
+      "seoDescription": "The Veyra Studio case study: how an AI-assisted creative production platform moved from naming and branding to an interface-led web experience.",
+      "services": [
+        {
+          "label": "Web app development",
+          "href": "/web-app-development"
+        },
+        {
+          "label": "UI/UX design systems",
+          "href": "/ui-ux-design-systems"
+        },
+        {
+          "label": "Full case study",
+          "href": "/projects/veyra"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The vision.",
+          "paragraphs": [
+            "Veyra Studio is an AI-native creative workspace designed for cinematic planning — a place to take a music video, promo or visual project from idea to coherent sequence before the shoot. The premise is simple: sell the vision first, and the production follows."
+          ]
+        },
+        {
+          "heading": "The challenge.",
+          "paragraphs": [
+            "Advanced creative technology is easy to build and hard to present. The challenge was making a sophisticated workflow — visual exploration, timeline planning, audio and lyrics, style references — feel approachable through a web application, without burying the creative outcome under the tooling."
+          ]
+        },
+        {
+          "heading": "How it progressed.",
+          "paragraphs": [
+            "Work began with naming and product branding in April 2026. During May the focus moved into interface design and video-production functionality: an experience that puts what the user wants to make first, then introduces the planning and production features underneath it."
+          ]
+        },
+        {
+          "heading": "Interface as the product.",
+          "paragraphs": [
+            "The finished site leads with the creative result. A dark purple-and-cyan identity, strong imagery and clear routes into the product work together, so atmosphere never comes at the cost of practical entry points into the tools."
+          ]
+        },
+        {
+          "heading": "Designing for AI-native workflows.",
+          "paragraphs": [
+            "Most creative tools today have AI features bolted on; Veyra was designed as an AI-native platform from the start. That shows up in the workflow itself: prompts and generated frames are first-class objects you keep, compare and iterate from, rather than an appendage to a traditional timeline.",
+            "The interface treats generation as conversation — each iteration of an outcome is visible, annotated and recallable, so creative direction stays coherent instead of dissolving into a folder of near-identical exports."
+          ]
+        },
+        {
+          "heading": "Naming and identity as interface groundwork.",
+          "paragraphs": [
+            "Before any screen existed, there was studio brand craft: naming, positioning, and an identity that could stretch from a product site into the application itself. That groundwork also set the vocabulary the interface uses — the words inside the product carry the same voice as the brand outside it.",
+            "It is a detail clients often skip, and it shows: when product surface and brand speak with one voice, the tool feels considered from the first click rather than styled at the end."
+          ]
+        },
+        {
+          "heading": "From brand to product surface.",
+          "paragraphs": [
+            "A recurring risk for creative platforms is that the brand stops at the front door: the website is gorgeous, the tool inside is generic. Veyra's build treated the identity as the seed of the interface — the same voice, the same confidence, carried into the working screens — so the product is the brand rather than a place the brand visits.",
+            "That continuity shows up in small, deliberate ways: the language of the tool, the tone of its feedback, the way empty and waiting states are styled. Users read all of it, even when they never consciously notice."
+          ]
+        },
+        {
+          "heading": "Working with generative material.",
+          "paragraphs": [
+            "Generative tools produce good work and bad work with equal confidence, which makes the human role different rather than smaller: curation. Veyra's workflow is built around that reality — comparing candidates, marking directions worth pushing, discarding without guilt — so the creative director stays creative director.",
+            "The interface makes review a first-class act rather than an afterthought of scrolling through folders. Where the next generation starts is always visible: one click from the frame that earned it."
+          ]
+        },
+        {
+          "heading": "The economics this changes.",
+          "paragraphs": [
+            "The honest commercial story of AI-assisted creative production is not “more video”, it is iteration. When producing another version of a shot costs minutes rather than another production cycle, the barriers to exploring an idea properly fall away — and the work gets better because the good direction is found while it is still cheap to look for it.",
+            "A platform built for that loop is a different product category from a tool that merely generates footage. The value sits in the workflow around generation: briefs, candidates, feedback and delivery in one place, with the studio's taste applied throughout."
+          ]
+        },
+        {
+          "heading": "Where Veyra goes next.",
+          "paragraphs": [
+            "The platform continues to grow along two axes: deeper support for the production workflow it was founded to serve, and the collaboration features that creative teams of more than one person start to need the moment they begin sharing the working space.",
+            "For now, the honest summary is the one the platform's own story tells: a design-led product in an emerging category, built by a studio that believes interface craft is the moat when the underlying generation technology is available to everyone."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "For studios and creative businesses, this is what bespoke product development looks like: brand, interface and workflow designed as one thing. If your product needs to make complex technology feel effortless, the Veyra approach is one we can repeat for you."
+          ],
+          "media": {
+            "src": "/assets/veyra-actual-site.jpg",
+            "alt": "Actual Veyra Studio homepage screenshot",
+            "caption": "Actual Veyra Studio site — creative outcome first, tooling underneath."
+          }
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-14",
+      "slug": "vx27-first-person-browser-experience",
+      "category": "engineering",
+      "tags": [
+        "3D",
+        "WebGL",
+        "Interactive"
+      ],
+      "title": "Beyond the website: building a 3D first-person experience in the browser.",
+      "project": {
+        "label": "Project activity from",
+        "text": "26 May 2026",
+        "url": "https://vx-27.com",
+        "urlLabel": "Visit VX-27"
+      },
+      "logo": "/assets/brand-vx27.png",
+      "logoAlt": "VX-27 brand mark",
+      "image": "/assets/vx27-actual-site.jpg",
+      "imageAlt": "VX-27 site artwork — interactive 3D experience direction.",
+      "snippet": "How an ambitious browser-based FPS concept became a working 3D environment with interactive mechanics, HUD systems and performance-conscious rendering.",
+      "seoTitle": "A 3D First-Person Browser Experience: VX-27 | Kinetic Axis",
+      "seoDescription": "VX-27 development story: 3D environments, interactive mechanics, HUD systems and performance work for a browser-based first-person experience.",
+      "services": [
+        {
+          "label": "Interactive development",
+          "href": "/web-app-development"
+        },
+        {
+          "label": "Experiments",
+          "href": "/experiments"
+        },
+        {
+          "label": "Full case study",
+          "href": "/projects/vx27"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The browser as a game engine.",
+          "paragraphs": [
+            "VX-27 started on 26 May 2026 as an early game concept and visual identity: a first-person experience that would live entirely in the browser. No installs, no launcher — an ambitious interactive world delivered to a URL."
+          ]
+        },
+        {
+          "heading": "Building the environment.",
+          "paragraphs": [
+            "From 29 May to 1 June, development concentrated on environmental visuals and the promotional experience around them. Lighting, materials and atmosphere carried most of the identity, so the first engineering goal was a scene that looked confident on entry-level hardware."
+          ]
+        },
+        {
+          "heading": "Making it playable.",
+          "paragraphs": [
+            "Between 4 and 7 June the work moved from looking at the world to interacting with it: interactive equipment, interface systems and game mechanics. HUD elements and controls had to feel instant, which makes performance a design decision rather than a late optimisation pass."
+          ]
+        },
+        {
+          "heading": "The technical spine.",
+          "paragraphs": [
+            "Under the concept sits ordinary web engineering, applied hard: a WebGL renderer fed by a hand-tuned asset pipeline, pointer-lock input with sensible fallbacks, and a frame budget that treats every millisecond as headroom to defend. The environment is authored, optimised and then optimised again — delivery size matters as much as draw calls when the goal is instant-in-browser.",
+            "Progressive loading keeps first contact fast: the space is explorable long before the heaviest assets finish, and polish continues arriving in the background without breaking immersion."
+          ]
+        },
+        {
+          "heading": "Testing an experience like a product.",
+          "paragraphs": [
+            "An interactive experience has more ways to fail than a page, so it earned a product-grade test loop: hardware coverage across laptop and desktop tiers, input devices beyond the obvious mouse, and attention to the small stuff — resizing, tab-switching, coming back after sleep — that separates a demo from something deployable.",
+            "The outcome is a reproducible experience rather than a lucky build: open the URL and it works, the same way, every time."
+          ]
+        },
+        {
+          "heading": "Where the browser beats a native build.",
+          "paragraphs": [
+            "A first-person experience in the browser is not a compromise against a native game engine — it is a different distribution model. No install, no store page, no gatekeeping: a link that is a playable world for anyone who clicks it. For brands, that difference is the point; reach beats fidelity at every stage of the funnel.",
+            "The craft lies in spending frame budget where players feel it — motion, input response, the sense of place — and being ruthless everywhere else. What is traded away in visual extravagance comes back as the ability to say: it is running right now, on your machine, in a tab."
+          ]
+        },
+        {
+          "heading": "The craft of a believable space.",
+          "paragraphs": [
+            "Believability in a 3D environment is mostly restraint. Fewer, better-considered structures read faster than dense clutter; consistent lighting direction does more for orientation than any amount of texture; and the spaces between objects — sight lines, thresholds, cover — are where a first-person experience feels authored rather than assembled.",
+            "That environment art was built to be readable at pace. A player moving quickly through the world should still be able to read where they are, which direction they are facing and what is about to matter — an interface problem disguised as an art problem, and solved as such."
+          ]
+        },
+        {
+          "heading": "Input and responsiveness under pressure.",
+          "paragraphs": [
+            "First-person input is unforgiving. The moment between thinking about turning and the world turning is the entire product, so input latency sits at the top of the engineering stack rather than at the bottom: pointer lock for precision, direct event handling rather than framework machinery, and frame pacing treated as a feature with an owner.",
+            "When a browser or device cannot hold the target, the experience is expected to admit it gracefully — lowering internal complexity rather than stuttering — because a slightly simpler world that never stutters beats a lavish one that does."
+          ]
+        },
+        {
+          "heading": "What VX-27 changed for client work.",
+          "paragraphs": [
+            "Experiments like this reshape the advice we can give clients, because the page “is 3D in the browser practical?” now has a first-hand answer with receipts. Frame budgets, asset weight, device coverage and the honest limits of pointer-driven interaction are no longer spreadsheet estimates — they are lived numbers from a shipped build.",
+            "That is the whole logic behind the studio's Labs work: the next time a brand asks for an interactive experience that leaves competitors' sites behind, we are not promising from theory. We have already paid the tuition."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "The same techniques behind an in-browser FPS — real-time 3D, procedural objects, HUD systems, careful rendering budgets — translate directly into product configurators, virtual showrooms, training tools and data visualisation. If your product needs to feel like an experience rather than a page, this is the engineering behind it."
+          ],
+          "media": {
+            "src": "/assets/vx27-actual-site.jpg",
+            "alt": "VX-27 in-browser 3D environment",
+            "caption": "The VX-27 environment — interactive 3D running in the browser."
+          }
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-13",
+      "slug": "opus-react-component-library",
+      "category": "engineering",
+      "tags": [
+        "React",
+        "Design systems",
+        "TypeScript"
+      ],
+      "title": "Why we built OPUS: creating a reusable React component library.",
+      "project": {
+        "label": "Project activity from",
+        "text": "5 July 2026",
+        "url": "https://project-opus.netlify.app/",
+        "urlLabel": "Visit OPUS"
+      },
+      "logo": "/assets/brand-opus.webp",
+      "logoAlt": "OPUS brand mark",
+      "image": "/assets/opus-actual-site.jpg",
+      "imageAlt": "OPUS React component library site — catalogue and documentation.",
+      "snippet": "Building our own reusable React component system: architecture, accessibility, TypeScript, enterprise interfaces — and why it makes client projects faster.",
+      "seoTitle": "OPUS React: Building a Reusable Component Library | Kinetic Axis",
+      "seoDescription": "The OPUS React engineering story: component architecture, forms, tables, themes and TypeScript — a reusable system that keeps enterprise interfaces consistent.",
+      "services": [
+        {
+          "label": "Design systems",
+          "href": "/design-system-development"
+        },
+        {
+          "label": "React components",
+          "href": "/react-component-library-development"
+        },
+        {
+          "label": "Full case study",
+          "href": "/projects/opus"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Why build your own library.",
+          "paragraphs": [
+            "Every serious React project re-solves the same problems: consistent form controls, data tables, navigation, focus management, theme tokens. Solving them once, well, is cheaper than solving them ten times with three different conventions — so OPUS exists to be that solved-once system."
+          ]
+        },
+        {
+          "heading": "Architecture first.",
+          "paragraphs": [
+            "Development began on 5 July 2026 with the component catalogue: the shared foundations that every interface built on the system inherits. Components are written in TypeScript, keep accessibility behaviour inside the component itself, and stay composable enough to assemble complex, data-rich enterprise screens without bespoke one-offs."
+          ]
+        },
+        {
+          "heading": "Documentation and packaging.",
+          "paragraphs": [
+            "During July the work extended to npm package documentation and publishing, so the library can be installed rather than copied. A component library without real documentation drifts; the catalogue keeps usage, props and behaviour discoverable."
+          ]
+        },
+        {
+          "heading": "Tokens over overrides.",
+          "paragraphs": [
+            "The design decision that pays for itself daily: components accept design tokens — spacing, colour, elevation, state — rather than bespoke props for every visual exception. A one-off look is expressed as data, never as a style patch pasted onto a component that then haunts every other page using it.",
+            "That keeps the library opinionated without being inflexible, and it gives designers and developers a shared vocabulary: what is negotiable is visible and typed, and what is fixed is genuinely stability."
+          ]
+        },
+        {
+          "heading": "Accessibility as the default, not the audit.",
+          "paragraphs": [
+            "Every component ships with its accessibility contract built in — roles, focus order, keyboard affordances and announced feedback — so a team consuming the library inherits correct behaviour without expertise it may not have.",
+            "TypeScript carries the same weight: strict types make the safe path the easy path, and misuse is caught at compile time instead of in a browser console or, worse, a client review."
+          ]
+        },
+        {
+          "heading": "Why we do not chase every feature.",
+          "paragraphs": [
+            "Component libraries die by ambition: each new bespoke requirement bolts on a prop, a style variant, a behaviour flag, until every component is a config panel nobody can predict. OPUS stays deliberately small-surfaced. When a visual difference is genuinely needed, the token system absorbs it; when behaviour differs, composition is the answer — not another switch inside a box.",
+            "Restraint here is not stinginess; it is the discipline that keeps a library maintainable for years. Every feature rejected at the boundary is a bug class, a test matrix row and a documentation page that will never need to exist."
+          ]
+        },
+        {
+          "heading": "Versioning without drama.",
+          "paragraphs": [
+            "A component library only earns adoption if teams are not afraid of its version numbers. OPUS follows disciplined semantic versioning: breaking changes are rare, announced and accompanied by honest migration notes; the deprecation path is gradual rather than a cliff; and the changelog reads like a history the team actually wrote on purpose.",
+            "The effect on consuming projects is cultural. Upgrades are routine events rather than risk assessments, so projects actually upgrade — which is the difference between a living library and a fossil."
+          ]
+        },
+        {
+          "heading": "The test suite that keeps promises.",
+          "paragraphs": [
+            "The component suite runs tests that check the things that matter most silently: rendering paths, interaction behaviour, focus management and announced states. Those assertions are why the accessibility contract survives refactors — the suite notices when a change breaks the contract.",
+            "Team members joining a project inherit components they can trust without reading their source. That is the real product of the testing discipline: confidence that behaves like a checksum on every release."
+          ]
+        },
+        {
+          "heading": "Where OPUS earns it daily.",
+          "paragraphs": [
+            "The proof of a component library is the second project. Building once proves the idea; reusing across successive builds proves the economics — interface consistency arriving free, review cycles shortening because familiar components need less scrutiny, and new work beginning at speed without re-deciding what a button is.",
+            "OPUS is now the studio's default starting point for React interfaces, which has a compounding effect on quality: every fix made for one project makes the next project's baseline higher, and every edge case encountered anywhere becomes a permanent improvement everywhere."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "For clients, this expertise means faster delivery with less variance: interfaces stay consistent, maintenance is centralised, and new screens start from proven parts instead of blank files. It's the difference between assembling software and rebuilding it."
+          ],
+          "media": {
+            "src": "/assets/opus-actual-site.jpg",
+            "alt": "OPUS component catalogue site",
+            "caption": "The OPUS catalogue — documented, reusable parts."
+          }
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "ebuygum-modern-marketplace-design",
+      "category": "projects",
+      "tags": [
+        "E-commerce",
+        "Branding",
+        "UX"
+      ],
+      "title": "Designing eBuyGum: a modern marketplace built around simplicity.",
+      "project": {
+        "label": "Project activity from",
+        "text": "by 3 September 2026",
+        "url": "https://ebuygum.netlify.app/",
+        "urlLabel": "Visit eBuyGum"
+      },
+      "logo": "/assets/brand-ebuygum.webp",
+      "logoAlt": "eBuyGum brand mark",
+      "image": "/assets/ebuygum-hero-art.jpg",
+      "imageAlt": "eBuyGum marketplace artwork — playful brand and product discovery.",
+      "snippet": "How a marketplace brand, category navigation and product discovery came together — and the commercial thinking behind marketplace architecture.",
+      "seoTitle": "Designing eBuyGum: A Modern Marketplace | Kinetic Axis",
+      "seoDescription": "The eBuyGum development story: branding, category navigation, product discovery and responsive design for a modern online marketplace experience.",
+      "services": [
+        {
+          "label": "Marketplace development",
+          "href": "/marketplace-development"
+        },
+        {
+          "label": "E-commerce design",
+          "href": "/ecommerce-marketplace-development"
+        },
+        {
+          "label": "Full case study",
+          "href": "/projects/ebuygum"
+        }
+      ],
+      "body": [
+        {
+          "heading": "A marketplace with a personality.",
+          "paragraphs": [
+            "Our earliest recovered eBuyGum discussion, by 3 September 2026, was about branding: what a modern online marketplace should look and sound like when it can't rely on stock agency styling. The identity that came out of that work is deliberately distinctive — playful, recognisable and honest."
+          ]
+        },
+        {
+          "heading": "Simplicity as architecture.",
+          "paragraphs": [
+            "Marketplaces live or die on the shortest path from arrival to the thing you want. eBuyGum is built around category navigation and product discovery: clear journeys, product pages that explain the essentials, and responsive layouts that hold up as the catalogue grows."
+          ]
+        },
+        {
+          "heading": "Commercial considerations.",
+          "paragraphs": [
+            "Marketplace architecture has to think beyond the homepage: how categories flex as inventory changes, how discovery responds when buyers arrive with a vague intent, and how design decisions protect conversion. That thinking shaped the structure before any visual polish."
+          ]
+        },
+        {
+          "heading": "The first five seconds.",
+          "paragraphs": [
+            "Marketplaces live or die on orientation: a new visitor should understand what is sold here, where to start and why to trust it before the first scroll ends. The eBuyGum identity does that heavy lifting — a distinctive mark, category language plain enough to read at speed, and visual rhythm that makes browsing feel light rather than like inventory.",
+            "Product discovery follows the same discipline: navigation reflects how shoppers actually think, not how a stock system is organised, and search behaves like a helpful assistant rather than a database prompt."
+          ]
+        },
+        {
+          "heading": "Where design meets commerce.",
+          "paragraphs": [
+            "Every commercial surface — product cards, price display, the path to checkout — was designed as part of one system rather than separate deliverables, which is what keeps a marketplace feeling coherent as it grows its catalogue.",
+            "The durable lesson from brands that win this space: trust is designed, accumulated in small consistent moments. Good categories, honest imagery and a checkout that never surprises are the compounding interest of marketplace design."
+          ]
+        },
+        {
+          "heading": "Identity decisions worth defending.",
+          "paragraphs": [
+            "Marketplace brands face a specific temptation: shout louder. Category after category of visual noise is the usual result. eBuyGum's identity goes the other way — a confident mark, a restrained palette, and typography with enough personality to carry commerce pages without needing to dress up.",
+            "Restraint has a practical payoff beyond taste. A visual system that survives being applied to product photography from forty different sellers keeps the marketplace looking like itself, and the trust cues keep firing on every page rather than on the homepage alone."
+          ]
+        },
+        {
+          "heading": "Categories as storytelling.",
+          "paragraphs": [
+            "Category structure is the most under-designed surface in most marketplaces: functional lists that read like a warehouse. eBuyGum's navigation was written in the customer's language — categories that describe the shopping mission, not the stock system — because a category page is the first act of storytelling a marketplace performs.",
+            "Navigation copy does a quieter job too. The labels chosen determine what the search index sees, the breadcrumbs say what the journey was, and a well-worded category lifts entry pages that pure product pages cannot reach."
+          ]
+        },
+        {
+          "heading": "Mobile-first commerce, without apology.",
+          "paragraphs": [
+            "Marketplace buyers live on phones, so the design compresses gracefully before it expands: thumb-reachable actions, comparison that fits a single screen, and imagery sized by performance budget rather than by what the CMS will hold. Nothing about the desktop version was an afterthought, but nothing on mobile was either.",
+            "The checkout path got the most protection of all: fewer states, no surprises, and rhythm that promises completion rather than demanding patience. Abandonment lives in tiny frictions — the design removes them before explaining them."
+          ]
+        },
+        {
+          "heading": "Designing for a catalogue that grows.",
+          "paragraphs": [
+            "A marketplace design is judged by the state nobody demos: the goods arrive slowly, collections look unfinished, and a category page has two products in it this month. Good designs plan for that adolescence — layouts that look deliberate when sparse, empty states that encourage return rather than signalling death.",
+            "Building those states up front is far cheaper than discovering them live, and it is the difference between a marketplace that grows in public with confidence and one that goes dark each time a category thins out."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "Whether you're launching a marketplace or modernising an existing store, the discipline is the same: brand, journey and architecture designed together around discovery and buying — not a theme fitted around a catalogue."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-11",
+      "slug": "pace-venues-hospitality-platform",
+      "category": "projects",
+      "tags": [
+        "Hospitality",
+        "Mobile",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "From booking diary to hospitality platform: engineering Pace Venues.",
+      "project": {
+        "label": "Project activity from",
+        "text": "by 19 September 2026",
+        "url": "https://pacevenues.com",
+        "urlLabel": "Visit Pace Venues"
+      },
+      "image": "/assets/project-pace.jpg",
+      "imageAlt": "Pace Venues hospitality platform artwork — booking and venue operations.",
+      "snippet": "Our flagship case study: mobile apps, web-based venue administration, booking diaries, menu management, Node.js APIs, PostgreSQL and multi-tenant design.",
+      "seoTitle": "From Booking Diary to Hospitality Platform | Kinetic Axis",
+      "seoDescription": "Pace Venues engineering story: mobile apps, venue administration, booking diaries, menu management, Node.js APIs and PostgreSQL multi-tenant design.",
+      "services": [
+        {
+          "label": "Hospitality software",
+          "href": "/hospitality-software-development"
+        },
+        {
+          "label": "Mobile apps",
+          "href": "/mobile-app-development"
+        },
+        {
+          "label": "Booking systems",
+          "href": "/booking-system-development"
+        },
+        {
+          "label": "Full case study",
+          "href": "/projects/pace"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The vision.",
+          "paragraphs": [
+            "Pace Venues was started as a hospitality technology platform, not a restaurant website: venues run on bookings, tables, menus and staff coordination, and the vision was one platform that carries all of it — for guests in the app and for operators in administration tools."
+          ]
+        },
+        {
+          "heading": "The challenge.",
+          "paragraphs": [
+            "Hospitality platforms have two very different users: customers who want a booking experience that takes seconds, and venue teams who want a diary and table management that survives a Saturday night. Scale multiplies this — multiple venues, each with its own branding, menus and staff."
+          ]
+        },
+        {
+          "heading": "Our approach.",
+          "paragraphs": [
+            "Development began by 19 September 2026 with restaurant-specific branding, customer-facing booking experiences and web-based venue administration, spanning iOS and Android mobile applications alongside the browser tools. The platform grew as one product with distinct journeys, not separate apps."
+          ]
+        },
+        {
+          "heading": "The engineering.",
+          "paragraphs": [
+            "The stack: Node.js backend APIs and PostgreSQL database architecture, with a multi-tenant design that keeps venue-level data isolated. JWT-based authentication protects sessions across customer and staff surfaces. Booking diaries and table management, plus menu and dish management, give operators day-to-day control. Infrastructure work covers production hosting on Ubuntu with Nginx, SSL certificates and application monitoring, plus a push notification architecture so booking activity reaches both sides in time to matter."
+          ],
+          "media": {
+            "src": "/assets/pace-real-website.jpg",
+            "alt": "Pace Venues venue administration interface",
+            "caption": "Venue administration — booking diaries and table management."
+          }
+        },
+        {
+          "heading": "Deployment discipline.",
+          "paragraphs": [
+            "Multi-tenant designs expose every weakness in deployment: tenant data must stay separated, sessions must be reliable, and a booking taken over the phone must be real the instant it's taken on the internet, because it will be checked by whoever seats the table. The hosting setup treats that reliability as an engineering requirement, not an operations afterthought."
+          ]
+        },
+        {
+          "heading": "The realities of a venue's day.",
+          "paragraphs": [
+            "Hospitality software has to survive environments most digital products never meet: a phone passed between shifts, touch screens in a busy kitchen, connectivity that drops at the worst moment, and staff who need clarity at a glance mid-service. Those realities shaped the design decisions well before features did.",
+            "Big readable states, actions that forgive a slip, and flows that work one-handed while carrying something in the other hand are not accessibility afterthoughts — they are the operating requirements of the venue itself."
+          ]
+        },
+        {
+          "heading": "Where integrations earn their keep.",
+          "paragraphs": [
+            "A hospitality platform never stands alone: payments, calendars, kitchen workflow and the roster of daily bookings it renders all live or die by how well they hand over to each other. Our thinking on every integration followed a single rule — the venue's team should never re-enter what one part of the system already knows.",
+            "That principle does the quiet work of an architecture: fewer places to make a mistake, and a team that trusts what the screen tells them because they have stopped seeing contradictions."
+          ]
+        },
+        {
+          "heading": "Booking that respects the room.",
+          "paragraphs": [
+            "A booking diary has to model the way hospitality actually works: tables held and released, buffer windows between services, double-bookings prevented by design rather than by staff memory, and overrides that managers need occasionally and must actually be findable in the moment they are needed.",
+            "The diary design philosophy: software should spend its complexity where the operator's attention is — presenting a calm, readable picture of the day — while quietly absorbing the corner cases behind clean interactions that one glance can verify."
+          ]
+        },
+        {
+          "heading": "Mobile as the first screen.",
+          "paragraphs": [
+            "For venue staff, the phone is the primary workstation: it moves between bars and stockrooms, it is read mid-conversation with a guest, and it is the first tool reached for when a shift breaks rhythm. The platform treats mobile as the primary surface, with the larger screens as conveniences to be enjoyed when available.",
+            "That inversion changes how everything is built: layouts drafted for one hand first, information hierarchy settled for a two-second glance, and actions whose confirmations survive being interrupted by real life."
+          ]
+        },
+        {
+          "heading": "Admin software should be boring.",
+          "paragraphs": [
+            "The web administration follows a principle most modern software has lost: boring is a feature. That implies no clever states that trap you, no surprises in the morning, and a design that considers a failing moment carefully — a network drop mid-edit, a user returning tomorrow to an unfinished edit, a manager opening three of the same record at once.",
+            "Recoverability is designed, not hoped for: the system keeps its promises, records what happened and lets staff move on, which is how a tool earns the right to be described as dependable by people whose evenings have no slack in them."
+          ]
+        },
+        {
+          "heading": "Advice for a similar venue.",
+          "paragraphs": [
+            "For any venue considering this route, the advice is the same advice we would give in the first meeting: start where the operational pain actually lives — usually the diary — grow the platform one process at a time, and insist that every piece of software earns adoption from the staff who will use it, day in and day out.",
+            "The technology is the easy half. The other half is process fit, change management and integration with existing 'how we already work' — and that is precisely the half where an engineering partner with hospitality awareness is worth hiring early, not after the software has been designed in the dark."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "This is substantial product engineering: mobile apps, web operations, backend APIs, database architecture and production infrastructure delivered as one platform. If your business runs on processes that off-the-shelf software handles badly — bookings, memberships, logistics — this is the standard we build to."
+          ],
+          "media": {
+            "src": "/assets/pace-real-mobile.jpg",
+            "alt": "Pace Venues mobile app booking experience",
+            "caption": "The customer journey — booking from the mobile app."
+          }
+        }
+      ],
+      "featured": true
+    },
+    {
+      "date": "2026-10-10",
+      "slug": "introducing-kinetic-axis-digital",
+      "category": "company",
+      "tags": [
+        "Company",
+        "Bespoke software"
+      ],
+      "title": "Introducing Kinetic Axis: how and why this studio builds.",
+      "project": {
+        "label": "Founded",
+        "text": "2026"
+      },
+      "image": "/assets/hero-k.jpg",
+      "imageAlt": "Kinetic Axis studio artwork — the K mark.",
+      "snippet": "Why the studio was established in 2026: an engineering-led alternative to template agency work — and what we do, modernise and take over from here.",
+      "seoTitle": "Introducing Kinetic Axis: Building Software | Kinetic Axis",
+      "seoDescription": "Why Kinetic Axis was established: an engineering-led studio for bespoke websites, web and mobile apps, SaaS platforms and modernisation work.",
+      "services": [
+        {
+          "label": "What we do",
+          "href": "/services"
+        },
+        {
+          "label": "Our approach",
+          "href": "/approach"
+        },
+        {
+          "label": "For enterprise teams",
+          "href": "/enterprise-ui-development"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Why this studio exists.",
+          "paragraphs": [
+            "Kinetic Axis was established in 2026 for one reason: too much digital work is delivered by fitting a template to a business and calling it bespoke. This studio is engineering-led, which means the solution follows the problem — websites, web applications, mobile applications, digital products and SaaS platforms, AI-assisted software development, and the modernisation of legacy applications."
+          ]
+        },
+        {
+          "heading": "What we build.",
+          "paragraphs": [
+            "Original solutions are designed and built around the client: performance, accessibility and technical SEO treated as engineering fundamentals rather than finishing touches, with digital strategy and engineering consultancy sitting alongside delivery so decisions stay connected to commercial outcomes."
+          ]
+        },
+        {
+          "heading": "A clear position on existing platforms.",
+          "paragraphs": [
+            "That doesn't make off-the-shelf the enemy. We support, maintain, improve and modernise existing platforms — including WordPress and enterprise content-management systems — and we will say so when an established tool is the right commercial choice. Where a restrictive system is genuinely holding a business back, we help organisations transition from off-the-shelf constraints to bespoke applications when there's a real technical and commercial benefit, not just a preference for shiny."
+          ]
+        },
+        {
+          "heading": "Why work with us.",
+          "paragraphs": [
+            "The projects behind this site — a browser-based 3D experience, a React component library, a hospitality platform, marketplace design — exist because thinking in solutions is how the studio works. If a project deserves engineering rather than assembly, that's the conversation to have."
+          ]
+        },
+        {
+          "heading": "How the studio works.",
+          "paragraphs": [
+            "The method is deliberately old-fashioned in intent: understand the business first, shape the product second, engineer it properly third, and stay through launch and beyond. What is modern is the toolkit — a disciplined, AI-accelerated build process under review gates that keep quality owned by people, not delegated to probability.",
+            "One senior maker per project is the working model, with the whole studio's thirty-plus years of web experience behind it. Clients talk to the person doing the work — which in practice is the single biggest quality lever available."
+          ]
+        },
+        {
+          "heading": "Who this is for.",
+          "paragraphs": [
+            "Kinetic Axis suits businesses at decision points: a founder with an idea that has outgrown a template, an operations lead whose team runs on spreadsheets that are one hire away from breaking, an established business whose website quietly costs more than it earns.",
+            "If you need a one-page site this week from a page builder, plenty of routes will already serve you well — and being able to say so honestly is part of the position. If you need a digital product built to survive your business growing into it, that is the work this studio was set up to do."
+          ]
+        },
+        {
+          "heading": "One studio, one thread.",
+          "paragraphs": [
+            "Most projects fail quietly at the seams: the design agency hands files to a developer, who hands the build to specialists, who hand the lot to a marketing partner, each seam costing intent. Kinetic Axis exists, in part, to remove those seams — design, development, product thinking and the growth work afterwards all under one roof and one accountable team.",
+            "That connected approach is not a packaging convenience. Decisions made in week one — how the content is structured, what the interface optimises for, how the software should behave at scale — are easier to keep coherent when nobody has to be briefed on yesterday's decisions over email."
+          ]
+        },
+        {
+          "heading": "The technology stance.",
+          "paragraphs": [
+            "The studio builds web-first and framework-flexible: TypeScript across Angular, React and Next.js on a Node.js foundation, with architecture chosen to serve the product rather than the CV. Static-first where the brief allows it, because speed, search visibility and resilience come from design rather than decoration.",
+            "Build discipline is treated as a quality gate: type-checking that fails loudly, performance budgets that cannot be quietly exceeded, and SEO checks that treat searchability as an engineering property rather than a launch-week scramble."
+          ]
+        },
+        {
+          "heading": "Where AI fits, where it does not.",
+          "paragraphs": [
+            "The studio is quietly aggressive in its use of AI — agents for scaffolding, research, testing and the mechanical middle of development — and quietly stubborn about the parts that stay human: interface judgement, security boundaries and every decision that carries the studio's name into production.",
+            "The best description of that stance lives in two of our studio stories: how AI accelerates development without losing quality, and the honest toolkit review eighteen months into daily use. The one-line version: the process keeps getting better because the tools keep getting cheaper — but the taste and ownership have not moved."
+          ]
+        },
+        {
+          "heading": "The next eighteen months.",
+          "paragraphs": [
+            "The plan stays pinned to the same principles rather than widening into new territory: more shipped client work, continued product experiments in the open — the storage concept, the browser experience work — and growth partnerships that treat search and accessibility as engineering disciplines.Follow along on this news page, where the honest version of how the studio works gets written as it happens. If any of it resonates, the first conversation is cheap: you bring the business problem, the studio brings the questions worth asking about it."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-15",
+      "slug": "fluid-dynamics-in-the-browser",
+      "category": "engineering",
+      "tags": [
+        "Creative coding",
+        "Performance",
+        "Experiments"
+      ],
+      "title": "Engineering interaction: exploring fluid dynamics in the browser.",
+      "project": {
+        "label": "Experiment",
+        "text": "Interactive fluid dynamics",
+        "url": "/experiments/fluid-dynamics",
+        "urlLabel": "Open the experiment",
+        "internal": true
+      },
+      "image": "/assets/approach-process-3d.webp",
+      "heroFit": "contain",
+      "imageAlt": "Studio process artwork — real-time interaction and creative engineering.",
+      "snippet": "An experimental browser-based fluid simulation: real-time interaction, performance-conscious visual engineering, and why experiments sharpen commercial work.",
+      "seoTitle": "Exploring Fluid Dynamics in the Browser | Kinetic Axis",
+      "seoDescription": "Inside Kinetic Axis's browser-based fluid simulation experiment: real-time interaction, performance-conscious rendering and the commercial value of play.",
+      "services": [
+        {
+          "label": "See the experiment",
+          "href": "/experiments/fluid-dynamics"
+        },
+        {
+          "label": "More experiments",
+          "href": "/experiments"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Why simulate flow in a browser.",
+          "paragraphs": [
+            "Experiments answer questions client work never asks in time. The studio's browser-based fluid simulation is a compact playground for the techniques that separate a page from an experience: real-time interaction, simulation stepped frame by frame, and rendering that has to stay smooth while the math runs."
+          ]
+        },
+        {
+          "heading": "Performance-conscious visual engineering.",
+          "paragraphs": [
+            "A fluid simulation is unforgiving about performance — every millisecond spent on calculation or drawing shows up directly as stutter. Building one means budgeting work per frame, choosing what renders at full fidelity, and keeping interaction latency low enough that touch and pointer feel physically connected to the fluid."
+          ]
+        },
+        {
+          "heading": "What experiments buy commercially.",
+          "paragraphs": [
+            "Immersive interfaces — interactive backgrounds, tactile data, responsive environments — come from exactly this kind of practice. Hobby-grade curiosity, production-grade discipline. Try the experiment, and imagine it answering your product instead."
+          ]
+        },
+        {
+          "heading": "How the simulation is built.",
+          "paragraphs": [
+            "The core is a field solved across a grid, every frame, on the GPU: velocity and pressure evolve together, so interference, eddies and wake behave more or less as physics says they should. A pixel-shader pipeline does the heavy lifting, which is what keeps the whole thing realtime on the kind of hardware customers actually own.",
+            "Interaction is where it earns attention. Drag through the medium and you push it — the disturbance spreads, reflects and dissipates exactly as fast as the sim allows, which turns a passive background effect into something people experiment with."
+          ]
+        },
+        {
+          "heading": "The engineering trade-offs, in public.",
+          "paragraphs": [
+            "Experiments like this are where judgment is built. Every technique looks good in a demo; the craft is knowing where each one bends. GPU-friendly tricks can be brittle across devices and OSes, various browser DevTools make frame pacing measurable, and a capability check is often wiser than a flashy unsupported fallback.",
+            "So the experiment carries its own report card: measured frames per second budgets, degradation per tier, and an honest map of what remains impractical today. That map is the real deliverable — it is the difference between knowing a trick exists and knowing when to use it."
+          ]
+        },
+        {
+          "heading": "Where experiments like this travel.",
+          "paragraphs": [
+            "The obvious question: what does a fluid simulation have to do with client work? Everything, in the right briefs. Interactive backgrounds that respond to visitors, product pages where the product's physics are the story, and data narratives that become tangible when a user can push the medium itself — these briefs arrive more often than most studios admit.",
+            "Each experiment also sharpens the studio's fluency in the layer it plays in: shader pipelines, asset discipline, frame budgets — the toolkit behind many kinds of polished web experience, whether or not a future project ever simulates a single fluid particle."
+          ]
+        },
+        {
+          "heading": "Respect for motion preferences.",
+          "paragraphs": [
+            "Interactive motion has an accessibility obligation, and the experiment takes it seriously: users whose systems request reduced motion get a calm variant rather than an insensitive animated background, the canvas pauses when the tab is hidden, recognising energy and battery are bounded resources, and the whole experience degrades to a tasteful still when its requirements are not met.",
+            "Those measures are not the emotional part of the demo, but they are the part that decides whether a studio can ship the technique responsibly — and that decision is a far better place to learn it than the critical path of a live project."
+          ]
+        },
+        {
+          "heading": "What the experiment cost — deliberately.",
+          "paragraphs": [
+            "Honesty about scope: this is explicitly time-boxed studio play. No client paid for it, no deadline tamed it, and it was parked the moment the budget was spent — a discipline that keeps experiments fun rather than parasitic on real work.",
+            "The returns are already visible though: the simulation artefacts are reusable the moment a brief fits them, the experience gained resurfaces in estimates, and the next experiment starts from a higher baseline. Play of this kind is, it turns out, one of the best investments a studio can make in itself."
+          ]
+        },
+        {
+          "heading": "Playing the instrument.",
+          "paragraphs": [
+            "The interaction model was designed for hands: pointer and touch each get a native-feeling gesture rather than a ported abstraction, contact points are grounded where the user actually touched, and the reaction strength responds to gesture character rather than treating all input as identical.",
+            "Small physical rules — sustained agitation building energy, gentle strokes leaving soft wakes — make the medium feel governed rather than random, which is the difference between an effect and an experience."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-06",
+      "slug": "neodrop-nas-first-file-storage",
+      "category": "ai",
+      "tags": [
+        "Product design",
+        "Desktop",
+        "Concepts"
+      ],
+      "title": "NeoDrop: exploring a NAS-first approach to file storage.",
+      "project": {
+        "label": "Development documented",
+        "text": "October 2026"
+      },
+      "image": "/assets/studio-hero-3d.webp",
+      "imageAlt": "Studio 3D artwork — product concept exploration.",
+      "snippet": "Concept work on a NAS-backed file-storage and synchronisation experience: product identity, macOS menu-bar design and installer packaging.",
+      "seoTitle": "NeoDrop: A NAS-First Approach to File Storage | Kinetic Axis",
+      "seoDescription": "NeoDrop concept work: NAS-backed file storage with a macOS menu-bar experience — what's implemented, what's prototyped and what the thinking demonstrates.",
+      "services": [
+        {
+          "label": "Digital product development",
+          "href": "/digital-product-development"
+        },
+        {
+          "label": "Bespoke software",
+          "href": "/bespoke-software-development"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The concept.",
+          "paragraphs": [
+            "NeoDrop explores what file storage looks like when your own hardware is the cloud: a NAS-backed storage and synchronisation experience where privacy and ownership aren't subscription features, they're the architecture. The product concept questions whether a Dropbox replacement needs an intermediated cloud at all."
+          ]
+        },
+        {
+          "heading": "Desktop-first, menu-bar-level small.",
+          "paragraphs": [
+            "Documented development in October 2026 covers product identity and the desktop experience, with a focus on macOS menu-bar design considerations: a tool that lives a click away, stays out of the way while idle, and earns its place by being fast with the common action."
+          ]
+        },
+        {
+          "heading": "What's real, prototyped and planned.",
+          "paragraphs": [
+            "This is concept development, not a released product. The work documented so far covers product identity, the menu-bar interaction direction and installer packaging exploration. Synchronisation behaviour at production quality remains planned rather than shipped — and that distinction matters: it's honest product design, not a brochure about a product that doesn't exist yet."
+          ]
+        },
+        {
+          "heading": "Why NAS-first, anyway.",
+          "paragraphs": [
+            "The premise: households and small studios already own a NAS, or are one cloud-sync subscription away from buying the storage they already have. Pointing synchronisation at a NAS the user controls keeps data local, keeps costs flat, and keeps the escape hatch — your files are on a drive you can walk to.",
+            "That reframes the product question. Not “how do we keep subscription pricing sensible?” but “how good can synchronisation feel when the hardware is already there?” — speed, conflict handling and confidence become the competition, not price."
+          ]
+        },
+        {
+          "heading": "The hard parts, named early.",
+          "paragraphs": [
+            "Exploration was honest about the difficulties: conflict resolution when two devices edit the same file offline, sync-state clarity when a device has been asleep for days, and the trust problem of showing exactly what has and has not arrived. These are the problems that make or break storage products, and they are interface problems as much as protocol problems.",
+            "Prototyping exists precisely to ask such questions early — the answers will define whether a concept graduates into something worth shipping."
+          ]
+        },
+        {
+          "heading": "The workflow portrait.",
+          "paragraphs": [
+            "Every storage product ultimately serves a portrait of daily life: a file is captured on one device, refined on another, delivered from a third, and versioned four times before it reaches its audience. Today that portrait is held together by whichever cloud service the household or the studio gives up on and repurchases, with local files treated as an inconvenience.",
+            "NeoDrop's concept inverts that portrait: the local storage is the home, the cloud is a service on top rather than a landlord underneath. The design question stops being “which subscription tier?” and becomes “how does moving files around feel more like passing them to a person than publishing to a platform?”"
+          ]
+        },
+        {
+          "heading": "Designing state you can trust.",
+          "paragraphs": [
+            "The most difficult interface challenge in synchronisation is not moving files — it is telling the truth about a moving world: what has arrived, what is pending, what differs across devices, what happened while a laptop was asleep. Sync indicators usually lie by omission, and the first time a user is wrong, the trust they can invest evaporates.",
+            "The concept work therefore spends its effort on state language: honest, legible indication of what is where, with edges spoken aloud rather than smoothed over. Precision here is what makes the experience worth installing in the first place."
+          ]
+        },
+        {
+          "heading": "A small surface with deep systems.",
+          "paragraphs": [
+            "Desktop-first, menu-bar-level small — that form factor has a rule: anything visible must be needed at a glance, and everything else must either be a step away or automatic. The constraint is demanding but clarifying; it forces decisions to be made rather than deferred to a settings folder.",
+            "Behind the small surface, the real engineering lives in rules: what moves, what stays, what conflicts and what wins, and what a user can recover when they decide after the fact that they were wrong. Consumer-grade polish is mostly invisible plumbing that makes those rules feel like freedom."
+          ]
+        },
+        {
+          "heading": "Where it sits among the alternatives.",
+          "paragraphs": [
+            "Against mainstream cloud drives, the NAS-first concept trades convenience for ownership — and for the right audience, that trade is a bargain. Against traditional NAS clients, most of which look like firmware utilities from another decade, the bet is that sync can feel designed rather than configured.",
+            "That is the experiment in a sentence: the local-first thesis has never had a pleasant interface. If the experience is the part that has been missing, a studio that builds it has opened a lane that spending money cannot buy in an existing product."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "For teams weighing private infrastructure against per-seat SaaS subscriptions, this is the expertise: product design, desktop application development and custom software that runs on your terms. The same thinking applies to internal tools built around your data, not a vendor's."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-05",
+      "slug": "enterprise-seo-accessibility-liferay-roadmap",
+      "category": "strategy",
+      "tags": [
+        "SEO",
+        "Accessibility",
+        "Liferay",
+        "Consultancy"
+      ],
+      "title": "Beyond the audit: turning SEO and accessibility findings into an engineering roadmap.",
+      "project": {
+        "label": "Professional engagement",
+        "text": "October 2026"
+      },
+      "image": "/assets/studio-workflow.webp",
+      "imageAlt": "Studio workflow visual — audit findings becoming prioritised engineering tickets.",
+      "snippet": "How findings from an enterprise SEO and WCAG accessibility review become costed, prioritised engineering tickets — including CMS-specific constraints.",
+      "seoTitle": "Enterprise SEO and Accessibility Roadmaps | Kinetic Axis",
+      "seoDescription": "Turning enterprise SEO and WCAG accessibility findings into an engineering roadmap: remediation planning, effort estimates and prioritisation by impact.",
+      "services": [
+        {
+          "label": "Digital strategy",
+          "href": "/sme-digital-transformation"
+        },
+        {
+          "label": "Enterprise UI engineering",
+          "href": "/enterprise-ui-development"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The problem with audits.",
+          "paragraphs": [
+            "Most enterprise audits end in a spreadsheet: findings, severities, and nothing actionable. The engagement discussed here — an enterprise SEO, WCAG accessibility and Liferay-powered website review — was shaped to end somewhere more useful: an engineering roadmap split into sprint-sized tickets with effort estimates and a defensible order of attack."
+          ]
+        },
+        {
+          "heading": "From finding to ticket.",
+          "paragraphs": [
+            "Every finding became an implementation problem framed for the team that owns the build: technical SEO issues scoped as concrete remediation, WCAG accessibility requirements written against the actual components affected, and CMS-specific constraints acknowledged honestly — a fix that's trivial on a bespoke front end can be a structural change on an enterprise CMS template, and pretending otherwise destroys credibility."
+          ]
+        },
+        {
+          "heading": "Priority by business impact.",
+          "paragraphs": [
+            "Prioritisation balanced reach, risk and effort: which barriers affect the most users or traffic, which carry legal exposure, and which deliver outsized value relative to engineering cost. The result is a plan an enterprise team can pick up and run — not a report that repeats what they already know."
+          ]
+        },
+        {
+          "heading": "Costed, sized and sequenced.",
+          "paragraphs": [
+            "A roadmap earns trust when each item arrives with realistic effort attached: which findings are a half-day fix, which are a sprint, and which are an architectural conversation to schedule before the next quarter. Even rough sizing converts a list of problems into a plan the engineering team can actually run.",
+            "Sequencing matters as much as sizing. Dependency-aware ordering — template fixes before page fixes, structure before content, accessibility remediation with its adjacent SEO wins — means the early items unblock the later ones instead of competing with them."
+          ]
+        },
+        {
+          "heading": "One backlog, two disciplines.",
+          "paragraphs": [
+            "The quiet breakthrough of this kind of work is running accessibility and SEO as a single backlog. The two share root causes more often than they conflict — heading structure, meaningful link text, contrast, descriptive page titles — so a coordinated plan avoids duplicated effort and contradictory fixes.",
+            "For stakeholders, the joint view also reframes budget: the work stops being a compliance cost or a marketing cost and becomes platform maintenance with compounding returns."
+          ]
+        },
+        {
+          "heading": "What a finding looks like before it is a ticket.",
+          "paragraphs": [
+            "An audit finding is only useful when it arrives complete: the location where it bites, a reproduction anyone can follow, who the affected users are, why it matters commercially, and a suggested fix with its likely appetite. Findings that skip those fields become tickets nobody acts on, which is precisely how audits turn into shelf documents.",
+            "The discipline costs a day of writing and saves a month of arguing. Every item in the roadmap carries that provenance, so engineers trust it, stakeholders sponsor it and nobody has to re-litigate the analysis six months later."
+          ]
+        },
+        {
+          "heading": "Choosing the first sprint.",
+          "paragraphs": [
+            "The opening move of these plans is the first sprint: it sets the team's opinion of the roadmap. The heuristics for choosing them are: maximum visible impact, minimum dependency on other work, and confidence the fix is fully understood. Early wins are not vanity — they buy the credibility the heavier items will need.",
+            "Anything requiring architecture decisions lands deliberately later, with its conversation scheduled explicitly. A roadmap that hides its awkward items is a roadmap that stalls on them — sequencing honestly is part of the analysis."
+          ]
+        },
+        {
+          "heading": "Where teams usually stall.",
+          "paragraphs": [
+            "The predictable failure mode of roadmap work is not bad analysis; it is drift. Ownership blurs, fixes become half-applied, and the backlog returns to being a list of guilt. The countermeasure is structural: every item assigned an owner, a definition of done and a check-in date before the sprint starts, not after it slips.",
+            "For enterprise estates, this is exactly the discipline a partner brings: someone whose job is the plan's momentum rather than the plan's righteousness — which tends to be the difference between a roadmap that changes the site and one that changes the org chart."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "Audit-driven remediation is a consultancy discipline in its own right. If your organisation has a review sitting in a drawer, that's exactly the work this studio turns into scheduled, estimated engineering — without needing to be the team that built the site."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-04",
+      "slug": "connecting-technical-seo-digital-growth",
+      "category": "strategy",
+      "tags": [
+        "SEO",
+        "Growth",
+        "Consultancy"
+      ],
+      "title": "Connecting technical SEO with real digital growth.",
+      "image": "/assets/planner-glass-stripes.webp",
+      "imageAlt": "Planner artwork — a prioritised improvement roadmap.",
+      "snippet": "Consultancy thinking on combining technical analysis with a prioritised roadmap — and how SEO work actually connects to growth rather than reports.",
+      "seoTitle": "Connecting Technical SEO with Digital Growth | Kinetic Axis",
+      "seoDescription": "How businesses benefit from combining technical SEO analysis with a prioritised improvement roadmap — growth planning informed by engineering reality.",
+      "services": [
+        {
+          "label": "Digital strategy",
+          "href": "/sme-digital-transformation"
+        },
+        {
+          "label": "Web design",
+          "href": "/web-design"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Analysis is the cheap half.",
+          "paragraphs": [
+            "A technical analysis tells you where the work is; it doesn't improve anything by itself. The value lands when technical findings — crawlability, structure, accessibility barriers, performance issues — are combined with an accessible, growth-oriented presentation of the digital assets a business already has, and turned into a plan sequenced by impact."
+          ]
+        },
+        {
+          "heading": "Growth through combined insight.",
+          "paragraphs": [
+            "Businesses rarely suffer from a single technical problem. They suffer from an unresolved pile: SEO issues overlapping with accessibility gaps, slow assets on pages that also have unclear journeys. Combining technical analysis with growth planning stops those being fixed one opinion at a time, and stops the loudest problem being the only one that gets fixed."
+          ]
+        },
+        {
+          "heading": "The roadmap discipline.",
+          "paragraphs": [
+            "A prioritised improvement roadmap does three jobs: it sequences engineering work so early wins build momentum, it connects each change to an expected outcome so the spend is defensible internally, and it leaves room to re-prioritise as results come in. Technical analysis without that discipline is just documentation."
+          ]
+        },
+        {
+          "heading": "What combined analysis catches.",
+          "paragraphs": [
+            "Run technical SEO alone and you find crawl waste, duplicate clusters and template bottlenecks. Run an analytics review alone and you find drop-off points and dead pages. Run them in the same analysis and the overlap is where growth actually lives — the high-value pages that cannot rank, the strong rankings diluted by duplicates, the journeys that quietly leak.",
+            "That intersection is exactly where a roadmap should start: small, specific fixes that unblock demand which already exists, rather than speculative new content hoping to manufacture it."
+          ]
+        },
+        {
+          "heading": "Measurement or it did not happen.",
+          "paragraphs": [
+            "Growth plans that do not define measurement are opinions with a deadline. Before recommending anything, we define what success will be seen in — which queries, which pages, which conversion paths — so every later change can be judged rather than argued about.",
+            "The roadmap discipline grows from there: implement, watch, keep what works, roll back what does not — and let the next round of analysis be sharper because the last one was measured."
+          ]
+        },
+        {
+          "heading": "Templates decide more than pages.",
+          "paragraphs": [
+            "The highest-leverage fixes in this work are template-level: a navigation pattern repeated on every page, a title template that under-sells hundreds of URLs, a markup structure that crawlers read but assistive technology cannot parse. Page-level patches fight the site one battle at a time; template fixes win the war in one move.",
+            "That is why analysis starts at the template layer — one reasoned change there repositions the entire site, while a dozen page edits leave the pattern quietly poisoning everything published tomorrow."
+          ]
+        },
+        {
+          "heading": "Internal linking is a budget.",
+          "paragraphs": [
+            "Every site distributes a finite amount of authority through its internal links, and most sites spend it like a tab without an owner: homepage links to everything, deep pages linked from nowhere, authority pooling on pages that need no help. Treating linking as a budget — spent deliberately toward the pages that must rank — is one of the highest-return disciplines in technical SEO.",
+            "The analysis maps where authority currently pools and where it is needed, and the roadmap reshapes the flow with navigational and contextual links — changes that look editorial and act like plumbing."
+          ]
+        },
+        {
+          "heading": "The unglamorous wins.",
+          "paragraphs": [
+            "A candid list of what actually moves mid-sized sites: canonical hygiene that consolidates duplicate strength, titles and descriptions repaired at scale, structured data that earns rich results rather than decorating pages, image weights and names repaired at the template, and a sitemap that reflects what the site is proud of rather than what it can house.",
+            "None of it makes headlines — which is precisely the point. The most valuable technical SEO work looks dull from the outside and compounds quietly from the inside."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "For organisations that have been sold audits before, the difference is execution-readiness: findings that arrive as an ordered, costed plan. That's the standard the studio holds its consultancy work to."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-03",
+      "slug": "ai-accelerated-software-development",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Engineering practice"
+      ],
+      "title": "How we use AI to accelerate software development without losing quality.",
+      "image": "/assets/contact-hero-3d.webp",
+      "imageAlt": "Studio artwork — AI-assisted development with experienced oversight.",
+      "snippet": "AI-assisted coding in practice: scaffolding, testing, debugging and review — accelerating experienced engineers, never replacing engineering judgement.",
+      "seoTitle": "AI-Accelerated Development Without Lost Quality | Kinetic Axis",
+      "seoDescription": "Practical AI-assisted software development: scaffolding, testing, debugging and review workflows that accelerate experienced engineers — not replace them.",
+      "services": [
+        {
+          "label": "Digital product development",
+          "href": "/digital-product-development"
+        },
+        {
+          "label": "Our approach",
+          "href": "/approach"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Where AI actually helps.",
+          "paragraphs": [
+            "Used well, AI compresses the unthinking parts of software development: scaffolding boilerplate, generating first-draft tests, automating repetitive transformations, surfacing likely bugs in unfamiliar code. Used badly, it produces confident code that nobody has reasoned about. The difference is an experienced engineer supervising the output."
+          ]
+        },
+        {
+          "heading": "The workflow.",
+          "paragraphs": [
+            "This studio's practical workflow pairs modern coding assistants with deliberate review: AI drafts, the engineer verifies against intent. Cursor-style tooling speeds iteration inside the codebase; local LLMs handle context that shouldn't leave the machine. Debugging, code review and architecture decisions stay explicitly human."
+          ]
+        },
+        {
+          "heading": "Quality is the guardrail.",
+          "paragraphs": [
+            "Velocity without verification is debt. The rule that keeps AI acceleration honest: every AI-assisted change faces the same scrutiny as a hand-written one — tested, reviewed, and judged by whether it will still be maintainable in a year. AI accelerates experienced developers; it doesn't substitute their judgement."
+          ]
+        },
+        {
+          "heading": "The workflow in full.",
+          "paragraphs": [
+            "In practice, a feature arrives as a specification first — written to be handed over, whether the receiving hands are human or AI. Scaffolding, test backfill and mechanical refactors are delegated to agents; interface decisions, security-sensitive code and the final review stay firmly human.",
+            "The important shift is what gets written down. Tasks that used to live in one developer's head now get specified carefully enough that anyone — or anything — can execute them, which would be good engineering practice in any era."
+          ]
+        },
+        {
+          "heading": "Where we are deliberate.",
+          "paragraphs": [
+            "AI is used to increase attention, not to spend it elsewhere. Review remains the discipline that makes delegation safe: agents produce diffs, humans own merges, and nothing ships because a machine sounded confident.",
+            "The longer-term observation from eighteen months of this workflow is intellectual honesty about which parts of the job changed: the mechanical middle got faster, and the specification-and-judgement ends got more important. We wrote a fuller toolkit review on exactly that theme."
+          ]
+        },
+        {
+          "heading": "Spec-first culture.",
+          "paragraphs": [
+            "The deepest change AI brought to the build was accidental: because agents need precise instructions, the studio was forced into a spec-first culture, where every delegated task arrives with context, constraints, acceptance criteria and stopping conditions. Delegating to a human works exactly the same way — which is why the practice would have been worth adopting even without the AI motive.",
+            "The payoff compounds beyond AI: estimates improve, handovers between people stop dropping context, and the specification artefact outlives the feature as accumulated documentation of decisions."
+          ]
+        },
+        {
+          "heading": "Choosing tasks for agents.",
+          "paragraphs": [
+            "Task selection is a risk calculation rather than a capability question. The criteria: how testable is the outcome, how expensive is a wrong turn, how contained is the blast radius — and the honest answers sort work into tiers that determine which tools are permitted to touch it.",
+            "Free agents take the low-risk mechanical tiers, audited paid setups cover the middle, and the specification-and-judgement work — the part that decides whether the software is worth building — has never been delegated by anyone at this studio. The toolkit review has the full scoreboard."
+          ]
+        },
+        {
+          "heading": "What quality means now.",
+          "paragraphs": [
+            "Quality gatekeeping survived the AI transition intact because it was never the typing that made work good. The pipeline still fails loudly on type errors, budget breaches and broken checks — and an agent that finishes a task without passing those gates has not finished the task, whatever it believes.",
+            "If anything, the bar got higher: with generation cheap, the relative value of review rises, so each merged diff is read more carefully than the sprawling change it replaced. Speed up the middle; keep the ends human. That is the method."
+          ]
+        },
+        {
+          "heading": "If you are starting from scratch today.",
+          "paragraphs": [
+            "The advice for a team beginning with agents: start with the safest tier — test backfill and mechanical refactors — before touching anything customer-facing, and invest in the build gates first, because delegation without verification is just outsourced hoping.",
+            "Keep a written review checklist, expect the first month to feel slower than doing it yourself, and measure the second month rather than the first. The teams who benefit treat adoption as an engineering discipline; the teams who struggle treat it as a shortcut."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "Clients feel this as delivery speed without quality drift: real, verifiable progress on bespoke builds, from someone who understands both the tools and the craft."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-10-02",
+      "slug": "bespoke-software-vs-off-the-shelf",
+      "category": "strategy",
+      "tags": [
+        "Custom software",
+        "Signals"
+      ],
+      "title": "Five signs you've outgrown off-the-shelf software",
+      "image": "/assets/approach-process-3d.webp",
+      "imageAlt": "Process artwork — operational signals accumulating around off-the-shelf software.",
+      "snippet": "Duplicate data entry, spreadsheet middle-brains and workarounds nobody scheduled: the five signals you've outgrown off-the-shelf software.",
+      "seoTitle": "Signs You've Outgrown Off-the-Shelf Software | Kinetic Axis",
+      "seoDescription": "Duplicate data entry, spreadsheet middle-brains and workarounds: the five signals you've outgrown off-the-shelf software.",
+      "services": [
+        {
+          "label": "Bespoke development",
+          "href": "/bespoke-software-development"
+        },
+        {
+          "label": "Modernisation",
+          "href": "/legacy-system-modernisation"
+        },
+        {
+          "label": "Deeper guide",
+          "href": "/insights/off-the-shelf-vs-bespoke-software"
+        }
+      ],
+      "body": [
+        {
+          "heading": "Signals arrive before strategy.",
+          "paragraphs": [
+            "Real organisations announce their bespoke-readiness in symptoms before they announce it in strategy: duplicate data entry between systems that silently disagree, spreadsheets acting as the middle brain of an operation, staff time spent on workarounds nobody scheduled, and the phrase “it works, but only with the workaround.“",
+            "None of these announce themselves as a technology decision when they happen. Each one makes total sense in the moment — one more export, one more macro on top of yesterday's macro. Added up across a year, honestly, they usually tell you something the licence never will: the platform has become the bit around which the real system is already being circled."
+          ]
+        },
+        {
+          "heading": "The five signs, named.",
+          "paragraphs": [
+            "Duplicate data entry between systems that silently disagree. Every re-keyed field is a decision someone makes twice, and eventually the copies disagree — at which point your own records quietly stop being the reliable source of truth for anything important.",
+            "Spreadsheets acting as the middle brain of an operation. When the actual logic of the business — the prices that change quarterly, the discounts that apply on Tuesdays, the approvals nobody wrote down — lives in exports, pivots and manually joined tabs, the official system is no longer the system. The spreadsheet is, and it comes with no audit trail, no permissions and no off-switch.",
+            "Workarounds nobody scheduled. Compensating for a product model that does not match the process is pure operational tax: unmanaged work, performed repeatedly, without a ticket, a plan or a budget line. It shows up only in the places managers rarely look — waiting lists, error rates, the quiet resentment of a competent team.",
+            "The phrase “it works, but only with the workaround.“ When confidence in a platform depends on what people do around it, the platform has stopped being the answer. That sentence is the most honest sentence in most software reviews — including the reviews that never leave the team that wrote them.",
+            "Licences and modules creeping faster than the value they add. Per-seat charges that scale with every expansion of the operation, features priced behind a tier nobody chose, integration work priced by the vendor's calendar. The subscription was supposed to be the cheap, predictable option — watch the year-three invoice against the year-one promise."
+          ]
+        },
+        {
+          "heading": "Each signal is a cost without an invoice.",
+          "paragraphs": [
+            "Off-the-shelf software prices like a purchase and behaves like an occupation. The visible licences are the cheap part; the invisible part is every hour spent reconciling what it flatly refuses to do, taught to a new starter every six months as if it were institutional knowledge rather than a defect.",
+            "Bespoke software inverts the profile: a deliberate investment up front, and after it, a system that changes when you say so instead of when the vendor ships. The honest calculation is rarely year one. It is year three — when either the off-the-shelf tool has been bent out of shape by workarounds to fit the way you actually operate, or the bespoke system has quietly absorbed a business change without a procurement cycle."
+          ]
+        },
+        {
+          "heading": "What bespoke done well looks like.",
+          "paragraphs": [
+            "Done properly, bespoke software starts boring: it models the domain, keeps one source of truth, hides the clever parts, and earns daily trust from the people who quietly stopped using the old way. Its value grows the way systems do — quietly, by absorbing yesterday's exception without this morning's ceremony.",
+            "That is what a greenfield build or a modernisation of an existing platform is aiming for: not a system that impresses at a demonstration, but a system that survives Tuesday. Those are usually the same goal well described, and rarely the same implementation."
+          ]
+        },
+        {
+          "heading": "Keep the comparison honest all the same.",
+          "paragraphs": [
+            "Signals are a prompt, not a verdict. This studio will say it plainly: WordPress remains an excellent choice for straightforward content sites, and established SaaS products solve standard problems cheaper than any build. A system that fits, however mundane, beats a custom build every working day — and most organisations need several off-the-shelf components for exactly that reason.",
+            "If several of these signs ring true, the next step is not commissioning anything. It is making the decision properly: the full buy, configure or build framework — workflow value, adaptation costs, the ownership that bespoke confers, and the integration middle ground that avoids an unnecessary rebuild — is covered in depth in our longer guide, “Off-the-shelf vs bespoke software: how do you choose?”. Start there, then talk to us about the parts that are genuinely yours."
+          ]
+        }
+      ],
+      "featured": false,
+      "heroFit": "contain"
+    },
+    {
+      "date": "2026-10-01",
+      "slug": "accessibility-performance-seo-together",
+      "category": "engineering",
+      "tags": [
+        "Accessibility",
+        "Performance",
+        "SEO"
+      ],
+      "title": "Accessibility, performance and SEO should be engineered together.",
+      "image": "/assets/hero-background.webp",
+      "imageAlt": "Abstract artwork — semantic structure as an engineering foundation.",
+      "snippet": "Semantic HTML serves WCAG, Core Web Vitals and technical SEO at once — why these concerns are engineering fundamentals, not finishing touches.",
+      "seoTitle": "Accessibility, Performance and SEO Together | Kinetic Axis",
+      "seoDescription": "Why semantic HTML, WCAG, Core Web Vitals and responsive design are one engineering discipline — accessibility, performance and SEO built together, not bolted on.",
+      "services": [
+        {
+          "label": "Accessibility-first builds",
+          "href": "/accessibility"
+        },
+        {
+          "label": "Web design",
+          "href": "/web-design"
+        }
+      ],
+      "body": [
+        {
+          "heading": "One structure, three audiences.",
+          "paragraphs": [
+            "A screen reader, a network-limited phone and a search crawler are all asking the same question: what does this page actually say, in what order, with what emphasis? Semantic HTML answers all three at once — headings that describe structure serve WCAG, give crawlers their relevance signals, and keep rendering predictable under slow connections."
+          ]
+        },
+        {
+          "heading": "Performance and accessibility overlap.",
+          "paragraphs": [
+            "The techniques that pass Core Web Vitals checks are the ones that make sites usable: properly sized imagery so layouts don't shift between what's seen and what's touched, keyboard-operable interactions that are also computer-operable, text that survives contrast checks on every surface. Responsive design isn't a breakpoint exercise — it's the same requirement from the device's testing."
+          ]
+        },
+        {
+          "heading": "The bolt-on tax.",
+          "paragraphs": [
+            "Retrofit creates the tax: alt text generated at the end instead of authored with content, overlays patching what markup should have carried, performance fixes that fight the theme layer. Every bolt-on costs more than the engineered version and delivers less."
+          ]
+        },
+        {
+          "heading": "The checklist that aligns them.",
+          "paragraphs": [
+            "In practice the alignment is a short list applied relentlessly: semantic HTML for every landmark; one logical heading order per page; alt text and descriptive link text written for comprehension rather than keywords; labelled form fields with errors that are announced; images sized, lazily loaded and never oversized; and a document order that reads correctly in the DOM, in a screen reader and to a crawler alike.",
+            "None of that is exotic. It is ordinary discipline applied at build time instead of bolted on at audit time — which is precisely why it is cheap once and expensive forever if skipped."
+          ]
+        },
+        {
+          "heading": "What the bolt-on tax looks like.",
+          "paragraphs": [
+            "The alternative shape is familiar: accessibility retrofitted after an audit lands, performance rescued by a specialist before a campaign, SEO remediated when a site mysteriously does not rank. Each retrofit touches the same HTML the other two will also need to change, which is why sequential bolt-ons cost roughly triple what building it right once does.",
+            "Engineering the three together is not a compliance strategy; it is just competent build practice that happens to keep every downstream audience satisfied from the same codebase."
+          ]
+        },
+        {
+          "heading": "One example, three audiences.",
+          "paragraphs": [
+            "Consider an ordinary booking form, engineered together: a label attached to every field serves screen readers, autofill and crawler comprehension alike; error messages that are announced also cut support tickets and abandonment; a form that submits fast with no blocking scripts is both Core Web Vitals healthy and indexable; and the markup that search understands is the same markup assistive tech reads as structure.",
+            "Each requirement, met once, pays three audiences. That is not a coincidence but a truth to build on: the three disciplines have always been descriptions of one well-made page."
+          ]
+        },
+        {
+          "heading": "When trade-offs collide.",
+          "paragraphs": [
+            "Rarely, the three disagree — an animation that helps engagement but harms motion sensitivity; an optimisation that compresses text beyond comfortable reading. The house rule: users first, then search engines, then conversion goals — each with its own legitimate claim on the page, resolved in that order and on purpose.",
+            "Writing the resolution down is the discipline that keeps later features from reopened settled debates. A site that has an ordering rule argues less internally and drifts less in practice."
+          ]
+        },
+        {
+          "heading": "Auditing what you already have.",
+          "paragraphs": [
+            "For an existing site, the triage approach works in layers: quick wins first — alt text, link language, title revisions, image weights — then structural repairs, heading order, landmark elements, script discipline — and finally the rebuild-class issues that deserve a plan rather than a patch.",
+            "The point of sequencing is honesty about effort. Sites that try to fix everything at once stop halfway and keep nothing; sites that layer the work keep everything they fix, and the fixes compound."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "Treating accessibility, performance and SEO as engineering fundamentals is how this studio builds — on our own site and client sites alike. The test isn't a score from a single tool; it's whether the whole stack agrees about what the page means."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "date": "2026-09-30",
+      "slug": "seo-growth-plan-heart-of-england",
+      "category": "strategy",
+      "tags": [
+        "Client work",
+        "SEO",
+        "Hospitality"
+      ],
+      "title": "SEO and growth plan delivered for Heart of England.",
+      "logo": "/assets/client-logos/heart-of-england.png",
+      "logoAlt": "Heart of England brand mark",
+      "image": "/assets/hero-k.jpg",
+      "imageAlt": "Kinetic Axis studio artwork — digital growth planning for hospitality businesses.",
+      "snippet": "A SEO and growth plan delivered for Heart of England — technical analysis turned into a prioritised improvement roadmap, with an app proposal at cost-evaluation stage.",
+      "seoTitle": "SEO and Growth Plan for Heart of England | Kinetic Axis",
+      "seoDescription": "A delivered SEO and growth plan for Heart of England: technical analysis, a prioritised roadmap — and a restaurant booking and ordering app at cost evaluation.",
+      "services": [
+        {
+          "label": "Digital strategy",
+          "href": "/sme-digital-transformation"
+        },
+        {
+          "label": "Web design",
+          "href": "/web-design"
+        }
+      ],
+      "body": [
+        {
+          "heading": "The plan, delivered.",
+          "paragraphs": [
+            "Kinetic Axis delivered a SEO and growth plan for Heart of England, the events and conferencing business: technical review of their web presence joined up with growth opportunities, prioritised so the team can act in the right order rather than in response to whichever issue is most recent."
+          ]
+        },
+        {
+          "heading": "From analysis to roadmap.",
+          "paragraphs": [
+            "The plan was structured to be executable by their own team: findings framed as improvements, an order-of-work that respects their capacity, and clear separation between what is quick and what is structural. The report has since been sent over to Heart of England's web team to take forward."
+          ]
+        },
+        {
+          "heading": "Looking further: an app proposal.",
+          "paragraphs": [
+            "Beyond SEO, the studio proposed a restaurant booking and ordering app as a natural next step for the business — turning demand that currently arrives by phone into a digital channel the brand owns. Their team is currently evaluating the costs of the app; the proposal stands and the studio is ready to take it forward whenever they are."
+          ]
+        },
+        {
+          "heading": "How the plan was built.",
+          "paragraphs": [
+            "The work ran in the same shape we apply to any growth engagement: analyse the site technically — structure, metadata, content depth, crawl practicality — combine that with how real visitors actually find and use it, then turn the findings into a roadmap ordered by impact and effort rather than by alphabet.",
+            "Every recommendation arrived sized and sequenced, paired with what it should move and how that would be measured, so the plan could be executed in normal working weeks rather than deferred until a quiet month that never comes."
+          ]
+        },
+        {
+          "heading": "Growth work as maintenance, not events.",
+          "paragraphs": [
+            "The most useful mindset shift for any organisation doing this work: SEO is gardening, not construction. A one-off push produces a spike; a rhythm of analysis, prioritised fixes and content tending produces a curve.",
+            "Pairing the plan with an ongoing partnership is what makes the curve durable — the same team that diagnosed the site is on hand to steer its continued development, which keeps every later change consistent with the original analysis."
+          ]
+        },
+        {
+          "heading": "What the analysis opened up.",
+          "paragraphs": [
+            "The technical review covered the usual ground with the usual conclusions: structural clarity, metadata quality, content depth against the queries that matter, and the practical mechanics of being crawled and understood. What differs is what happens next — each finding carrying effort, effect and a place in sequence, so the site could start moving within days of the report landing.",
+            "Pairing analysis with pace-of-execution is where growth plans differentiate themselves: a document that tells a team what to do is common; a document plus the momentum to begin is much rarer and that pairing is exactly what this engagement offered."
+          ]
+        },
+        {
+          "heading": "Pace a small team can hold.",
+          "paragraphs": [
+            "Growth plans fail by overcommitting as reliably as they fail by under-delivering: with digested weekly hours to spare are the oxygen of these programmes. The roadmap therefore separates immediately-actionable fixes — sized to a normal working afternoon — from initiatives for steady cadence, and it spaces content ambitions into sustainable beats.",
+            "That honesty about bandwidth is what makes the plan believable to the people who have to live it; and a plan the team believes is the only plan that survives contact with a busy week."
+          ]
+        },
+        {
+          "heading": "How the first quarter would be judged.",
+          "paragraphs": [
+            "Baselines were fixed before any change shipped — where the site stood for the queries that matter, how its pages performed for visitors, and the volume of enquiries the site currently starts. Improvement is only a meaningful word once those numbers genuinely land.",
+            "The first quarter's scorecard then writes itself: positions for the watched queries, page-level engagement, and enquiry behaviour — tracked against the baseline, not against optimism. The plan either earns continuation on those numbers or it gets revised on them; that willingness to be judged is what makes growth work a service rather than a promise."
+          ]
+        },
+        {
+          "heading": "What this demonstrates.",
+          "paragraphs": [
+            "This is strategy work the way this studio does it: technical depth, commercial framing, and recommendations that a real team can execute — with an honest line between what's delivered and what's proposed."
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "slug": "chatgpt-research-partner",
+      "category": "ai",
+      "tags": [
+        "chatgpt",
+        "openai",
+        "research",
+        "planning"
+      ],
+      "title": "ChatGPT as a research partner: how we plan software before we build it",
+      "date": "2025-04-14",
+      "image": "/assets/studio-workflow.webp",
+      "imageAlt": "Abstract 3D artwork representing research and planning workflows at Kinetic Axis",
+      "snippet": "Before a line of code exists, most of the work is questions. Here's how we use ChatGPT to pressure-test ideas, compare approaches and turn loose briefs into buildable plans.",
+      "seoTitle": "ChatGPT for software research and planning",
+      "seoDescription": "How we use ChatGPT to pressure-test ideas, compare technical approaches and turn loose client briefs into buildable plans.",
+      "body": [
+        {
+          "heading": "The research phase nobody bills for",
+          "paragraphs": [
+            "Long before we open a repository on a new project, there is a stretch of unglamorous work: working out what the client actually needs versus what they asked for, what the technical options are, and which of them will still make sense in three years. Historically that work lived in scattered notes, bookmarked documentation and half-remembered conversations.",
+            "When reasoning models like ChatGPT reached the point where they could hold a whole problem in context, that phase changed shape for us. It did not replace the thinking — it gave the thinking a sparring partner that never gets tired of the question “but what if the client means the other thing?”"
+          ]
+        },
+        {
+          "heading": "Pressure-testing a brief",
+          "paragraphs": [
+            "The most valuable use is adversarial. We describe a brief to ChatGPT and then spend the session trying to break it: what happens at ten times the data volume, what does this look like for a customer on a phone on a train, which requirement quietly assumes something nobody has confirmed. The model is very good at generating the objections a stakeholder will raise in week six — while they are still cheap to answer.",
+            "The second use is comparisons. Platform versus framework, build versus buy, sync versus event-driven — the conversations that used to cost days of reading. We still verify everything against primary sources, because these models can be confidently wrong, but as a way to map the decision space it is the single biggest time-saver in our workflow."
+          ]
+        },
+        {
+          "heading": "From loose brief to buildable plan",
+          "paragraphs": [
+            "By the end of a research cycle we want three documents: a plain-English problem statement, a shortlist of technical approaches with the trade-offs spelled out, and a list of open questions for the client. ChatGPT has become a natural collaborator for drafts two and three — it is excellent at turning a rambling explanation into a structured comparison table, and at noticing the question we forgot to ask.",
+            "The discipline that makes it work is the same discipline that makes any research useful: treat the output as a first draft from a well-read colleague, not an oracle. Everything that reaches a client or a codebase gets read, checked and owned by a human. That was true of search results and it is true here."
+          ]
+        },
+        {
+          "heading": "What we tell clients",
+          "paragraphs": [
+            "When we explain this to clients, the honest framing is: the tools make us faster at the parts of the job that are about breadth — surveying options, stress-testing assumptions, drafting structure. The judgement about which option is right for your business, and the accountability for that judgement, has not moved. It still sits with us.",
+            "That division of labour is the reason our planning phase has stayed thorough even as it has got quicker. The questions are better, the comparisons are wider, and the answer is still ours."
+          ]
+        },
+        {
+          "heading": "Conversations as an instrument.",
+          "paragraphs": [
+            "Using ChatGPT well in research turns out to be a skill of conversation design. Ask for a decision and you get a plausible answer; ask it to argue the case against your favoured approach and you get the objections you would otherwise meet in month three; ask it to restate a very long brief in its own words and you find out what it, and you, think the brief means.",
+            "Sequencing matters too: separate context per question rather than one endless chat, recalibrate after every answer worth keeping, and treat each session as an interview to prepare — like so much of the craft, the quality of the question mostly determines the quality of the session."
+          ]
+        },
+        {
+          "heading": "The house style problem.",
+          "paragraphs": [
+            "One discipline worth naming: these models write in a voice — smooth, confident, relentlessly balanced — and if research writing goes into client work unedited, everything the studio produces starts sounding like the same confident voice, ours included. So the output enters our documents as raw material, always, and leaves in our own words after our own scrutiny.",
+            "The habit protects more than tone. Editing forces the re-reading that catches the errors, mis-weights the emphasis and hunts down the sentence that sounded authoritative and was quietly wrong. Unedited fluency is where these tools cost you, never where they paid you."
+          ]
+        },
+        {
+          "heading": "Where it is deliberately not used.",
+          "paragraphs": [
+            "The boundaries matter as much as the uses: no client-confidential material into any chat, no personal data anywhere near it, and no decision made on a model's authority alone — the decision-maker is always the person who can be held answerable for the decision.",
+            "Those rules predate any specific tool and outlast any model version, which is the point: policies tied to a tool version age badly, and principles tied to accountability age perfectly."
+          ]
+        },
+        {
+          "heading": "How we would begin again.",
+          "paragraphs": [
+            "If the studio started from zero with these tools tomorrow, the advice would not change: begin in the research phase where errors are cheapest, become fluent there, and keep the codebase out of it until the habit of verification is established.",
+            "The trap most teams fall into is reaching for the API before the product has earned its place — this studio did the reverse: research first, code later, and the research earned its keep long before the code did. Learn the product first, the API second — context is the part that compounds."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "codex-development-loop",
+      "category": "engineering",
+      "tags": [
+        "codex",
+        "openai",
+        "agents",
+        "code-review"
+      ],
+      "title": "Codex in the build loop: where an AI coding agent earns its place",
+      "date": "2025-09-19",
+      "image": "/assets/studio-hero-3d.webp",
+      "imageAlt": "Abstract 3D artwork representing the software build loop",
+      "snippet": "OpenAI's Codex changed how we think about delegation inside a codebase. The lesson so far: agents are excellent at well-scoped work, and the review step is where the real engineering happens.",
+      "seoTitle": "Using OpenAI Codex in our development loop",
+      "seoDescription": "What we have learned delegating well-scoped tasks to OpenAI's Codex agent — and why the review step is where the real engineering happens.",
+      "body": [
+        {
+          "heading": "From autocomplete to delegation",
+          "paragraphs": [
+            "The first generation of AI coding tools made typing faster. Coding agents change the shape of the job: instead of suggesting the next line, they take a described task, work across several files, run the tests they can and come back with a change to review. OpenAI's Codex was the point where that workflow clicked for us.",
+            "The important mental shift is that delegation is a skill. An agent given “improve the homepage” will produce something plausible and unhelpful. The same agent given “migrate these three components to the shared design-system button, TypeScript strict, no visual changes” will produce a reviewable diff in minutes."
+          ]
+        },
+        {
+          "heading": "Where it earns its place",
+          "paragraphs": [
+            "The wins for us cluster in a few recurring categories: mechanical migrations, test backfill, small features with clear acceptance criteria, and the kind of refactor that is valuable but boring. In all of those, the specification is short and the success test is objective — which is exactly the profile agents handle well.",
+            "What we deliberately keep out of agents' hands is anything where the acceptance criteria are still being formed: early-stage interface work, anything touching security boundaries, and architecture decisions. Delegating an undefined task is not saving time, it is deferring thought."
+          ]
+        },
+        {
+          "heading": "Review is the job now",
+          "paragraphs": [
+            "The uncomfortable truth about agents is that they move the bottleneck rather than removing it. Generating a diff is cheap; reading it like you wrote it yourself is not optional. We treat agent output exactly as we would treat a junior developer's pull request — with a review checklist, tests that have to pass, and no merge on vibes.",
+            "Done properly, this has made review better rather than worse. Because the agent's work is well-scoped by construction, reviews are shorter and more focused than the sprawling human-authored changes they replaced."
+          ]
+        },
+        {
+          "heading": "The honest balance sheet",
+          "paragraphs": [
+            "We would not claim a multiplier number, because honest numbers need measurements we were not taking before this workflow existed. What we can say is qualitative: the team spends more time on the parts of the job that need a — specification, interface design and judgement — and less on the mechanical middle.",
+            "Agents have also changed what we write down. Tasks that used to live in someone's head now get specified carefully enough to hand over, which would be good practice even without AI on the other end of it."
+          ]
+        },
+        {
+          "heading": "Anatomy of a well-scoped task.",
+          "paragraphs": [
+            "The task briefs that produce good agent work share a shape: context about where the change lives, constraints that name the boundaries the agent must respect, acceptance criteria that are objective rather than aspirational, and stopping conditions — what to do — when the agent cannot meet the criteria rather than guessing its way past them.",
+            "Writing briefs to that standard takes minutes and transforms the results. The contrast with “improve the homepage” is not subtle: one brief forces the thinking upfront, the other borrows against it and pays in review."
+          ]
+        },
+        {
+          "heading": "The review checklist, written down.",
+          "paragraphs": [
+            "Agent output earns merges the same way any diff at this studio earns one: a consistent checklist — does the change do only what the brief authorised; do the tests actually test the changed behaviour; is anything slipped into the changeset the brief did not ask for; and does the diff read like something a careful colleague wrote?",
+            "The checklist matters more for agent output than for human work, because agents whose work is reviewed thoroughly produce increasingly trustworthy brief-following behaviour — while agents pushed through on vibes train nobody, least of all the reviewer."
+          ]
+        },
+        {
+          "heading": "Agents in a static-first pipeline.",
+          "paragraphs": [
+            "The studio's build discipline is an asset with agents: prebuild checks run the gates — types, content, SEO, accessibility, performance budgets — that fail loudly on hard thresholds. An agent cannot quietly ship something past a pipeline designed for that exact purpose.",
+            "Practically, that means the gates earn their keep twice: they protect the site from human mistakes as they always have, and now they close the loop on delegated work — a task passes not when the agent believes it is done, but when the pipeline says so."
+          ]
+        },
+        {
+          "heading": "When we stop an agent.",
+          "paragraphs": [
+            "Not every delegated task deserves to finish. The stop signals: the agent attempting work the brief never authorised, replaying the same failing edit with cosmetic variations, or reporting completion that the acceptance criteria clearly contradict.",
+            "Stopping early is not failure — it is the cost signal that the brief was under-specified, or the task belonged to a different tier than the tool. Both lessons belong in the next brief; neither belongs in the merged history."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opencode-open-agent-stack",
+      "category": "engineering",
+      "tags": [
+        "opencode",
+        "open-source",
+        "cli",
+        "tooling"
+      ],
+      "title": "Building on open agents: what OpenCode changes about tool ownership",
+      "date": "2026-02-24",
+      "image": "/assets/contact-hero-3d.webp",
+      "imageAlt": "Abstract 3D artwork representing open-source engineering tooling",
+      "snippet": "Open-source terminal agents like OpenCode put the workflow itself in our hands rather than a vendor's. Why that matters more than benchmark points, especially for a studio that owns its stack.",
+      "seoTitle": "Why we build with OpenCode, an open-source agent",
+      "seoDescription": "Open-source terminal coding agents such as OpenCode put the AI workflow in your hands rather than a vendor's. Our experience so far.",
+      "body": [
+        {
+          "heading": "The case for owning the harness",
+          "paragraphs": [
+            "Our studio's whole approach is built on owning the things we depend on — it is the argument we make to clients about bespoke software every week. It would be strange to make that argument and then hand our own core workflow to a single closed box.",
+            "OpenCode is an open-source coding agent that runs in the terminal, in the same family of tools as the commercial agents we already use. The differences that matter are not benchmark points. They are structural: the harness is inspectable, the configuration is files in our repository, and the model behind it is a choice rather than a subscription."
+          ]
+        },
+        {
+          "heading": "What the terminal-first shape buys",
+          "paragraphs": [
+            "Running the agent in the terminal, next to the tools it is editing, changes the texture of the work. The agent reads the same repository state we do, runs the same commands, and its output lands in the same review loop as everyone else's changes. There is no parallel universe of “AI work” — there is just work, some of it delegated.",
+            "It also suits how we actually build for clients: static exports, strict type-checking, prebuild gates that fail loudly. An agent that has to pass through the same build checks as a human cannot quietly ship something the pipeline would reject."
+          ]
+        },
+        {
+          "heading": "Model choice as a numerical decision",
+          "paragraphs": [
+            "A practical benefit that surprises people: separating the agent from the model turns model selection into a per-task decision rather than a per-seat purchase. A fast model can handle file-triage and mechanical edits while a stronger one handles the planning pass, and you can change that split as the model landscape moves — which, over the past year and a half, it has done repeatedly.",
+            "When the landscape moves, an open harness moves with it. Upgrading is a config change, not a procurement exercise. For a small studio, that agility is worth more than any single-week benchmark win."
+          ]
+        },
+        {
+          "heading": "The trade-offs, stated plainly",
+          "paragraphs": [
+            "The cost of openness is polish. Commercial agents are slick, integrated and supported; an open-source CLI expects you to read its configuration and occasionally its source. That is a real cost, and we would not pretend otherwise.",
+            "But the offsetting benefit is alignment with everything else we believe: tools you can inspect, configure and keep, on top of a stack you own. The AI workflow is now part of our build system, and parts of the build system should be ours."
+          ]
+        },
+        {
+          "heading": "The setup, committed to the repository.",
+          "paragraphs": [
+            "The agent's configuration lives in the repository like everything else that matters: instructions, conventions and review expectations versioned alongside the code they govern. New work starting from the same repo inherits the same working agreement without a briefing call.",
+            "That may sound like trivia; it is actually the governance model. When the agent's behaviour is a reviewed file, improving the agent is a pull request — and the studio has a written, evolvable agreement with its tools rather than a mood."
+          ]
+        },
+        {
+          "heading": "How work actually flows.",
+          "paragraphs": [
+            "The daily shape: plan in one session with the stronger model triaging what the work needs, build in the terminal with the fast model making diffs against a spec, review with fresh eyes against the checklist, and let the pipeline — not the mood — decide what merges.",
+            "The loop is not autonomous in the sci-fi sense; it is supervised, gated and boring on purpose. The excitement, such as it is, belongs in what ships — not in how the shipping works."
+          ]
+        },
+        {
+          "heading": "Upstream drift, handled on purpose.",
+          "paragraphs": [
+            "Open tooling has one obligation people forget: it moves, and you have to keep up on purpose. The studio treats upstream updates of the harness the way it treats dependency updates anywhere — changes read before they are adopted, breaking notes treated as commitments, and the version capped where stability matters.",
+            "The discipline transforms openness from a risk into an asset: when the tool's behaviour is knowable and its direction readable, an update is an informed decision rather than a surprise."
+          ]
+        },
+        {
+          "heading": "Getting started if you are not there yet.",
+          "paragraphs": [
+            "For a studio considering the open-agent path, the real prerequisites are cultural: a review culture that actually reviews, tests that encode expectations, and comfort in a terminal — the tool is uncomplicated, but it does not compensate for absent engineering hygiene.",
+            "Start with the safest tier of work, adopt the config-in-repo habit from day one, and let the first month be deliberately unimpressive. The compounding starts when the process, not the tool, becomes the thing you trust."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "freebuff-free-coding-agents",
+      "category": "ai",
+      "tags": [
+        "freebuff",
+        "coding-agents",
+        "tooling",
+        "cost"
+      ],
+      "title": "Freebuff and the rise of the free coding agent",
+      "date": "2026-09-18",
+      "image": "/assets/hero-background.webp",
+      "imageAlt": "Abstract 3D artwork representing the changing landscape of AI coding agents",
+      "snippet": "Freebuff gives away what others charge monthly for, funded by ads instead of subscriptions. We have been trying it — and it says something bigger about where agent pricing is heading.",
+      "seoTitle": "Freebuff and the rise of free AI coding agents",
+      "seoDescription": "Freebuff funds a full CLI coding agent with ads instead of a subscription. We have been trying it, and it tells us something about where agent pricing is heading.",
+      "body": [
+        {
+          "heading": "A new shape of free",
+          "paragraphs": [
+            "Freebuff arrived in early 2026 with a simple pitch: a full coding agent in your terminal, free forever, funded by in-CLI advertising rather than a subscription. No card, no credit meter counting down to a paywall — the same class of workflow the paid agents run, at a price of zero.",
+            "The immediate honest reaction is suspicion, and it should be. Tools funded by advertising deserve the questions we would ask on a client's behalf: what data is shared, with whom, for what. Freebuff's model shows text ads in the terminal and, like any such arrangement, the privacy terms are worth reading rather than skimming."
+          ]
+        },
+        {
+          "heading": "What it is like to use",
+          "paragraphs": [
+            "In practice it behaves like the rest of the CLI-agent family: you point it at a repository, describe a task, and it plans, edits and reports back for review. The interesting part is the model menu — Freebuff draws on frontier models from several providers and lets you pick per task, which quietly turns a pricing decision back into an engineering one.",
+            "Where we have found it useful is exactly the tier of work we described in earlier pieces: mechanical migrations, test backfill, well-scoped refactors. For that tier, the free-vs-paid trade is barely a trade — the work is the same shape, so we reach for whichever agent is open."
+          ]
+        },
+        {
+          "heading": "Why the pricing matters — even for us",
+          "paragraphs": [
+            "We are fortunate to already run paid tooling, so for us the arrival of good free agents is not about saving $20 a month. It is about what it does to the expectation curve for the industry: model prices have been falling fast while seat prices have been sticky, and Freebuff is a very public demonstration that the gap is now an adult-sized gap.",
+            "For hiring, for students, for small studios and for our clients' in-house teams, free agents lower the on-ramp to the agentic workflow we now consider standard. More people doing disciplined agent-assisted development is, on balance, good for the quality of the ecosystem we work in."
+          ]
+        },
+        {
+          "heading": "Our rule of thumb",
+          "paragraphs": [
+            "The way we have settled on choosing between agents is unglamorous: match the tool to the task's risk profile. Free agents for the low-risk mechanical tier, paid and audited setups where the code touches money, personal data or anything a client would be upset to find in an ad network's logs.",
+            "The deeper trend — capable agents becoming cheap and plentiful — means the differentiator was never going to be access to the tool. It is what your process does with it. Specification, review and ownership are the parts that still cost real money, and they are the parts we would not want to free."
+          ]
+        },
+        {
+          "heading": "Where it sits in our kit.",
+          "paragraphs": [
+            "Months in, Freebuff has settled into a specific seat: the open-door agent. Paid and audited tooling covers work with a risk profile worth metering; Freebuff handles the everyday exploratory tier — quick drafts, mechanical tidy-ups, and the questions that previously died as too minor to bill an agent against.",
+            "That seat matters more than the price would suggest. An agent whose usage you never ration gets used for a class of small work that would otherwise stay undone — and the cumulative effect on codebase hygiene quietly outperforms any single headline capability."
+          ]
+        },
+        {
+          "heading": "The trust question, taken seriously.",
+          "paragraphs": [
+            "The ad-funded model deserves a serious answer rather than a shrug, and ours is conservative: Freebuff sits in the low-risk tier — work we would be comfortable seeing processed loosely, kept away from anything that touches client-confidential, personal or financial data according to the studio's tiering.",
+            "The broader point stands regardless of tool: reading the privacy terms of a free service is not paranoia, it is the entry fee for its price, and studios that skip it are making a commercial decision they never clocked as one."
+          ]
+        },
+        {
+          "heading": "What free agents change for clients.",
+          "paragraphs": [
+            "For clients' in-house teams, the free-agent wave is the first time agentic development has been financially frictionless: no procurement cycle, no seat maths, no pilot budget — install it and it is there. The competition for those teams stops being budget and becomes discipline.",
+            "Which is why our counsel to client teams is unchanged in substance: adopt the agent if you adopt the gates — reviews, tests, build checks — that make delegated work safe. The tool is free; the process is what it costs, and it is worth it."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "artcraft-vs-adobe-studio-move",
+      "category": "ai",
+      "tags": [
+        "artcraft",
+        "adobe",
+        "design-tools",
+        "open-source",
+        "cost"
+      ],
+      "title": "ArtCraft vs Adobe: why this studio moved",
+      "date": "2026-10-16",
+      "image": "/assets/contact-hero-3d.webp",
+      "imageAlt": "Abstract 3D artwork representing the studio's move from Adobe's Creative Cloud to open-source design tools",
+      "snippet": "We cancelled Adobe's subscription and moved the studio to ArtCraft, the free open-source suite built from a clean room in Rust. A week in: it's lightning fast, it skips thirty years of bloat, and it does the jobs we need.",
+      "seoTitle": "ArtCraft vs Adobe: why we moved",
+      "seoDescription": "We moved from Adobe's subscription to ArtCraft's free clean-room suite. Lightning fast, no thirty years of bloat, and it does the jobs we need. The honest week-one story.",
+      "body": [
+        {
+          "heading": "The subscription we finally stopped arguing with",
+          "paragraphs": [
+            "For years, Adobe's Creative Cloud sat in our cost column looking immune to review. It is the industry default, our muscle memory lives inside Photoshop and Illustrator, and the conversation about it has mostly been acceptance rather than appraisal — rent the tools, pay the monthly toll, keep working.",
+            "Then two things happened at once. Adobe's pricing and cancellation practices kept making the wrong kind of headlines — the widely reported US government settlement over early-termination fees in March 2026 was the low point — and a genuine alternative arrived. Not a promise of one, not a roadmap: working software you could download and use that afternoon."
+          ]
+        },
+        {
+          "heading": "What ArtCraft actually is — and why that matters",
+          "paragraphs": [
+            "ArtCraft launched at the start of October 2026: a free, open-source collection of native design apps built in Rust, each one deliberately shadowing a Creative Cloud staple — PhotoCraft for Photoshop, VectorCraft for Illustrator, FilmCraft for Premiere, LightCraft for Lightroom, and onward through PDF, motion and layout.",
+            "The part people miss in the hype is the clean part. This is not a decade of accretion; it is a clean-room rebuild. The developers did not inherit Photoshop's source or Illustrator's backlog — they rebuilt the ideas, freshly, in a modern language, and left everything else at the door."
+          ]
+        },
+        {
+          "heading": "Thirty years of bloat is a real cost — we finally felt it",
+          "paragraphs": [
+            "Here is the narrative nobody tells you about mature software: Photoshop is thirty-plus years old. That is thirty-plus years of features nobody uses any more, dialogs carried forward for compatibility, preferences panels with archaeology in them, and codepaths kept alive because someone, somewhere, still opens a 2004-era file. It all ships, it all loads, and you pay for all of it in memory and startup time whether you touch it or not.",
+            "ArtCraft carries none of that. No legacy formats from two decades back, no decades-old plugin architecture to keep breathing, no dialogs that exist because a feature tour in 2013 needed them. The apps feel opinionated in the best sense: the tools a working designer actually reaches for, front and centre, and nothing whispering in the background about what software used to be."
+          ]
+        },
+        {
+          "heading": "Lightning fast, because clean rooms are fast",
+          "paragraphs": [
+            "We expected “free and open source” to mean slow, and the opposite happened. ArtCraft is lightning fast — and the reason is the clean room itself. Rust, native code, no legacy ballast: the apps start in a blink, the canvas keeps up with us, and the spinny wait-cursor that defines our Adobe muscle memory simply does not appear.",
+            "The honest framing is that some of this speed is youth — there simply is not thirty years of accumulated stuff to slow down yet. But the architecture is the reason it can stay fast as it grows, and the feel of it day to day is the difference between software that works with you and software you wait for. After years on heavy Creative Cloud installs, the first week here felt like getting a new machine for free."
+          ]
+        },
+        {
+          "heading": "What we moved, and why",
+          "paragraphs": [
+            "We moved the studio's day-to-day design work across — the tile artwork and social graphics we produce for ourselves, and the creative work that flows through client projects. Our reasons were the two that almost every independent studio shares: the price, and the ownership.",
+            "The price case writes itself: Creative Cloud costs as much over a few years as a decent machine to run it on. The ownership case is the one that actually moved us: local files, local processing, no subscription standing between the studio and its work, and a public codebase we can read. The same conviction behind our bespoke-software argument and the open-agent stack we build on — this time applied to the design tools themselves."
+          ]
+        },
+        {
+          "heading": "Week one: the verdict we did not expect",
+          "paragraphs": [
+            "So, one week in: it is not flawless, but it does the jobs we need — and it is only in alpha, getting better day by day, with releases landing visibly faster than any subscription product we have ever used. Momentum is the correct word. Every time we open it, it is closer to the tool we want than the time before.",
+            "That rate of improvement is the real story. Adobe's feature pace is measured in annual keynotes; ArtCraft's is measured in shipping increments you can feel within the week. We hitched the studio's design work to the curve going up."
+          ]
+        },
+        {
+          "heading": "Kept honest, briefly",
+          "paragraphs": [
+            "Two watch items, stated in one breath so they do not spoil the story. First, alpha is alpha: we keep our old file exports archived, because optionality is cheap and regret is not. Second, how the suite was recreated remains an open question publicly — we are users, not judges, and we watch that conversation with interest.",
+            "Neither one changes the decision. If ArtCraft never progresses another inch, it already does our daily work faster than the apps we were renting. Everything after that point is upside."
+          ]
+        },
+        {
+          "heading": "It fits a pattern we have already named",
+          "paragraphs": [
+            "If you have read our toolkit scoreboard, none of this will surprise you. The tools keep getting cheaper and more capable — free coding agents, open harnesses, and now an entire open design suite — while the differentiator moves to the parts that cost real effort: taste, process, review and judgement.",
+            "That is what this move was: not a claim that ArtCraft out-features Adobe — it is not trying to — but a studio's decision that for the work we actually do, a clean-room rebuild that is fast, free and ours to keep beats renting thirty years of bloat. If you run a studio like ours, try it on your own tile artwork first. That is exactly where it won us over."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -101,15 +101,32 @@ export function ConsentBanner() {
   }
 
   if (!choice) return null;
+  return null;
+}
 
+/** Inline withdraw / re-accept controls, rendered only on the /cookies policy page. */
+export function CookieChoices() {
+  const [ready, setReady] = useState(false);
+  const [choice, setChoice] = useState<Choice | null>(null);
+
+  useEffect(() => {
+    const stored = readChoice();
+    setChoice(stored);
+    setReady(true);
+    if (stored) applyConsent(stored);
+  }, []);
+
+  const decide = (next: Choice) => { writeChoice(next); setChoice(next); applyConsent(next); };
+
+  if (!ready) return null;
   return (
-    <button
-      type="button"
-      className="ka-consent-reopen"
-      aria-label="Change cookie consent choices"
-      onClick={() => setOpen(true)}
-    >
-      Cookie choices
-    </button>
+    <div className="ka-cookie-choices" role="group" aria-label="Cookie choices">
+      <span className="ka-cookie-choices__label">
+        {choice === 'granted' ? 'Analytics cookies are currently accepted.' : 'Analytics cookies are currently declined.'}
+        {' '}Change it here at any time:
+      </span>
+      <button type="button" className={`ka-cookie-choices__option${choice === 'denied' ? ' ka-cookie-choices__option--active' : ''}`} onClick={() => decide('denied')}>Decline</button>
+      <button type="button" className={`ka-cookie-choices__option${choice === 'granted' ? ' ka-cookie-choices__option--active' : ''}`} onClick={() => decide('granted')}>Accept analytics</button>
+    </div>
   );
 }

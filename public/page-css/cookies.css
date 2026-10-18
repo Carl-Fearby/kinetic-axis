@@ -495,3 +495,11 @@ main#main-content{scroll-margin-top:16px}
 @media (prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto!important}}
 
 .site-root{min-height:100vh;}
+
+/* Inline consent controls: no floating pill after a choice has been stored. */
+.ka-cookie-choices{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:20px 22px;border:1px solid var(--line);border-radius:9px;background:#fff;margin:26px 0 6px}
+.ka-cookie-choices__label{font-size:14.5px;color:var(--muted);line-height:1.5}
+.ka-cookie-choices__option{font-size:14px;font-weight:600;padding:9px 16px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);cursor:pointer;transition:border-color .2s,background .2s}
+.ka-cookie-choices__option:hover{border-color:var(--blue);color:var(--blue)}
+.ka-cookie-choices__option--active{background:var(--blue);border-color:var(--blue);color:#fff}
+.ka-cookie-choices__option--active:hover{color:#fff}

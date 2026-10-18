@@ -85,6 +85,33 @@ import Page_Loc_5 from "./pages/web-design-software-leamington-spa";
 import Page_Loc_6 from "./pages/web-design-software-nuneaton";
 import Page_Loc_7 from "./pages/web-design-software-solihull";
 import Page_Experience from "./pages/experience";
+import Page_News from "./pages/news";
+import Page_News_Category_Strategy from "./pages/news--category--strategy";
+import Page_News_Category_Projects from "./pages/news--category--projects";
+import Page_News_Category_Ai from "./pages/news--category--ai";
+import Page_News_Category_Engineering from "./pages/news--category--engineering";
+import Page_News_Category_Company from "./pages/news--category--company";
+import Page_News_Cemex from "./pages/news--cemex-uk-maintenance-partnership";
+import Page_News_Hoe from "./pages/news--seo-growth-plan-heart-of-england";
+import Page_news_artcraft_vs_adobe_studio_move from "./pages/news--artcraft-vs-adobe-studio-move";
+import Page_news_ai_toolkit_honest_review from "./pages/news--ai-toolkit-honest-review";
+import Page_news_freebuff_free_coding_agents from "./pages/news--freebuff-free-coding-agents";
+import Page_news_opencode_open_agent_stack from "./pages/news--opencode-open-agent-stack";
+import Page_news_codex_development_loop from "./pages/news--codex-development-loop";
+import Page_news_chatgpt_research_partner from "./pages/news--chatgpt-research-partner";
+import Page_news_accessibility_performance_seo_together from "./pages/news--accessibility-performance-seo-together";
+import Page_news_bespoke_software_vs_off_the_shelf from "./pages/news--bespoke-software-vs-off-the-shelf";
+import Page_news_ai_accelerated_software_development from "./pages/news--ai-accelerated-software-development";
+import Page_news_connecting_technical_seo_digital_growth from "./pages/news--connecting-technical-seo-digital-growth";
+import Page_news_enterprise_seo_accessibility_liferay_roadmap from "./pages/news--enterprise-seo-accessibility-liferay-roadmap";
+import Page_news_neodrop_nas_first_file_storage from "./pages/news--neodrop-nas-first-file-storage";
+import Page_news_fluid_dynamics_in_the_browser from "./pages/news--fluid-dynamics-in-the-browser";
+import Page_news_introducing_kinetic_axis_digital from "./pages/news--introducing-kinetic-axis-digital";
+import Page_news_pace_venues_hospitality_platform from "./pages/news--pace-venues-hospitality-platform";
+import Page_news_ebuygum_modern_marketplace_design from "./pages/news--ebuygum-modern-marketplace-design";
+import Page_news_opus_react_component_library from "./pages/news--opus-react-component-library";
+import Page_news_vx27_first_person_browser_experience from "./pages/news--vx27-first-person-browser-experience";
+import Page_news_veyra_studio_creative_platform from "./pages/news--veyra-studio-creative-platform";
 export const PAGES: Record<string, ComponentType> = {
   "accessibility": Page_0,
   "approach": Page_1,
@@ -172,4 +199,31 @@ export const PAGES: Record<string, ComponentType> = {
   "web-design-software-nuneaton": Page_Loc_6,
   "web-design-software-solihull": Page_Loc_7,
   "experience": Page_Experience,
+  "news": Page_News,
+  "news/category/strategy": Page_News_Category_Strategy,
+  "news/category/projects": Page_News_Category_Projects,
+  "news/category/ai": Page_News_Category_Ai,
+  "news/category/engineering": Page_News_Category_Engineering,
+  "news/category/company": Page_News_Category_Company,
+  "news/cemex-uk-maintenance-partnership": Page_News_Cemex,
+  "news/seo-growth-plan-heart-of-england": Page_News_Hoe,
+  "news/artcraft-vs-adobe-studio-move": Page_news_artcraft_vs_adobe_studio_move,
+  "news/ai-toolkit-honest-review": Page_news_ai_toolkit_honest_review,
+  "news/freebuff-free-coding-agents": Page_news_freebuff_free_coding_agents,
+  "news/opencode-open-agent-stack": Page_news_opencode_open_agent_stack,
+  "news/codex-development-loop": Page_news_codex_development_loop,
+  "news/chatgpt-research-partner": Page_news_chatgpt_research_partner,
+  "news/accessibility-performance-seo-together": Page_news_accessibility_performance_seo_together,
+  "news/bespoke-software-vs-off-the-shelf": Page_news_bespoke_software_vs_off_the_shelf,
+  "news/ai-accelerated-software-development": Page_news_ai_accelerated_software_development,
+  "news/connecting-technical-seo-digital-growth": Page_news_connecting_technical_seo_digital_growth,
+  "news/enterprise-seo-accessibility-liferay-roadmap": Page_news_enterprise_seo_accessibility_liferay_roadmap,
+  "news/neodrop-nas-first-file-storage": Page_news_neodrop_nas_first_file_storage,
+  "news/fluid-dynamics-in-the-browser": Page_news_fluid_dynamics_in_the_browser,
+  "news/introducing-kinetic-axis-digital": Page_news_introducing_kinetic_axis_digital,
+  "news/pace-venues-hospitality-platform": Page_news_pace_venues_hospitality_platform,
+  "news/ebuygum-modern-marketplace-design": Page_news_ebuygum_modern_marketplace_design,
+  "news/opus-react-component-library": Page_news_opus_react_component_library,
+  "news/vx27-first-person-browser-experience": Page_news_vx27_first_person_browser_experience,
+  "news/veyra-studio-creative-platform": Page_news_veyra_studio_creative_platform,
 };

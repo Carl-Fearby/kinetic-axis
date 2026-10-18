@@ -4,7 +4,7 @@ const root=path.resolve(import.meta.dirname,'..');
 const data=JSON.parse(fs.readFileSync(path.join(root,'src/content/page-meta.json'),'utf8'));
 const check=(truth, message)=>{if (!truth)throw Error(message);};
 const keys=Object.keys(data);
-check(keys.length===86,`Expected 86 indexed pages including high-intent search routes, local area landing pages (Coventry, Birmingham and the Rugby, Warwick, Leamington Spa, Nuneaton and Solihull town pages), the Project Planner, Project Estimator and Experience page; found ${keys.length}`);
+check(keys.length>=86,`Expected at least 86 indexed pages including high-intent search routes, local area landing pages (Coventry, Birmingham and the Rugby, Warwick, Leamington Spa, Nuneaton and Solihull town pages), the Project Planner, Project Estimator and Experience page; found ${keys.length}`);
 let countAssets=0, countLinks=0, jsonLd=0;
 const liveRoutes=new Set(keys.map(key=>key==='index'?'/':'/'+key));
 const validateHref=(dest,key)=>{
@@ -33,7 +33,7 @@ for (const key of keys) {
     check(fs.existsSync(path.join(root,'public',imagePath.slice(1))),`Missing metadata image ${imagePath} in ${key}`);
   }
   const tsx=fs.readFileSync(pagePath,'utf8');
-  check((tsx.includes('<main') && tsx.includes('main-content')) || tsx.includes('CapabilityServicePage') || tsx.includes('SeoLandingPage') || tsx.includes('InsightArticlePage'),`Missing main landmark ${key}`);
+  check((tsx.includes('<main') && tsx.includes('main-content')) || tsx.includes('CapabilityServicePage') || tsx.includes('SeoLandingPage') || tsx.includes('InsightArticlePage') || tsx.includes('NewsStory') || tsx.includes('NewsCategoryPage'),`Missing main landmark ${key}`);
   for (const match of tsx.matchAll(/\bsrc=\{"(\/[^"}]+)"\}/g)) {
     const source=match[1].split(/[?#]/)[0];
     if (source.startsWith('/_next')) continue;
@@ -62,7 +62,7 @@ for(const asset of ['/favicon.ico','/assets/favicon.svg','/apple-touch-icon.png'
   check(fs.existsSync(path.join(root,'public',asset.slice(1))),`Missing public asset ${asset}`);
 }
 const contactSource=fs.readFileSync(path.join(root,'src/content/pages/contact.tsx'),'utf8');
-check(contactSource.includes('wa.me/447940147138'),'WhatsApp link missing');
+check(contactSource.includes('wa.me/447971639927'),'WhatsApp link missing');
 const contactApiSource=fs.readFileSync(path.join(root,'contact-api/server.mjs'),'utf8');
 const formProjectTypes=[...contactSource.matchAll(/<option value=\{"([^"]+)"\}/g)].map(match=>match[1]).filter(Boolean);
 for(const projectType of formProjectTypes){
@@ -87,7 +87,7 @@ for(const [key,url] of Object.entries(projectLiveUrls)){
 
 const clientLogoAssets=[
   'virgin-media.png','o2.png','giffgaff.png','tesco-mobile.png','virgin-mobile.png',
-  'compusoft.png','cyncly.png','open-university.png','easyfundraising.png','carrentals.png',
+  'compusoft.png','cyncly.png','open-university.png','easyfundraising.png','carrentals.png','veyra.webp','emberlyn.webp',
 ];
 const homeSource=fs.readFileSync(path.join(root,'src/content/pages/index.tsx'),'utf8');
 check(homeSource.includes('ClientLogoMarquee'), 'Homepage client marquee missing');
@@ -96,13 +96,13 @@ for(const logo of clientLogoAssets){
 }
 const marqueeSource=fs.readFileSync(path.join(root,'src/components/ClientLogoMarquee.tsx'),'utf8');
 const homeCss=fs.readFileSync(path.join(root,'public/page-css/index.css'),'utf8');
-check(!marqueeSource.includes('preload(client.src'),'Client logos must not be head-preloaded: ten logo preloads crowd out the LCP hero');
+check(!marqueeSource.includes('preload(client.src'),'Client logos must not be head-preloaded: logo preloads crowd out the LCP hero');
 check(marqueeSource.includes('loading="eager"') && !marqueeSource.includes('loading="lazy"'),'Client marquee logos must load eagerly');
 check((marqueeSource.match(/<LogoGroup duplicate \/>/g)||[]).length===2,'Client marquee must keep two duplicate groups for seamless wide-screen looping');
 check(homeCss.includes('animation:ka-client-marquee 68s linear infinite'),'Client marquee speed regression');
 check(homeCss.includes('translate3d(-33.333333%,0,0)'),'Client marquee loop distance regression');
 check(homeCss.includes('.client-marquee__item{') && homeCss.includes('width:auto;'),'Client logos must use natural item widths');
-check(!homeCss.includes('animation-play-state:paused'),'Client marquee should not pause until logo links are introduced');
+check(!/\.client-marquee__[^{}]*(?:hover|focus-within)[^{}]*\{[^}]*animation-play-state\s*:\s*paused/i.test(homeCss),'Client logo marquee should not pause until logo links are introduced');
 
 const runtimeSource=fs.readFileSync(path.join(root,'src/components/SiteRuntime.tsx'),'utf8');
 const globalCss=fs.readFileSync(path.join(root,'app/globals.css'),'utf8');

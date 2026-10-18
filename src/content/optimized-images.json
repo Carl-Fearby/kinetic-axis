@@ -1,0 +1,685 @@
+{
+  "/assets/approach-process-3d.webp": {
+    "width": 1354,
+    "height": 1162,
+    "variants": [
+      {
+        "src": "/assets/optimized/approach-process-3d-f505fdb360fc-480.webp",
+        "width": 480,
+        "bytes": 63882
+      },
+      {
+        "src": "/assets/optimized/approach-process-3d-f505fdb360fc-960.webp",
+        "width": 960,
+        "bytes": 176050
+      }
+    ]
+  },
+  "/assets/brand-ebuygum.webp": {
+    "width": 1700,
+    "height": 568,
+    "variants": [
+      {
+        "src": "/assets/optimized/brand-ebuygum-b0bc416f4e27-480.webp",
+        "width": 480,
+        "bytes": 22554
+      },
+      {
+        "src": "/assets/optimized/brand-ebuygum-b0bc416f4e27-960.webp",
+        "width": 960,
+        "bytes": 62458
+      }
+    ]
+  },
+  "/assets/brand-opus.webp": {
+    "width": 1666,
+    "height": 739,
+    "variants": [
+      {
+        "src": "/assets/optimized/brand-opus-7634c6275239-480.webp",
+        "width": 480,
+        "bytes": 25184
+      },
+      {
+        "src": "/assets/optimized/brand-opus-7634c6275239-960.webp",
+        "width": 960,
+        "bytes": 73086
+      }
+    ]
+  },
+  "/assets/brand-veyra.png": {
+    "width": 744,
+    "height": 248,
+    "variants": [
+      {
+        "src": "/assets/optimized/brand-veyra-cbe3de0c72b0-480.webp",
+        "width": 480,
+        "bytes": 25138
+      },
+      {
+        "src": "/assets/optimized/brand-veyra-cbe3de0c72b0-744.webp",
+        "width": 744,
+        "bytes": 40026
+      }
+    ]
+  },
+  "/assets/brand-vx27.png": {
+    "width": 512,
+    "height": 512,
+    "variants": [
+      {
+        "src": "/assets/optimized/brand-vx27-18c408bbc823-480.webp",
+        "width": 480,
+        "bytes": 15436
+      },
+      {
+        "src": "/assets/optimized/brand-vx27-18c408bbc823-512.webp",
+        "width": 512,
+        "bytes": 17628
+      }
+    ]
+  },
+  "/assets/client-logos/carrentals.png": {
+    "width": 410,
+    "height": 48,
+    "variants": [
+      {
+        "src": "/assets/optimized/carrentals-283bef4e8156-160.webp",
+        "width": 160,
+        "bytes": 3288
+      },
+      {
+        "src": "/assets/optimized/carrentals-283bef4e8156-320.webp",
+        "width": 320,
+        "bytes": 9816
+      },
+      {
+        "src": "/assets/optimized/carrentals-283bef4e8156-410.webp",
+        "width": 410,
+        "bytes": 13816
+      }
+    ]
+  },
+  "/assets/client-logos/cemex.png": {
+    "width": 600,
+    "height": 108,
+    "variants": [
+      {
+        "src": "/assets/optimized/cemex-05903a3a45f1-160.webp",
+        "width": 160,
+        "bytes": 3188
+      },
+      {
+        "src": "/assets/optimized/cemex-05903a3a45f1-320.webp",
+        "width": 320,
+        "bytes": 7112
+      },
+      {
+        "src": "/assets/optimized/cemex-05903a3a45f1-480.webp",
+        "width": 480,
+        "bytes": 11054
+      },
+      {
+        "src": "/assets/optimized/cemex-05903a3a45f1-600.webp",
+        "width": 600,
+        "bytes": 6012
+      }
+    ]
+  },
+  "/assets/client-logos/compusoft.png": {
+    "width": 249,
+    "height": 68,
+    "variants": [
+      {
+        "src": "/assets/optimized/compusoft-275f1c3ab156-160.webp",
+        "width": 160,
+        "bytes": 3598
+      },
+      {
+        "src": "/assets/optimized/compusoft-275f1c3ab156-249.webp",
+        "width": 249,
+        "bytes": 7238
+      }
+    ]
+  },
+  "/assets/client-logos/cyncly.png": {
+    "width": 241,
+    "height": 72,
+    "variants": [
+      {
+        "src": "/assets/optimized/cyncly-70fe5f069e2a-160.webp",
+        "width": 160,
+        "bytes": 4274
+      },
+      {
+        "src": "/assets/optimized/cyncly-70fe5f069e2a-241.webp",
+        "width": 241,
+        "bytes": 7452
+      }
+    ]
+  },
+  "/assets/client-logos/easyfundraising.png": {
+    "width": 304,
+    "height": 74,
+    "variants": [
+      {
+        "src": "/assets/optimized/easyfundraising-790f213dbf0d-160.webp",
+        "width": 160,
+        "bytes": 3444
+      },
+      {
+        "src": "/assets/optimized/easyfundraising-790f213dbf0d-304.webp",
+        "width": 304,
+        "bytes": 9348
+      }
+    ]
+  },
+  "/assets/client-logos/emberlyn.webp": {
+    "width": 900,
+    "height": 300,
+    "variants": [
+      {
+        "src": "/assets/optimized/emberlyn-342960fdf823-160.webp",
+        "width": 160,
+        "bytes": 3154
+      },
+      {
+        "src": "/assets/optimized/emberlyn-342960fdf823-320.webp",
+        "width": 320,
+        "bytes": 8196
+      },
+      {
+        "src": "/assets/optimized/emberlyn-342960fdf823-480.webp",
+        "width": 480,
+        "bytes": 13742
+      },
+      {
+        "src": "/assets/optimized/emberlyn-342960fdf823-640.webp",
+        "width": 640,
+        "bytes": 20348
+      }
+    ]
+  },
+  "/assets/client-logos/giffgaff.png": {
+    "width": 197,
+    "height": 74,
+    "variants": [
+      {
+        "src": "/assets/optimized/giffgaff-9b7496eed308-160.webp",
+        "width": 160,
+        "bytes": 5508
+      },
+      {
+        "src": "/assets/optimized/giffgaff-9b7496eed308-197.webp",
+        "width": 197,
+        "bytes": 7506
+      }
+    ]
+  },
+  "/assets/client-logos/heart-of-england.png": {
+    "width": 768,
+    "height": 175,
+    "variants": [
+      {
+        "src": "/assets/optimized/heart-of-england-847d25faf785-160.webp",
+        "width": 160,
+        "bytes": 4080
+      },
+      {
+        "src": "/assets/optimized/heart-of-england-847d25faf785-320.webp",
+        "width": 320,
+        "bytes": 9896
+      },
+      {
+        "src": "/assets/optimized/heart-of-england-847d25faf785-480.webp",
+        "width": 480,
+        "bytes": 17198
+      },
+      {
+        "src": "/assets/optimized/heart-of-england-847d25faf785-640.webp",
+        "width": 640,
+        "bytes": 25840
+      }
+    ]
+  },
+  "/assets/client-logos/o2.png": {
+    "width": 100,
+    "height": 96,
+    "variants": [
+      {
+        "src": "/assets/optimized/o2-65187e10bf32-100.webp",
+        "width": 100,
+        "bytes": 3864
+      }
+    ]
+  },
+  "/assets/client-logos/open-university.png": {
+    "width": 212,
+    "height": 88,
+    "variants": [
+      {
+        "src": "/assets/optimized/open-university-792a7e3af629-160.webp",
+        "width": 160,
+        "bytes": 6354
+      },
+      {
+        "src": "/assets/optimized/open-university-792a7e3af629-212.webp",
+        "width": 212,
+        "bytes": 9742
+      }
+    ]
+  },
+  "/assets/client-logos/tcs-transparent.png": {
+    "width": 2170,
+    "height": 725,
+    "variants": [
+      {
+        "src": "/assets/optimized/tcs-transparent-0b95b91c7e79-160.webp",
+        "width": 160,
+        "bytes": 3008
+      },
+      {
+        "src": "/assets/optimized/tcs-transparent-0b95b91c7e79-320.webp",
+        "width": 320,
+        "bytes": 7140
+      },
+      {
+        "src": "/assets/optimized/tcs-transparent-0b95b91c7e79-480.webp",
+        "width": 480,
+        "bytes": 11772
+      },
+      {
+        "src": "/assets/optimized/tcs-transparent-0b95b91c7e79-640.webp",
+        "width": 640,
+        "bytes": 16506
+      }
+    ]
+  },
+  "/assets/client-logos/tesco-mobile.png": {
+    "width": 217,
+    "height": 94,
+    "variants": [
+      {
+        "src": "/assets/optimized/tesco-mobile-ae7127f2913a-160.webp",
+        "width": 160,
+        "bytes": 7088
+      },
+      {
+        "src": "/assets/optimized/tesco-mobile-ae7127f2913a-217.webp",
+        "width": 217,
+        "bytes": 11584
+      }
+    ]
+  },
+  "/assets/client-logos/veyra.webp": {
+    "width": 744,
+    "height": 248,
+    "variants": [
+      {
+        "src": "/assets/optimized/veyra-665111657ab4-160.webp",
+        "width": 160,
+        "bytes": 2138
+      },
+      {
+        "src": "/assets/optimized/veyra-665111657ab4-320.webp",
+        "width": 320,
+        "bytes": 6320
+      },
+      {
+        "src": "/assets/optimized/veyra-665111657ab4-480.webp",
+        "width": 480,
+        "bytes": 11870
+      },
+      {
+        "src": "/assets/optimized/veyra-665111657ab4-640.webp",
+        "width": 640,
+        "bytes": 19234
+      }
+    ]
+  },
+  "/assets/client-logos/virgin-media.png": {
+    "width": 205,
+    "height": 128,
+    "variants": [
+      {
+        "src": "/assets/optimized/virgin-media-f0b26b04e4dc-160.webp",
+        "width": 160,
+        "bytes": 6574
+      },
+      {
+        "src": "/assets/optimized/virgin-media-f0b26b04e4dc-205.webp",
+        "width": 205,
+        "bytes": 8942
+      }
+    ]
+  },
+  "/assets/client-logos/virgin-mobile.png": {
+    "width": 181,
+    "height": 104,
+    "variants": [
+      {
+        "src": "/assets/optimized/virgin-mobile-4a4a9016d766-160.webp",
+        "width": 160,
+        "bytes": 6634
+      },
+      {
+        "src": "/assets/optimized/virgin-mobile-4a4a9016d766-181.webp",
+        "width": 181,
+        "bytes": 7988
+      }
+    ]
+  },
+  "/assets/contact-hero-3d.webp": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/optimized/contact-hero-3d-01f8ca20be7a-480.webp",
+        "width": 480,
+        "bytes": 38256
+      },
+      {
+        "src": "/assets/optimized/contact-hero-3d-01f8ca20be7a-960.webp",
+        "width": 960,
+        "bytes": 110940
+      }
+    ]
+  },
+  "/assets/ebuygum-hero-art.jpg": {
+    "width": 1124,
+    "height": 583,
+    "variants": [
+      {
+        "src": "/assets/optimized/ebuygum-hero-art-31a160c02672-480.webp",
+        "width": 480,
+        "bytes": 18708
+      },
+      {
+        "src": "/assets/optimized/ebuygum-hero-art-31a160c02672-960.webp",
+        "width": 960,
+        "bytes": 43334
+      }
+    ]
+  },
+  "/assets/hero-background.webp": {
+    "width": 1108,
+    "height": 887,
+    "variants": [
+      {
+        "src": "/assets/optimized/hero-background-700722f6ebe1-480.webp",
+        "width": 480,
+        "bytes": 9694
+      },
+      {
+        "src": "/assets/optimized/hero-background-700722f6ebe1-960.webp",
+        "width": 960,
+        "bytes": 22758
+      }
+    ]
+  },
+  "/assets/hero-k.jpg": {
+    "width": 1169,
+    "height": 992,
+    "variants": [
+      {
+        "src": "/assets/optimized/hero-k-b3e529b09428-480.webp",
+        "width": 480,
+        "bytes": 14160
+      },
+      {
+        "src": "/assets/optimized/hero-k-b3e529b09428-960.webp",
+        "width": 960,
+        "bytes": 34832
+      }
+    ]
+  },
+  "/assets/opus-actual-site.jpg": {
+    "width": 1939,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/optimized/opus-actual-site-3aad8c2e0944-480.webp",
+        "width": 480,
+        "bytes": 8442
+      },
+      {
+        "src": "/assets/optimized/opus-actual-site-3aad8c2e0944-960.webp",
+        "width": 960,
+        "bytes": 21872
+      }
+    ]
+  },
+  "/assets/pace-real-mobile.jpg": {
+    "width": 848,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "/assets/optimized/pace-real-mobile-74388813be54-480.webp",
+        "width": 480,
+        "bytes": 41082
+      },
+      {
+        "src": "/assets/optimized/pace-real-mobile-74388813be54-848.webp",
+        "width": 848,
+        "bytes": 71276
+      }
+    ]
+  },
+  "/assets/pace-real-website.jpg": {
+    "width": 1230,
+    "height": 898,
+    "variants": [
+      {
+        "src": "/assets/optimized/pace-real-website-7dbebfd36c8c-480.webp",
+        "width": 480,
+        "bytes": 13714
+      },
+      {
+        "src": "/assets/optimized/pace-real-website-7dbebfd36c8c-960.webp",
+        "width": 960,
+        "bytes": 34436
+      }
+    ]
+  },
+  "/assets/planner-glass-stripes.webp": {
+    "width": 1111,
+    "height": 724,
+    "variants": [
+      {
+        "src": "/assets/optimized/planner-glass-stripes-046211eeec23-480.webp",
+        "width": 480,
+        "bytes": 2662
+      },
+      {
+        "src": "/assets/optimized/planner-glass-stripes-046211eeec23-960.webp",
+        "width": 960,
+        "bytes": 6252
+      }
+    ]
+  },
+  "/assets/project-ebuygum.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-ebuygum-09da71198c54-480.webp",
+        "width": 480,
+        "bytes": 28378
+      },
+      {
+        "src": "/assets/optimized/project-ebuygum-09da71198c54-960.webp",
+        "width": 960,
+        "bytes": 78034
+      },
+      {
+        "src": "/assets/optimized/project-ebuygum-09da71198c54-1440.webp",
+        "width": 1440,
+        "bytes": 132826
+      }
+    ]
+  },
+  "/assets/project-emberlyn.jpg": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-emberlyn-fc19391def0e-480.webp",
+        "width": 480,
+        "bytes": 21786
+      },
+      {
+        "src": "/assets/optimized/project-emberlyn-fc19391def0e-960.webp",
+        "width": 960,
+        "bytes": 65410
+      },
+      {
+        "src": "/assets/optimized/project-emberlyn-fc19391def0e-1440.webp",
+        "width": 1440,
+        "bytes": 118266
+      }
+    ]
+  },
+  "/assets/project-opus.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-opus-e240b05cbbf7-480.webp",
+        "width": 480,
+        "bytes": 20870
+      },
+      {
+        "src": "/assets/optimized/project-opus-e240b05cbbf7-960.webp",
+        "width": 960,
+        "bytes": 58534
+      },
+      {
+        "src": "/assets/optimized/project-opus-e240b05cbbf7-1440.webp",
+        "width": 1440,
+        "bytes": 102562
+      }
+    ]
+  },
+  "/assets/project-pace.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-pace-5d099a0bc93f-480.webp",
+        "width": 480,
+        "bytes": 24640
+      },
+      {
+        "src": "/assets/optimized/project-pace-5d099a0bc93f-960.webp",
+        "width": 960,
+        "bytes": 65756
+      }
+    ]
+  },
+  "/assets/project-veyra.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-veyra-de312a207191-480.webp",
+        "width": 480,
+        "bytes": 26804
+      },
+      {
+        "src": "/assets/optimized/project-veyra-de312a207191-960.webp",
+        "width": 960,
+        "bytes": 79720
+      },
+      {
+        "src": "/assets/optimized/project-veyra-de312a207191-1440.webp",
+        "width": 1440,
+        "bytes": 139872
+      }
+    ]
+  },
+  "/assets/project-vx27.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/assets/optimized/project-vx27-ed54c286c09e-480.webp",
+        "width": 480,
+        "bytes": 30984
+      },
+      {
+        "src": "/assets/optimized/project-vx27-ed54c286c09e-960.webp",
+        "width": 960,
+        "bytes": 92310
+      },
+      {
+        "src": "/assets/optimized/project-vx27-ed54c286c09e-1440.webp",
+        "width": 1440,
+        "bytes": 166932
+      }
+    ]
+  },
+  "/assets/studio-hero-3d.webp": {
+    "width": 1774,
+    "height": 887,
+    "variants": [
+      {
+        "src": "/assets/optimized/studio-hero-3d-d0b95c61dbcb-480.webp",
+        "width": 480,
+        "bytes": 39556
+      },
+      {
+        "src": "/assets/optimized/studio-hero-3d-d0b95c61dbcb-960.webp",
+        "width": 960,
+        "bytes": 120648
+      }
+    ]
+  },
+  "/assets/studio-workflow.webp": {
+    "width": 1064,
+    "height": 652,
+    "variants": [
+      {
+        "src": "/assets/optimized/studio-workflow-adb89c67439b-480.webp",
+        "width": 480,
+        "bytes": 12524
+      },
+      {
+        "src": "/assets/optimized/studio-workflow-adb89c67439b-960.webp",
+        "width": 960,
+        "bytes": 29276
+      }
+    ]
+  },
+  "/assets/veyra-actual-site.jpg": {
+    "width": 1939,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/optimized/veyra-actual-site-7e75a1d451ba-480.webp",
+        "width": 480,
+        "bytes": 11144
+      },
+      {
+        "src": "/assets/optimized/veyra-actual-site-7e75a1d451ba-960.webp",
+        "width": 960,
+        "bytes": 33822
+      }
+    ]
+  },
+  "/assets/vx27-actual-site.jpg": {
+    "width": 1939,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/optimized/vx27-actual-site-b8a93c665ce6-480.webp",
+        "width": 480,
+        "bytes": 18300
+      },
+      {
+        "src": "/assets/optimized/vx27-actual-site-b8a93c665ce6-960.webp",
+        "width": 960,
+        "bytes": 53836
+      }
+    ]
+  }
+}

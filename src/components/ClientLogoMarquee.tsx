@@ -1,20 +1,30 @@
-const CLIENTS = [
-  { name: 'Virgin Media', src: '/assets/client-logos/virgin-media.png', width: 205, height: 128, className: 'client-logo--virgin-media' },
-  { name: 'O2', src: '/assets/client-logos/o2.png', width: 100, height: 96, className: 'client-logo--o2' },
-  { name: 'giffgaff', src: '/assets/client-logos/giffgaff.png', width: 197, height: 74, className: 'client-logo--giffgaff' },
-  { name: 'Tesco Mobile', src: '/assets/client-logos/tesco-mobile.png', width: 217, height: 94, className: 'client-logo--tesco-mobile' },
-  { name: 'Virgin Mobile', src: '/assets/client-logos/virgin-mobile.png', width: 181, height: 104, className: 'client-logo--virgin-mobile' },
-  { name: 'Compusoft', src: '/assets/client-logos/compusoft.png', width: 249, height: 68, className: 'client-logo--compusoft' },
-  { name: 'Cyncly', src: '/assets/client-logos/cyncly.png', width: 241, height: 72, className: 'client-logo--cyncly' },
-  { name: 'The Open University', src: '/assets/client-logos/open-university.png', width: 212, height: 88, className: 'client-logo--open-university' },
-  { name: 'easyfundraising', src: '/assets/client-logos/easyfundraising.png', width: 304, height: 74, className: 'client-logo--easyfundraising' },
-  { name: 'Carrentals.co.uk', src: '/assets/client-logos/carrentals.png', width: 410, height: 48, className: 'client-logo--carrentals' },
+import { optimizedImage } from '../lib/optimized-images';
+
+// `displayWidth` mirrors each logo's CSS cap (index.css .client-logo--*) so the
+// browser fetches no more than cap × device pixel ratio.
+const CLIENTS: readonly { name: string; src: string; width: number; height: number; className: string; displayWidth: number }[] = [
+  { name: 'Virgin Media', src: '/assets/client-logos/virgin-media.png', width: 205, height: 128, className: 'client-logo--virgin-media', displayWidth: 104 },
+  { name: 'O2', src: '/assets/client-logos/o2.png', width: 100, height: 96, className: 'client-logo--o2', displayWidth: 54 },
+  { name: 'giffgaff', src: '/assets/client-logos/giffgaff.png', width: 197, height: 74, className: 'client-logo--giffgaff', displayWidth: 112 },
+  { name: 'Tesco Mobile', src: '/assets/client-logos/tesco-mobile.png', width: 217, height: 94, className: 'client-logo--tesco-mobile', displayWidth: 110 },
+  { name: 'Virgin Mobile', src: '/assets/client-logos/virgin-mobile.png', width: 181, height: 104, className: 'client-logo--virgin-mobile', displayWidth: 96 },
+  { name: 'Compusoft', src: '/assets/client-logos/compusoft.png', width: 249, height: 68, className: 'client-logo--compusoft', displayWidth: 126 },
+  { name: 'Cyncly', src: '/assets/client-logos/cyncly.png', width: 241, height: 72, className: 'client-logo--cyncly', displayWidth: 122 },
+  { name: 'The Open University', src: '/assets/client-logos/open-university.png', width: 212, height: 88, className: 'client-logo--open-university', displayWidth: 112 },
+  { name: 'easyfundraising', src: '/assets/client-logos/easyfundraising.png', width: 304, height: 74, className: 'client-logo--easyfundraising', displayWidth: 152 },
+  { name: 'Carrentals.co.uk', src: '/assets/client-logos/carrentals.png', width: 410, height: 48, className: 'client-logo--carrentals', displayWidth: 205 },
+  { name: 'Veyra Studio', src: '/assets/client-logos/veyra.webp', width: 900, height: 300, className: 'client-logo--veyra', displayWidth: 164 },
+  { name: 'Emberlyn', src: '/assets/client-logos/emberlyn.webp', width: 900, height: 300, className: 'client-logo--emberlyn', displayWidth: 164 },
+  { name: 'Heart of England', src: '/assets/client-logos/heart-of-england.png', width: 768, height: 175, className: 'client-logo--heart-of-england', displayWidth: 184 },
+  { name: 'Tata Consultancy Services (TCS)', src: '/assets/client-logos/tcs-transparent.png', width: 2170, height: 725, className: 'client-logo--tcs', displayWidth: 154 },
 ] as const;
 
 function LogoGroup({ duplicate = false }: { duplicate?: boolean }) {
   return (
     <div className="client-marquee__group" aria-hidden={duplicate || undefined}>
-      {CLIENTS.map((client) => (
+      {CLIENTS.map((client) => {
+        const optimized = optimizedImage(client.src, `${client.displayWidth}px`);
+        return (
         <div className="client-marquee__item" key={`${duplicate ? 'duplicate-' : ''}${client.name}`}>
           <img
             alt={duplicate ? '' : client.name}
@@ -22,11 +32,14 @@ function LogoGroup({ duplicate = false }: { duplicate?: boolean }) {
             decoding="sync"
             height={client.height}
             loading="eager"
-            src={client.src}
+            sizes={optimized.sizes}
+            src={optimized.src}
+            srcSet={optimized.srcSet}
             width={client.width}
           />
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
