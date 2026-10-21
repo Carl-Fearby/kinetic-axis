@@ -18,12 +18,20 @@ const solutionLinks = [
   ['/admin-dashboard-development','Admin Dashboard Development','Practical back-office interfaces for operations, data, reporting and exceptions.'],
   ['/white-label-app-development','White-Label App Development','One shared product foundation with controlled branding, configuration and tenancy.'],
   ['/legacy-system-modernisation','Legacy System Modernisation','A staged route from difficult-to-change software toward a safer, maintainable product.'],
+  ['/replace-access-database','Replace Microsoft Access','Move a business-critical Access database into a maintainable web application without disrupting operations.'],
+  ['/replace-airtable','Replace Airtable','Move a business-critical base into software with clearer permissions, ownership and cost.'],
+  ['/excel-to-database','Excel to Database','Move a business-critical workbook into a database-backed application with controlled access and reliable reporting.'],
   ['/workflow-automation-software','Workflow Automation Software','Reduce repeated admin, make hand-offs visible and connect systems around the process.'],
   ['/saas-product-development','SaaS Product Development','Define, design and engineer subscription and multi-tenant products that can evolve.'],
   ['/internal-business-systems','Internal Business Systems','Operational tools shaped around roles, workflow, data and reporting.'],
   ['/marketplace-development','Marketplace Development','Buyer, seller and operator experiences designed as one connected platform.'],
   ['/loyalty-app-development','Loyalty App Development','Rewards, QR interactions and repeat customer value across mobile experiences.'],
   ['/payment-integration-development','Payment Integration Development','Connect checkout, transaction state, refunds and operational workflows.'],
+  ['/xero-integration-development','Xero Integration Development','Keep invoices, contacts, payments and reconciliation aligned with the workflow that creates them.'],
+  ['/hubspot-crm-integration','HubSpot CRM Integration','Keep leads, deals and customer context aligned between HubSpot and the systems around it.'],
+  ['/construction-software-development','Construction Software Development','Job costing, variations, site records and compliance connected to existing tools.'],
+  ['/manufacturing-software-development','Manufacturing Software Development','Production planning, shop-floor capture, quality and traceability around the ERP.'],
+  ['/logistics-software-development','Logistics Software Development','Consignments, routing, proof of delivery and customer tracking in one operation.'],
  ] as const;
 
 const engineeringLinks = [
@@ -83,6 +91,7 @@ export default function PageContent(){return <main className="mkt-page seo-page"
     <Link href="/web-design-software-solihull" className="mkt-card"><span className="mkt-num">SOLIHULL</span><h3>Web design &amp; software</h3><p>Websites and systems for Solihull organisations between Birmingham and Warwickshire.</p><span className="mkt-textlink">Explore <Arrow/></span></Link>
     <Link href="/areas-we-serve" className="mkt-card"><span className="mkt-num">AREAS WE SERVE</span><h3>Coventry, Birmingham & Warwickshire</h3><p>Every location page in one place, with the surrounding towns and counties we deliver across.</p><span className="mkt-textlink">Explore <Arrow/></span></Link>
     <Link href="/replace-spreadsheets-with-bespoke-software" className="mkt-card"><span className="mkt-num">PROBLEM-LED</span><h3>Replace spreadsheet workflows</h3><p>Move business-critical operations out of fragile workbooks and into maintainable software.</p><span className="mkt-textlink">Explore <Arrow/></span></Link>
+    <Link href="/excel-to-database" className="mkt-card"><span className="mkt-num">DATA MIGRATION</span><h3>Excel to database</h3><p>Turn a workbook that has become a business system into a database-backed application without losing the logic.</p><span className="mkt-textlink">Explore <Arrow/></span></Link>
   </div></div></section>
 
   <section className="mkt-section"><div className="mkt-wrap"><div className="mkt-sectionhead"><div><div className="mkt-kicker">EVIDENCE, NOT JUST CAPABILITY LISTS</div><h2>See the systems behind the words.</h2></div><p>Our case studies show how customer experiences, operational tools, APIs and design systems come together in real products.</p></div><div className="mkt-grid mkt-grid--three"><Link href="/projects/pace" className="mkt-workcard"><span className="mkt-workcard__img"><img src={wImg.pace.src} srcSet={wImg.pace.srcSet} sizes={wImg.pace.sizes} alt="Pace Venues project" width={450} height={277} loading="lazy"/></span><span className="mkt-workcard__body"><small>HOSPITALITY PLATFORM</small><strong>Pace Venues</strong><span>Bookings, rewards, menus, guest mobile experience and venue operations.</span></span></Link><Link href="/projects/opus" className="mkt-workcard"><span className="mkt-workcard__img"><img src={wImg.opus.src} srcSet={wImg.opus.srcSet} sizes={wImg.opus.sizes} alt="OPUS React project" width={450} height={277} loading="lazy"/></span><span className="mkt-workcard__body"><small>BUSINESS UI SYSTEM</small><strong>OPUS React</strong><span>Reusable patterns for forms, dashboards, theming and complex interfaces.</span></span></Link><Link href="/projects/ebuygum" className="mkt-workcard"><span className="mkt-workcard__img"><img src={wImg.ebuygum.src} srcSet={wImg.ebuygum.srcSet} sizes={wImg.ebuygum.sizes} alt="eBuyGum project" width={450} height={277} loading="lazy"/></span><span className="mkt-workcard__body"><small>DIGITAL MARKETPLACE</small><strong>eBuyGum</strong><span>Brand-led product discovery across marketplace journeys and responsive interfaces.</span></span></Link></div></div></section>

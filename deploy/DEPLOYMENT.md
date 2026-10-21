@@ -85,6 +85,8 @@ The VPS stores events at `/var/lib/kineticaxis/analytics/events.ndjson`. Logrota
 
 The optional number is the reporting window in days. The report includes Project Planner starts/completions, planner-to-contact clicks, contact-form starts/submissions/successes, project-category interest, enquiry origin pages, phone/WhatsApp/email clicks and top viewed routes.
 
+Optional estimator emails are sent through `/api/estimate-email`. The API stores a separate record at `/var/lib/kineticaxis/analytics/estimates.ndjson` containing the email address, project area, selected capabilities, planning band, delivery expectation and marketing-consent flag. It is deliberately separate from the anonymous event stream so the growth dashboard can report counts and opt-ins without exposing addresses. Include the file in the same retention and access review as the lead logs.
+
 ## Search ownership verification
 
 If Google Search Console or Bing Webmaster Tools provides an HTML verification token, create `/etc/kineticaxis/site.env` on the VPS from `deploy/site.env.example`. The production build reads those values and renders the verification meta tags. The deploy also submits the generated sitemap URLs to IndexNow after a successful publish; IndexNow failure is non-fatal and can be retried with `npm run seo:indexnow`.

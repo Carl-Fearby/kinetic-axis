@@ -6245,5 +6245,645 @@
         "image": "https://kineticaxisdigital.com/assets/og-kinetic-axis-digital-v5.jpg"
       }
     ]
+  },
+  "xero-integration-development": {
+    "key": "xero-integration-development",
+    "title": "Xero Integration Development | Kinetic Axis",
+    "description": "Xero API integration for invoices, contacts, payments and reconciliation — built around your workflow with clear ownership, retries and audit trails.",
+    "canonical": "https://kineticaxisdigital.com/xero-integration-development",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — Xero Integration Development",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Xero Integration Development",
+        "serviceType": "Xero integration",
+        "url": "https://kineticaxisdigital.com/xero-integration-development",
+        "description": "Xero API integration for invoices, contacts, payments and reconciliation — built around your workflow with clear ownership, retries and audit trails.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://kineticaxisdigital.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Xero Integration Development",
+            "item": "https://kineticaxisdigital.com/xero-integration-development"
+          }
+        ]
+      }
+    ]
+  },
+  "hubspot-crm-integration": {
+    "key": "hubspot-crm-integration",
+    "title": "HubSpot CRM Integration | Kinetic Axis",
+    "description": "HubSpot CRM integration for leads, deals, contacts and operational data — two-way sync designed around ownership, data quality and clear failure handling.",
+    "canonical": "https://kineticaxisdigital.com/hubspot-crm-integration",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — HubSpot CRM Integration",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "HubSpot CRM Integration",
+        "serviceType": "HubSpot CRM integration",
+        "url": "https://kineticaxisdigital.com/hubspot-crm-integration",
+        "description": "HubSpot CRM integration for leads, deals, contacts and operational data — two-way sync designed around ownership, data quality and clear failure handling.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://kineticaxisdigital.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "HubSpot CRM Integration",
+            "item": "https://kineticaxisdigital.com/hubspot-crm-integration"
+          }
+        ]
+      }
+    ]
+  },
+  "replace-access-database": {
+    "key": "replace-access-database",
+    "title": "Replace Microsoft Access Database | Kinetic Axis",
+    "description": "Replace a Microsoft Access database with a maintainable web application — staged migration of forms, reports, users and data without disrupting operations.",
+    "canonical": "https://kineticaxisdigital.com/replace-access-database",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — Replace Microsoft Access Database",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Replace Microsoft Access Database",
+        "serviceType": "Access database modernisation",
+        "url": "https://kineticaxisdigital.com/replace-access-database",
+        "description": "Replace a Microsoft Access database with a maintainable web application — staged migration of forms, reports, users and data without disrupting operations.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Replace Microsoft Access Database",
+            "item": "https://kineticaxisdigital.com/replace-access-database"
+          }
+        ]
+      }
+    ]
+  },
+  "construction-software-development": {
+    "key": "construction-software-development",
+    "title": "Construction Software Development | Kinetic Axis",
+    "description": "Construction software for job costing, variations, subcontractors, site records and compliance — connected to the estimating and accounting tools you already use.",
+    "canonical": "https://kineticaxisdigital.com/construction-software-development",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — Construction Software Development",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Construction Software Development",
+        "serviceType": "Construction software development",
+        "url": "https://kineticaxisdigital.com/construction-software-development",
+        "description": "Construction software for job costing, variations, subcontractors, site records and compliance — connected to the estimating and accounting tools you already use.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Construction Software Development",
+            "item": "https://kineticaxisdigital.com/construction-software-development"
+          }
+        ]
+      }
+    ]
+  },
+  "insights/custom-software-vs-low-code": {
+    "key": "insights/custom-software-vs-low-code",
+    "title": "Custom Software vs Low-Code | Kinetic Axis",
+    "description": "A practical comparison of low-code platforms and custom software, covering total cost of ownership, platform limits, integration needs and hybrid routes.",
+    "canonical": "https://kineticaxisdigital.com/insights/custom-software-vs-low-code",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — custom software vs low-code comparison",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page",
+      "insight-article"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Custom Software vs Low-Code: Which Fits Your Operation?",
+        "description": "A practical comparison of low-code platforms and custom software, covering total cost of ownership, platform limits, integration needs and hybrid routes.",
+        "url": "https://kineticaxisdigital.com/insights/custom-software-vs-low-code",
+        "datePublished": "2026-10-21",
+        "dateModified": "2026-10-21",
+        "inLanguage": "en-GB",
+        "author": {
+          "@type": "Person",
+          "@id": "https://kineticaxisdigital.com/#carl-fearby",
+          "name": "Carl Fearby",
+          "url": "https://kineticaxisdigital.com/studio",
+          "jobTitle": "Founder and Senior Software Engineer",
+          "sameAs": [
+            "https://www.linkedin.com/in/neofuture/",
+            "https://github.com/neofuture"
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kineticaxisdigital.com/assets/wordmark.png"
+          }
+        },
+        "image": [
+          "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg"
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://kineticaxisdigital.com/insights/custom-software-vs-low-code"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://kineticaxisdigital.com/#website",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://kineticaxisdigital.com/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Custom Software vs Low-Code: Which Fits Your Operation?",
+            "item": "https://kineticaxisdigital.com/insights/custom-software-vs-low-code"
+          }
+        ]
+      }
+    ]
+  },
+  "manufacturing-software-development": {
+    "key": "manufacturing-software-development",
+    "title": "Manufacturing Software Development | Kinetic Axis",
+    "description": "Operational software for manufacturers — production planning, shop-floor recording, quality, stock and traceability, connected to the ERP you already use.",
+    "canonical": "https://kineticaxisdigital.com/manufacturing-software-development",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — manufacturing operations software",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Manufacturing Software Development",
+        "serviceType": "Manufacturing software development",
+        "url": "https://kineticaxisdigital.com/manufacturing-software-development",
+        "description": "Operational software for manufacturers — production planning, shop-floor recording, quality, stock and traceability, connected to the ERP you already use.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Manufacturing Software Development",
+            "item": "https://kineticaxisdigital.com/manufacturing-software-development"
+          }
+        ]
+      }
+    ]
+  },
+  "logistics-software-development": {
+    "key": "logistics-software-development",
+    "title": "Logistics Software Development | Kinetic Axis",
+    "description": "Software for logistics teams — consignments, routing, driver workflows, proof of delivery, customer tracking and the integrations that keep operations aligned.",
+    "canonical": "https://kineticaxisdigital.com/logistics-software-development",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — logistics operations software",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Logistics Software Development",
+        "serviceType": "Logistics software development",
+        "url": "https://kineticaxisdigital.com/logistics-software-development",
+        "description": "Software for logistics teams — consignments, routing, driver workflows, proof of delivery, customer tracking and the integrations that keep operations aligned.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Logistics Software Development",
+            "item": "https://kineticaxisdigital.com/logistics-software-development"
+          }
+        ]
+      }
+    ]
+  },
+  "replace-airtable": {
+    "key": "replace-airtable",
+    "title": "Replace Airtable with Custom Software | Kinetic Axis",
+    "description": "Replace a business-critical Airtable base with custom software — migrating records, attachments, automations and permissions without losing the workflow.",
+    "canonical": "https://kineticaxisdigital.com/replace-airtable",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — replace Airtable with custom software",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Replace Airtable with Custom Software",
+        "serviceType": "Airtable migration",
+        "url": "https://kineticaxisdigital.com/replace-airtable",
+        "description": "Replace a business-critical Airtable base with custom software — migrating records, attachments, automations and permissions without losing the workflow.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Replace Airtable with Custom Software",
+            "item": "https://kineticaxisdigital.com/replace-airtable"
+          }
+        ]
+      }
+    ]
+  },
+  "excel-to-database": {
+    "key": "excel-to-database",
+    "title": "Excel to Database Conversion | Kinetic Axis",
+    "description": "Move a business-critical workbook into a database-backed application — normalised data, controlled access, reliable reporting and a reconciled migration.",
+    "canonical": "https://kineticaxisdigital.com/excel-to-database",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — Excel to database conversion",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Excel to Database Conversion",
+        "serviceType": "Excel to database conversion",
+        "url": "https://kineticaxisdigital.com/excel-to-database",
+        "description": "Move a business-critical workbook into a database-backed application — normalised data, controlled access, reliable reporting and a reconciled migration.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "@id": "https://kineticaxisdigital.com/#organisation"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Solutions",
+            "item": "https://kineticaxisdigital.com/solutions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Excel to Database Conversion",
+            "item": "https://kineticaxisdigital.com/excel-to-database"
+          }
+        ]
+      }
+    ]
+  },
+  "insights/custom-software-cost-benchmarks-2026": {
+    "key": "insights/custom-software-cost-benchmarks-2026",
+    "title": "UK Custom Software Cost Benchmarks 2026 | Kinetic Axis",
+    "description": "A transparent analysis of 23,040 custom software scenarios: where UK budgets land, which capabilities move the band and what the model cannot tell you.",
+    "canonical": "https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "imageAlt": "Kinetic Axis — UK custom software cost benchmarks 2026",
+    "robots": "index,follow,max-image-preview:large",
+    "themeColor": "#101827",
+    "bodyClasses": [
+      "subpage",
+      "commercial-page",
+      "seo-expansion-page",
+      "insight-article"
+    ],
+    "isProject": false,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "UK custom software cost: what 23,040 scenarios show",
+        "description": "A transparent analysis of 23,040 custom software scenarios: where UK budgets land, which capabilities move the band and what the model cannot tell you.",
+        "url": "https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026",
+        "datePublished": "2026-10-21",
+        "dateModified": "2026-10-21",
+        "inLanguage": "en-GB",
+        "author": {
+          "@type": "Person",
+          "@id": "https://kineticaxisdigital.com/#carl-fearby",
+          "name": "Carl Fearby",
+          "url": "https://kineticaxisdigital.com/studio",
+          "jobTitle": "Founder and Senior Software Engineer",
+          "sameAs": [
+            "https://www.linkedin.com/in/neofuture/",
+            "https://github.com/neofuture"
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kineticaxisdigital.com/assets/wordmark.png"
+          }
+        },
+        "image": [
+          "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg"
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://kineticaxisdigital.com/#website",
+          "name": "Kinetic Axis",
+          "url": "https://kineticaxisdigital.com/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kineticaxisdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://kineticaxisdigital.com/insights"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "UK custom software cost: what 23,040 scenarios show",
+            "item": "https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026"
+          }
+        ]
+      }
+    ]
   }
 }

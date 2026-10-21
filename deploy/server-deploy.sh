@@ -273,6 +273,62 @@ else
 fi
 
 NGINX_DUMP="$(nginx -T 2>&1 || true)"
+if ! grep -Fq '127.0.0.1:4319/api/estimate-email' <<<"$NGINX_DUMP"; then
+  log "Adding /api/estimate-email Nginx proxy"
+  KINETIC_NGINX_CONFIG=""
+  for nginx_dir in /etc/nginx/sites-enabled /etc/nginx/conf.d /etc/nginx/sites-available; do
+    [[ -d "$nginx_dir" ]] || continue
+    while IFS= read -r candidate; do
+      target="$(readlink -f "$candidate" 2>/dev/null || true)"
+      [[ -n "$target" && -f "$target" ]] || continue
+      if grep -Fq 'kineticaxisdigital.com' "$target" && grep -Fq 'location = /api/contact' "$target"; then
+        KINETIC_NGINX_CONFIG="$target"
+        break 2
+      fi
+    done < <(find "$nginx_dir" -maxdepth 1 \( -type f -o -type l \) -print 2>/dev/null)
+  done
+
+  [[ -n "$KINETIC_NGINX_CONFIG" ]] || die "Could not locate the active Kinetic Axis Nginx server block to add /api/estimate-email."
+  cp -a "$KINETIC_NGINX_CONFIG" "$BACKUP_DIR/nginx-before-estimate-email.conf"
+
+  node - "$KINETIC_NGINX_CONFIG" <<'NODE'
+const fs=require('node:fs');
+const file=process.argv[2];
+let source=fs.readFileSync(file,'utf8');
+if(source.includes('location = /api/estimate-email')) process.exit(0);
+const match=source.match(/^([ \t]*)location = \/api\/contact[ \t]*\{/m);
+if(!match) throw new Error('Could not find the exact /api/contact location block.');
+const indent=match[1];
+const block=[
+  `${indent}location = /api/estimate-email {`,
+  `${indent}    limit_except POST { deny all; }`,
+  `${indent}    proxy_pass http://127.0.0.1:4319/api/estimate-email;`,
+  `${indent}    proxy_http_version 1.1;`,
+  `${indent}    proxy_set_header Host $host;`,
+  `${indent}    proxy_set_header X-Real-IP $remote_addr;`,
+  `${indent}    proxy_set_header X-Forwarded-Proto $scheme;`,
+  `${indent}    proxy_connect_timeout 5s;`,
+  `${indent}    proxy_read_timeout 20s;`,
+  `${indent}    client_max_body_size 8k;`,
+  `${indent}}`,
+  '',
+].join('\n');
+source=source.replace(match[0],block+match[0]);
+fs.writeFileSync(file,source);
+NODE
+
+  if ! nginx -t; then
+    cp -a "$BACKUP_DIR/nginx-before-estimate-email.conf" "$KINETIC_NGINX_CONFIG"
+    nginx -t || true
+    die "Adding /api/estimate-email made Nginx invalid; the original Nginx config was restored."
+  fi
+  systemctl reload nginx
+  ok "Added /api/estimate-email proxy in $KINETIC_NGINX_CONFIG"
+else
+  ok "Dedicated /api/estimate-email Nginx proxy already present"
+fi
+
+NGINX_DUMP="$(nginx -T 2>&1 || true)"
 log "Ensuring username/password protection for the growth dashboard"
 KINETIC_NGINX_CONFIG=""
 for nginx_dir in /etc/nginx/sites-enabled /etc/nginx/conf.d /etc/nginx/sites-available; do

@@ -17,18 +17,22 @@ const CLIENTS: readonly { name: string; src: string; width: number; height: numb
   { name: 'Emberlyn', src: '/assets/client-logos/emberlyn.webp', width: 900, height: 300, className: 'client-logo--emberlyn', displayWidth: 164 },
   { name: 'Heart of England', src: '/assets/client-logos/heart-of-england.png', width: 768, height: 175, className: 'client-logo--heart-of-england', displayWidth: 184 },
   { name: 'Tata Consultancy Services (TCS)', src: '/assets/client-logos/tcs-transparent.png', width: 2170, height: 725, className: 'client-logo--tcs', displayWidth: 154 },
+  { name: 'CEMEX', src: '/assets/client-logos/cemex.png', width: 600, height: 108, className: 'client-logo--cemex', displayWidth: 156 },
 ] as const;
 
-function LogoGroup({ duplicate = false }: { duplicate?: boolean }) {
+const CLIENT_ROWS = [CLIENTS.filter((_, index) => index % 2 === 0), CLIENTS.filter((_, index) => index % 2 === 1)];
+
+function LogoGroup({ clients, duplicate = false }: { clients: typeof CLIENTS; duplicate?: boolean }) {
   return (
     <div className="client-marquee__group" aria-hidden={duplicate || undefined}>
-      {CLIENTS.map((client) => {
+      {clients.map((client) => {
         const optimized = optimizedImage(client.src, `${client.displayWidth}px`);
         return (
         <div className="client-marquee__item" key={`${duplicate ? 'duplicate-' : ''}${client.name}`}>
           <img
             alt={duplicate ? '' : client.name}
             className={`client-marquee__logo ${client.className}`}
+            style={client.className === 'client-logo--cemex' ? { filter: 'grayscale(1)' } : undefined}
             decoding="sync"
             height={client.height}
             loading="eager"
@@ -60,12 +64,16 @@ export function ClientLogoMarquee() {
           bringing design and engineering together around real-world digital products.
         </p>
       </div>
-      <div className="client-marquee__viewport" aria-label="Companies Kinetic Axis has worked with">
-        <div className="client-marquee__track">
-          <LogoGroup />
-          <LogoGroup duplicate />
-          <LogoGroup duplicate />
-        </div>
+      <div className="client-marquee__rows" aria-label="Companies Kinetic Axis has worked with">
+        {CLIENT_ROWS.map((clients, index) => (
+          <div className="client-marquee__viewport" key={index}>
+            <div className={`client-marquee__track${index === 1 ? ' client-marquee__track--reverse' : ''}`}>
+              <LogoGroup clients={clients} />
+              <LogoGroup clients={clients} duplicate />
+              <LogoGroup clients={clients} duplicate />
+            </div>
+          </div>
+        ))}
       </div>
       <div className="container client-marquee__rule" aria-hidden="true">
         <span></span><i></i><span></span>

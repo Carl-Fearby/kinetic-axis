@@ -23,6 +23,7 @@ console.log(`\nEstimator funnel`);
 console.log(`  Starts             ${String(summary.estimator.starts).padStart(5)}`);
 console.log(`  Ranges shown       ${String(summary.estimator.calculations).padStart(5)}   ${summary.estimator.calculationRate}% of starts`);
 console.log(`  Discuss estimate   ${String(summary.estimator.contactClicks).padStart(5)}   ${summary.estimator.contactRate}% of starts`);
+console.log(`  Emailed estimate   ${String(summary.estimator.emails).padStart(5)}   ${summary.estimator.emailRate}% of ranges, ${summary.estimator.emailOptIns} marketing opt-ins`);
 console.log(`\nEnquiry funnel`);
 console.log(`  Form starts        ${String(summary.enquiries.formStarts).padStart(5)}`);
 console.log(`  Submit attempts    ${String(summary.enquiries.submits).padStart(5)}   ${summary.enquiries.submitRate}% of form starts`);

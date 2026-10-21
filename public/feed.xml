@@ -5,8 +5,24 @@
   <link>https://kineticaxisdigital.com/insights</link>
   <description>Practical guides for planning websites, software, apps and digital products.</description>
   <language>en-gb</language>
-  <lastBuildDate>Fri, 02 Oct 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 12:00:00 GMT</lastBuildDate>
   <atom:link href="https://kineticaxisdigital.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Custom Software vs Low-Code: Which Fits Your Operation?</title>
+    <link>https://kineticaxisdigital.com/insights/custom-software-vs-low-code</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/custom-software-vs-low-code</guid>
+    <description>A practical comparison of low-code platforms and custom software, covering total cost of ownership, platform limits, integration needs and hybrid routes.</description>
+    <category>Product strategy</category>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>UK Custom Software Cost: What 23,040 Scenarios Show</title>
+    <link>https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026</link>
+    <guid isPermaLink="true">https://kineticaxisdigital.com/insights/custom-software-cost-benchmarks-2026</guid>
+    <description>A transparent analysis of 23,040 custom software scenarios: where UK budgets land, which capabilities move the band and what the model cannot tell you.</description>
+    <category>Software budgets</category>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
   <item>
     <title>API Integration Guide for Digital Products</title>
     <link>https://kineticaxisdigital.com/insights/api-integration-guide</link>

@@ -98,8 +98,8 @@ const marqueeSource=fs.readFileSync(path.join(root,'src/components/ClientLogoMar
 const homeCss=fs.readFileSync(path.join(root,'public/page-css/index.css'),'utf8');
 check(!marqueeSource.includes('preload(client.src'),'Client logos must not be head-preloaded: logo preloads crowd out the LCP hero');
 check(marqueeSource.includes('loading="eager"') && !marqueeSource.includes('loading="lazy"'),'Client marquee logos must load eagerly');
-check((marqueeSource.match(/<LogoGroup duplicate \/>/g)||[]).length===2,'Client marquee must keep two duplicate groups for seamless wide-screen looping');
-check(homeCss.includes('animation:ka-client-marquee 68s linear infinite'),'Client marquee speed regression');
+check((marqueeSource.match(/<LogoGroup clients=\{clients\} duplicate \/>/g)||[]).length===2,'Each client marquee row must keep two duplicate groups for seamless looping');
+check(homeCss.includes('animation:ka-client-marquee 42s linear infinite'),'Client marquee speed regression');
 check(homeCss.includes('translate3d(-33.333333%,0,0)'),'Client marquee loop distance regression');
 check(homeCss.includes('.client-marquee__item{') && homeCss.includes('width:auto;'),'Client logos must use natural item widths');
 check(!/\.client-marquee__[^{}]*(?:hover|focus-within)[^{}]*\{[^}]*animation-play-state\s*:\s*paused/i.test(homeCss),'Client logo marquee should not pause until logo links are introduced');

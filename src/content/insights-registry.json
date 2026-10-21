@@ -404,5 +404,65 @@
         "title": "Pace Venues"
       }
     ]
+  },
+  {
+    "slug": "custom-software-vs-low-code",
+    "href": "/insights/custom-software-vs-low-code",
+    "title": "Custom Software vs Low-Code: Which Fits Your Operation?",
+    "description": "A practical comparison of low-code platforms and custom software, covering total cost of ownership, platform limits, integration needs and hybrid routes.",
+    "topic": "Product strategy",
+    "updated": "2026-10-21",
+    "published": "2026-10-21",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/bespoke-software-development",
+        "title": "Bespoke software development"
+      },
+      {
+        "href": "/internal-business-systems",
+        "title": "Internal business systems"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      },
+      {
+        "href": "/projects/opus",
+        "title": "OPUS React"
+      }
+    ]
+  },
+  {
+    "slug": "custom-software-cost-benchmarks-2026",
+    "href": "/insights/custom-software-cost-benchmarks-2026",
+    "title": "UK Custom Software Cost: What 23,040 Scenarios Show",
+    "description": "A transparent analysis of 23,040 custom software scenarios: where UK budgets land, which capabilities move the band and what the model cannot tell you.",
+    "topic": "Software budgets",
+    "updated": "2026-10-21",
+    "published": "2026-10-21",
+    "image": "https://kineticaxisdigital.com/assets/og-phase6-business-software-v1.jpg",
+    "relatedServices": [
+      {
+        "href": "/bespoke-software-development",
+        "title": "Bespoke software development"
+      },
+      {
+        "href": "/project-estimator",
+        "title": "Project cost estimator"
+      }
+    ],
+    "relatedCaseStudies": [
+      {
+        "href": "/projects/opus",
+        "title": "OPUS React"
+      },
+      {
+        "href": "/projects/pace",
+        "title": "Pace Venues"
+      }
+    ]
   }
 ]

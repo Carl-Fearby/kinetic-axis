@@ -5,9 +5,10 @@ import { ConversationCTA } from './ConversationCTA';
 import { commercialLinkFor } from '../content/commercial-links';
 import { INSIGHT_BY_SLUG, relatedInsights } from '../content/insights-registry';
 
-type Section = {title:string; paragraphs:string[]; bullets?:string[]};
+type Section = {title:string; paragraphs:string[]; bullets?:string[]; table?:{caption:string; columns:string[]; rows:string[][]}};
 type Related = {href:string; title:string; text:string};
 type Band = {label:string; title:string; text:string};
+type FAQ = {q:string; a:string};
 
 export type InsightArticleData = {
   slug:string;
@@ -22,6 +23,7 @@ export type InsightArticleData = {
   bands:Band[];
   sections:Section[];
   related:Related[];
+  faqs?:FAQ[];
   updated:string;
   bandKicker?:string;
   bandTitle?:string;
@@ -31,6 +33,18 @@ export type InsightArticleData = {
   ctaText?:string;
   contactService?:string;
 };
+
+function faqStructuredData(faqs: FAQ[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(item => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  };
+}
 
 function Arrow(){
   return <svg aria-hidden="true" className="cta-arrow ka-heavy-arrow" fill="none" height={21}
@@ -68,11 +82,18 @@ export function InsightArticlePage({data}:{data:InsightArticleData}){
             <span className="insight-section-number">0{i+1}</span>
             <h2>{section.title}</h2>
             {section.paragraphs.map(p=><p key={p}>{p}</p>)}
+            {section.table ? <div className="insight-table-wrap"><table className="insight-table"><caption>{section.table.caption}</caption><thead><tr>{section.table.columns.map(column=><th key={column} scope="col">{column}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr key={row.join('|')}>{row.map((cell,index)=>index===0?<th key={cell} scope="row">{cell}</th>:<td key={`${cell}-${index}`}>{cell}</td>)}</tr>)}</tbody></table></div> : null}
             {section.bullets?.length ? <ul>{section.bullets.map(item=><li key={item}>{item}</li>)}</ul> : null}
           </section>)}
         </article>
       </div>
     </section>
+
+    {data.faqs?.length ? <section className="mkt-section insight-faq"><div className="mkt-wrap">
+      <div className="mkt-sectionhead"><div><div className="mkt-kicker">COMMON QUESTIONS</div><h2>What people usually ask next.</h2></div><p>Short answers to the questions that tend to follow this decision.</p></div>
+      <div className="mkt-faq">{data.faqs.map(item=><details key={item.q}><summary>{item.q}</summary><p>{item.a}</p></details>)}</div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqStructuredData(data.faqs)).replace(/</g,'\\u003c')}}/>
+    </div></section> : null}
 
     {moreInsights.length ? <section className="mkt-section insight-related-reading"><div className="mkt-wrap">
       <div className="mkt-sectionhead"><div><div className="mkt-kicker">RELATED THINKING</div><h2>Keep exploring the decision.</h2></div><p>More practical guides selected from the same product, platform and delivery themes.</p></div>

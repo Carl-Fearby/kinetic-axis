@@ -74,7 +74,15 @@
       "insights/when-to-build-an-internal-business-system",
       "software-development-coventry",
       "bespoke-software-development-warwickshire",
-      "replace-spreadsheets-with-bespoke-software"
+      "replace-spreadsheets-with-bespoke-software",
+      "replace-access-database",
+      "replace-airtable",
+      "excel-to-database",
+      "insights/custom-software-cost-benchmarks-2026",
+      "construction-software-development",
+      "manufacturing-software-development",
+      "logistics-software-development",
+      "insights/custom-software-vs-low-code"
     ],
     "links": [
       {
@@ -124,6 +132,54 @@
         "role": "PROBLEM-LED",
         "title": "Replace spreadsheet workflows",
         "text": "A focused route for teams whose spreadsheets have become business-critical systems."
+      },
+      {
+        "key": "excel-to-database",
+        "role": "DATA MIGRATION",
+        "title": "Excel to database",
+        "text": "Move a business-critical workbook into a database-backed application with controlled access and reliable reporting."
+      },
+      {
+        "key": "insights/custom-software-cost-benchmarks-2026",
+        "role": "RESEARCH",
+        "title": "Software cost benchmarks 2026",
+        "text": "A 23,040-scenario analysis of how project area, capabilities and delivery expectation move the budget band."
+      },
+      {
+        "key": "replace-access-database",
+        "role": "PROBLEM-LED",
+        "title": "Replace Microsoft Access",
+        "text": "Move a business-critical Access database into a maintainable web application without disrupting operations."
+      },
+      {
+        "key": "replace-airtable",
+        "role": "PLATFORM EXIT",
+        "title": "Replace Airtable",
+        "text": "Move a business-critical Airtable base into software with clearer permissions, ownership and cost."
+      },
+      {
+        "key": "construction-software-development",
+        "role": "SECTOR",
+        "title": "Construction software development",
+        "text": "Job costing, variations, site records and compliance connected to the tools already in use."
+      },
+      {
+        "key": "manufacturing-software-development",
+        "role": "SECTOR",
+        "title": "Manufacturing software development",
+        "text": "Production planning, shop-floor capture, quality and traceability around the existing ERP."
+      },
+      {
+        "key": "logistics-software-development",
+        "role": "SECTOR",
+        "title": "Logistics software development",
+        "text": "Consignments, routing, proof of delivery and customer tracking connected to the operation."
+      },
+      {
+        "key": "insights/custom-software-vs-low-code",
+        "role": "BUYER GUIDE",
+        "title": "Custom software vs low-code",
+        "text": "Compare platform speed and limits against the total cost of owning the workflow."
       }
     ]
   },
@@ -136,6 +192,8 @@
       "api-systems-integration",
       "nodejs-api-development",
       "payment-integration-development",
+      "xero-integration-development",
+      "hubspot-crm-integration",
       "insights/api-integration-guide"
     ],
     "links": [
@@ -162,6 +220,18 @@
         "role": "BUYER GUIDE",
         "title": "API integration guide",
         "text": "Plan data mapping, webhooks, authentication, failures and operational recovery before implementation."
+      },
+      {
+        "key": "xero-integration-development",
+        "role": "ACCOUNTING INTEGRATION",
+        "title": "Xero integration development",
+        "text": "Connect invoicing, contacts, payments and reconciliation to the operational workflow that creates them."
+      },
+      {
+        "key": "hubspot-crm-integration",
+        "role": "CRM INTEGRATION",
+        "title": "HubSpot CRM integration",
+        "text": "Keep leads, deals and customer context aligned between HubSpot, the website and internal systems."
       }
     ]
   },

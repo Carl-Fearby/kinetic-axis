@@ -24,7 +24,7 @@ const top=(map,limit=12)=>[...map.entries()].sort((a,b)=>b[1]-a[1]).slice(0,limi
 const rate=(a,b)=>b?Math.round((a/b)*1000)/10:0;
 const parseExperimentContext=value=>String(value||'').split(';').map(pair=>pair.split('=',2)).filter(parts=>parts.length===2&&parts[0]&&parts[1]).map(([experiment,variant])=>({experiment,variant}));
 
-export async function buildGrowthSummary({days=30,analyticsLog,leadsLog,pipelineLog}){
+export async function buildGrowthSummary({days=30,analyticsLog,leadsLog,pipelineLog,estimatesLog}){
   const safeDays=Math.max(1,Math.min(365,Number(days)||30));
   const since=Date.now()-safeDays*24*60*60*1000;
   const events=new Map(),pages=new Map(),origins=new Map(),projectTypes=new Map(),sources=new Map(),campaigns=new Map(),leadSources=new Map(),leadOrigins=new Map(),leadRoutes=new Map(),landingPages=new Map(),daily=new Map();
@@ -57,6 +57,15 @@ export async function buildGrowthSummary({days=30,analyticsLog,leadsLog,pipeline
     const day=new Date(at).toISOString().slice(0,10);inc(daily,day);
   }
   const ev=name=>events.get(name)||0;
+  let estimateEmails=0,estimateOptIns=0;
+  if(estimatesLog){
+    for(const line of await linesFromRotatedLog(estimatesLog)){
+      let item;try{item=JSON.parse(line);}catch{continue;}
+      const at=Date.parse(item.at||'');if(!Number.isFinite(at)||at<since)continue;
+      estimateEmails++;
+      if(item.marketingConsent===true)estimateOptIns++;
+    }
+  }
   const plannerStarts=ev('ka_project_planner_start'),plannerComplete=ev('ka_project_planner_complete'),plannerContact=ev('ka_project_planner_contact');
   const estimatorStarts=ev('ka_estimator_start'),estimates=ev('ka_estimator_calculate'),estimatorContact=ev('ka_estimator_contact');
   const formStarts=ev('ka_contact_form_start'),submits=ev('ka_contact_submit'),success=ev('ka_contact_success'),pageViews=ev('ka_page_view');
@@ -66,7 +75,7 @@ export async function buildGrowthSummary({days=30,analyticsLog,leadsLog,pipeline
     generatedAt:new Date().toISOString(),days:safeDays,
     totals:{events:rows,leads,pageViews,leadRate:rate(leads,pageViews),phoneClicks:ev('ka_phone_click'),whatsappClicks:ev('ka_whatsapp_click'),emailClicks:ev('ka_email_click')},
     planner:{starts:plannerStarts,completed:plannerComplete,contactClicks:plannerContact,completionRate:rate(plannerComplete,plannerStarts),contactRate:rate(plannerContact,plannerStarts)},
-    estimator:{starts:estimatorStarts,calculations:estimates,contactClicks:estimatorContact,calculationRate:rate(estimates,estimatorStarts),contactRate:rate(estimatorContact,estimatorStarts)},
+    estimator:{starts:estimatorStarts,calculations:estimates,contactClicks:estimatorContact,calculationRate:rate(estimates,estimatorStarts),contactRate:rate(estimatorContact,estimatorStarts),emails:estimateEmails,emailOptIns:estimateOptIns,emailRate:rate(estimateEmails,estimates)},
     enquiries:{formStarts,submits,success,errors:ev('ka_contact_error'),submitRate:rate(submits,formStarts),successRate:rate(success,submits)},pipeline,
     topPages:top(pages,15),topOriginPages:top(origins,12),projectTypes:top(projectTypes,12),eventSources:top(sources,10),leadSources:top(leadSources,10),leadOrigins:top(leadOrigins,10),leadRoutes:top(leadRoutes,10),landingPages:top(landingPages,12),campaigns:top(campaigns,10),dailyLeads:top(new Map([...daily.entries()].sort((a,b)=>a[0].localeCompare(b[0]))),365),experiments,
   };

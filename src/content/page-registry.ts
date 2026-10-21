@@ -76,6 +76,16 @@ import Page_HI_1 from "./pages/software-development-coventry";
 import Page_HI_2 from "./pages/mobile-app-development-midlands";
 import Page_HI_3 from "./pages/bespoke-software-development-warwickshire";
 import Page_HI_4 from "./pages/replace-spreadsheets-with-bespoke-software";
+import Page_HI_5 from "./pages/xero-integration-development";
+import Page_HI_6 from "./pages/hubspot-crm-integration";
+import Page_HI_7 from "./pages/replace-access-database";
+import Page_HI_8 from "./pages/construction-software-development";
+import Page_HI_9 from "./pages/insights--custom-software-vs-low-code";
+import Page_HI_10 from "./pages/manufacturing-software-development";
+import Page_HI_11 from "./pages/logistics-software-development";
+import Page_HI_12 from "./pages/replace-airtable";
+import Page_HI_13 from "./pages/excel-to-database";
+import Page_HI_14 from "./pages/insights--custom-software-cost-benchmarks-2026";
 import Page_Loc_0 from "./pages/web-design-coventry";
 import Page_Loc_1 from "./pages/web-design-birmingham";
 import Page_Loc_2 from "./pages/areas-we-serve";
@@ -190,6 +200,16 @@ export const PAGES: Record<string, ComponentType> = {
   "mobile-app-development-midlands": Page_HI_2,
   "bespoke-software-development-warwickshire": Page_HI_3,
   "replace-spreadsheets-with-bespoke-software": Page_HI_4,
+  "xero-integration-development": Page_HI_5,
+  "hubspot-crm-integration": Page_HI_6,
+  "replace-access-database": Page_HI_7,
+  "construction-software-development": Page_HI_8,
+  "insights/custom-software-vs-low-code": Page_HI_9,
+  "manufacturing-software-development": Page_HI_10,
+  "logistics-software-development": Page_HI_11,
+  "replace-airtable": Page_HI_12,
+  "excel-to-database": Page_HI_13,
+  "insights/custom-software-cost-benchmarks-2026": Page_HI_14,
   "web-design-coventry": Page_Loc_0,
   "web-design-birmingham": Page_Loc_1,
   "areas-we-serve": Page_Loc_2,
