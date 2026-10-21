@@ -27,6 +27,7 @@ const data: InsightArticleData = {
       title:'What this analysis is — and is not',
       paragraphs:[
         'The Kinetic Axis project estimator uses a simple, published scoring model. A project area sets a base complexity score. Each selected capability adds points. A legacy starting point adds two, a premium delivery expectation adds two, and a prototype expectation subtracts three. The total maps to one of five planning bands.',
+        'The scenario counts below use the estimator’s “Our rate” bands. The standard-industry reference shown alongside them is a comparison point and is not included in the counts.',
         'To test the model rather than a handful of examples, we enumerated every combination: 10 project areas × 256 capability sets × 3 starting points × 3 delivery expectations. That produces 23,040 distinct scenarios. Every scenario is reproducible in the estimator by selecting the same inputs.',
         'This is not a survey of client invoices, a regional rate card or a claim about what the market charges. It is an analysis of how one transparent planning model behaves when scope changes. The value is in the relative movement between scenarios, not in treating any single band as a quote.'
       ],

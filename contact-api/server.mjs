@@ -46,6 +46,8 @@ const normTypes=value=>{
 };
 
 const ESTIMATE_BANDS=new Set(['£5k–£10k','£10k–£20k','£20k–£35k','£35k–£60k','£60k+']);
+const ESTIMATE_STANDARD_BANDS=new Set(['£10k–£20k','£20k–£40k','£40k–£70k','£70k–£120k','£120k+']);
+const STANDARD_BY_RATE=new Map([['£5k–£10k','£10k–£20k'],['£10k–£20k','£20k–£40k'],['£20k–£35k','£40k–£70k'],['£35k–£60k','£70k–£120k'],['£60k+','£120k+']]);
 const ESTIMATE_TIMES=new Set(['2–5 weeks','4–8 weeks','7–12 weeks','10–18 weeks','14+ weeks']);
 const ESTIMATE_MATURITY=new Set(['Early idea','Requirements partly defined','Existing product / legacy system']);
 const ESTIMATE_QUALITY=new Set(['Prototype / proof of concept','Production-ready','Premium / highly polished']);
@@ -135,10 +137,11 @@ const server=http.createServer(async(req,res)=>{
 
     const email=norm(data.email,254),projectType=canonicalType(norm(data.projectType,100));
     const costBand=cleanEventValue(data.costBand,30),timeBand=cleanEventValue(data.timeBand,30);
+    const standardBandInput=cleanEventValue(data.standardBand,30),standardBand=ESTIMATE_STANDARD_BANDS.has(standardBandInput)?standardBandInput:STANDARD_BY_RATE.get(costBand);
     const maturity=cleanEventValue(data.maturity,60),quality=cleanEventValue(data.quality,60);
     const features=[...new Set((Array.isArray(data.features)?data.features.slice(0,8):[]).map(item=>cleanEventValue(item,40)).filter(key=>ESTIMATE_FEATURES.has(key)))];
     const marketingConsent=data.marketingConsent===true;
-    if(!emailOK(email)||!projectType||!types.has(projectType)||!ESTIMATE_BANDS.has(costBand)||!ESTIMATE_TIMES.has(timeBand)||!ESTIMATE_MATURITY.has(maturity)||!ESTIMATE_QUALITY.has(quality)){
+    if(!emailOK(email)||!projectType||!types.has(projectType)||!ESTIMATE_BANDS.has(costBand)||!standardBand||!ESTIMATE_TIMES.has(timeBand)||!ESTIMATE_MATURITY.has(maturity)||!ESTIMATE_QUALITY.has(quality)){
       return message(res,400,{ok:false,message:'Please check your email address and estimate details.'});
     }
 
@@ -159,12 +162,13 @@ const server=http.createServer(async(req,res)=>{
       `Starting point: ${maturity}`,
       `Delivery expectation: ${quality}`,
       `Likely capabilities: ${featureLabels.length?featureLabels.join(', '):'No additional capabilities selected'}`,'',
-      `Indicative build band: ${costBand}`,
+      `Indicative build band (standard industry rate): ${standardBand}`,
+      `Indicative build band (our rate, 50% below standard): ${costBand}`,
       `Indicative delivery window: ${timeBand}`,
       `Likely delivery shape: ${shape}`,'',
       'A useful scope checklist:',
       ...checklist.map((item,index)=>`${index+1}. ${item}`),'',
-      'This is an early planning range, not a quotation. Discovery can move the estimate up or down once workflows, data, integrations and release scope are understood.','',
+      'This is an early planning range, not a quotation. The standard industry rate is an indicative comparison for the same scope, not a surveyed market average; our rate is 50% below that reference. Discovery can move the estimate up or down once workflows, data, integrations and release scope are understood.','',
       "If you'd like to talk it through, reply to this email and we'll pick it up from there.",'',
       'Kinetic Axis',
       '07971 639927',
@@ -177,11 +181,11 @@ const server=http.createServer(async(req,res)=>{
     try{
       await transporter.sendMail({from:process.env.SMTP_FROM,to:email,replyTo:process.env.CONTACT_TO,subject:'Your Kinetic Axis project estimate',text,disableFileAccess:true,disableUrlAccess:true});
       try{
-        const internal=['Estimator email requested','',`Email: ${email}`,`Project area: ${projectType}`,`Starting point: ${maturity}`,`Delivery expectation: ${quality}`,`Likely capabilities: ${featureLabels.length?featureLabels.join(', '):'None selected'}`,`Build band: ${costBand}`,`Delivery window: ${timeBand}`,`Marketing opt-in: ${marketingConsent?'Yes':'No'}`,'','The estimate and scope checklist were emailed to the visitor.'].join('\n');
+        const internal=['Estimator email requested','',`Email: ${email}`,`Project area: ${projectType}`,`Starting point: ${maturity}`,`Delivery expectation: ${quality}`,`Likely capabilities: ${featureLabels.length?featureLabels.join(', '):'None selected'}`,`Standard industry rate: ${standardBand}`,`Our rate: ${costBand}`,`Delivery window: ${timeBand}`,`Marketing opt-in: ${marketingConsent?'Yes':'No'}`,'','The estimate and scope checklist were emailed to the visitor.'].join('\n');
         await transporter.sendMail({from:process.env.SMTP_FROM,to:process.env.CONTACT_TO,replyTo:{name:'Kinetic Axis estimator',address:email},subject:'Estimator email requested - '+costBand,text:internal,disableFileAccess:true,disableUrlAccess:true});
       }catch(err){console.error('Estimator internal notification failed:',err.code||'unknown');}
       try{
-        const record={at:new Date().toISOString(),email,projectType,costBand,timeBand,features,maturity,quality,marketingConsent,marketingConsentAt:marketingConsent?new Date().toISOString():null,consentSource:'project-estimator'};
+        const record={at:new Date().toISOString(),email,projectType,costBand,standardBand,timeBand,features,maturity,quality,marketingConsent,marketingConsentAt:marketingConsent?new Date().toISOString():null,consentSource:'project-estimator'};
         await appendFile(ESTIMATE_LOG_PATH,JSON.stringify(record)+'\n',{encoding:'utf8',mode:0o640});
       }catch(err){console.error('Estimator email record failed:',err.code||'unknown');}
       return message(res,200,{ok:true});

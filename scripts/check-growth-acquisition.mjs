@@ -15,7 +15,9 @@ check(fs.existsSync('app/contact/thank-you/page.tsx'),'Thank-you route missing.'
 check(fs.existsSync('app/admin/growth/page.tsx'),'Growth dashboard route missing.');
 for(const event of ['ka_estimator_start','ka_estimator_calculate','ka_estimator_contact','ka_estimator_email'])check(estimator.includes(event),`Estimator event ${event} missing.`);
 check(estimator.includes('/api/estimate-email')&&estimator.includes('marketingConsent'),'Optional estimator email capture with separate marketing consent is missing.');
+check(estimator.includes("standardCost:'£10k–£20k'")&&estimator.includes('OUR RATE · 50% LESS'),'Estimator must show the standard industry reference and our rate.');
 check(api.includes("'/api/estimate-email'")&&api.includes('ESTIMATE_LOG_PATH')&&api.includes('marketingConsent'),'Estimator email API, consent record or storage path is missing.');
+check(api.includes('ESTIMATE_STANDARD_BANDS')&&api.includes('STANDARD_BY_RATE')&&api.includes('standardBand'),'Estimator email API must validate and record both rate bands.');
 check(growth.includes('estimateOptIns')&&growth.includes('emailOptIns'),'Growth summary must report estimator emails and marketing opt-ins without exposing addresses.');
 check(privacy.includes('Project Estimator to email your estimate')&&privacy.includes('Occasional planning notes'),'Privacy notice must explain estimator emails and separate marketing consent.');
 check(runtime.includes("window.location.assign('/contact/thank-you')"),'Successful enquiries must navigate to the dedicated thank-you route.');

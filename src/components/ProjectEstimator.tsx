@@ -33,11 +33,11 @@ const BASE_POINTS:Record<string,number>={
 };
 
 const bands=[
-  {max:5,cost:'£5k–£10k',time:'2–5 weeks',shape:'Focused first release'},
-  {max:9,cost:'£10k–£20k',time:'4–8 weeks',shape:'Defined product build'},
-  {max:14,cost:'£20k–£35k',time:'7–12 weeks',shape:'Multi-workflow product'},
-  {max:20,cost:'£35k–£60k',time:'10–18 weeks',shape:'Complex platform build'},
-  {max:999,cost:'£60k+',time:'14+ weeks',shape:'Large or phased programme'},
+  {max:5,standardCost:'£10k–£20k',cost:'£5k–£10k',time:'2–5 weeks',shape:'Focused first release'},
+  {max:9,standardCost:'£20k–£40k',cost:'£10k–£20k',time:'4–8 weeks',shape:'Defined product build'},
+  {max:14,standardCost:'£40k–£70k',cost:'£20k–£35k',time:'7–12 weeks',shape:'Multi-workflow product'},
+  {max:20,standardCost:'£70k–£120k',cost:'£35k–£60k',time:'10–18 weeks',shape:'Complex platform build'},
+  {max:999,standardCost:'£120k+',cost:'£60k+',time:'14+ weeks',shape:'Large or phased programme'},
 ];
 
 const STORAGE_KEY='kineticaxis.projectEstimate.v1';
@@ -71,10 +71,11 @@ export function ProjectEstimator(){
     `Current position: ${maturity}`,
     `Delivery expectation: ${quality}`,
     `Likely capabilities: ${features.length?FEATURES.filter(f=>features.includes(f.key)).map(f=>f.label).join(', '):'No additional capabilities selected'}`,'',
-    `Indicative build band: ${band.cost}`,
+    `Indicative build band (standard industry rate): ${band.standardCost}`,
+    `Indicative build band (our rate, 50% below standard): ${band.cost}`,
     `Indicative delivery window: ${band.time}`,
     `Likely delivery shape: ${band.shape}`,'',
-    'This is an early planning range, not a quotation. Discovery can move the estimate up or down once workflows, data, integrations and release scope are understood.',
+    'This is an early planning range, not a quotation. The standard industry rate is an indicative comparison for the same scope, not a surveyed market average; our rate is 50% below that reference. Discovery can move the estimate up or down once workflows, data, integrations and release scope are understood.',
   ].join('\n'),[projectType,maturity,quality,features,band]);
   const calculate=()=>{markStarted();setCalculated(true);setEmailState('idle');setEmailMessage('');emit('ka_estimator_calculate',{projectTypes:projectType,kind:band.cost});};
   const emailEstimate=async(event:FormEvent<HTMLFormElement>)=>{
@@ -84,7 +85,7 @@ export function ProjectEstimator(){
     if(!trimmed||trimmed.length>254||!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(trimmed)){setEmailState('error');setEmailMessage('Enter a valid email address so we can send the estimate.');return;}
     setEmailState('sending');setEmailMessage('');
     try{
-      const response=await fetch('/api/estimate-email',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:trimmed,projectType,features,costBand:band.cost,timeBand:band.time,maturity,quality,marketingConsent,website_url_verify:''})});
+      const response=await fetch('/api/estimate-email',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:trimmed,projectType,features,costBand:band.cost,standardBand:band.standardCost,timeBand:band.time,maturity,quality,marketingConsent,website_url_verify:''})});
       const payload=await response.json().catch(()=>null);
       if(!response.ok||!payload?.ok)throw new Error(payload?.message||'Unable to send the estimate. Please try again.');
       setEmailState('sent');setEmailMessage('Estimate sent. Check your inbox, and the spam folder if it has not arrived.');
@@ -92,7 +93,7 @@ export function ProjectEstimator(){
     }catch(error){setEmailState('error');setEmailMessage(error instanceof Error?error.message:'Unable to send the estimate. Please try again.');}
   };
   const discuss=()=>{
-    const payload={version:1,savedAt:Date.now(),service:projectType,services:[projectType],brief,costBand:band.cost,timeBand:band.time,attribution:getAttributionPayload()};
+    const payload={version:1,savedAt:Date.now(),service:projectType,services:[projectType],brief,costBand:band.cost,standardBand:band.standardCost,timeBand:band.time,attribution:getAttributionPayload()};
     try{sessionStorage.setItem(STORAGE_KEY,JSON.stringify(payload));}catch{}
     try{localStorage.setItem(STORAGE_KEY,JSON.stringify(payload));}catch{}
     emit('ka_estimator_contact',{projectTypes:projectType,kind:band.cost});
@@ -125,8 +126,8 @@ export function ProjectEstimator(){
     <section className={`ka-estimator__result${calculated?' is-visible':''}`}>
       {calculated && <>
         <div aria-live="polite" aria-atomic="true">
-          <div className="ka-estimator__result-head"><div><span>INDICATIVE BUILD BAND</span><strong>{band.cost}</strong></div><div><span>DELIVERY WINDOW</span><strong>{band.time}</strong></div></div>
-          <div className="ka-estimator__result-copy"><h2>{band.shape}</h2><p>This is a planning range rather than a quote. The biggest variables are usually workflow depth, integrations, data migration, platform constraints and what the first release genuinely needs to prove.</p></div>
+          <div className="ka-estimator__result-head"><div><span>STANDARD INDUSTRY RATE</span><strong className="ka-estimator__standard-rate">{band.standardCost}</strong></div><div><span>OUR RATE · 50% LESS</span><strong>{band.cost}</strong></div><div><span>DELIVERY WINDOW</span><strong>{band.time}</strong></div></div>
+          <div className="ka-estimator__result-copy"><h2>{band.shape}</h2><p>This is a planning range rather than a quote. The standard industry rate is an indicative comparison for the same scope, not a surveyed market average; our rate is 50% below that reference. The biggest variables are usually workflow depth, integrations, data migration, platform constraints and what the first release genuinely needs to prove.</p></div>
         </div>
         <div className="ka-estimator__result-actions"><button type="button" onClick={discuss}>Discuss this estimate <span aria-hidden="true">↗</span></button><Link href="/project-planner">Build a detailed project brief <span aria-hidden="true">↗</span></Link></div>
         <form className="ka-estimator__email" onSubmit={emailEstimate} noValidate>
